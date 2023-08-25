@@ -17,7 +17,7 @@ export default function Dropdownmenu() {
             <div className="content-left">
               <p>국민의 건강과 행복의 장을 여는</p>
               <p>대한생활 체육회</p>
-              <p>체육회 소개</p>
+              <h3>체육회 소개</h3>
               <img src={logo2} alt="Logo2" id="logo2" />
             </div>
 

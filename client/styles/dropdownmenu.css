@@ -82,9 +82,10 @@
   flex-direction: column; 
   justify-content: flex-end; 
   align-items: flex-end; 
-  padding: 10px; 
-  
+  padding: 10px 30px 32px 10px; 
   background-color: rgb(236, 234, 234);
+  margin-left: 14%;
+  margin-right: 16%;
 }
 
 .content-left p {
@@ -97,14 +98,16 @@
   content: '';
   position: absolute;
   top: 0;
-  right: -10px; 
+  right: 2px; 
   height: 100%;
-  width: 1px;
+  width: 3px;
   background-color: red;
 }
 
-.content-left p:nth-child(3) {
-  font-size: 30px;
+.content-left h3 {
+  font-size: 25px;
+  color: black;
+  line-height: 1.5;
 }
 
 .content-right {

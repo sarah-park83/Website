@@ -1,0 +1,42 @@
+.homeHeader_banner {
+  width: 100%;
+  height: 500px;
+  background: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.homeHeader_banner_content{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  color: #000;
+  background-color: rgba(225,253,255,.178);
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.banner_text {
+  opacity: 1;
+  transform: none;
+  width: 700px;
+  padding-bottom: 5vh;
+  margin-left: 17vw;
+  font-size: 38px;
+  line-height: 45px;
+  font-family: NanumSquareRound,sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.banner_text h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

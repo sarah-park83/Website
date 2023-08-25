@@ -1,1 +1,3 @@
-export default function Photogallery() {}
+export default function Photogallery() {
+  return <div>Photo Gallery</div>
+}

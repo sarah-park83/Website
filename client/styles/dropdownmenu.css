@@ -1,25 +1,29 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
-  width: 100%;
-}
 
 .navbar {
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
-  height: 60px;
+  height: 80px;
   padding: 0 20px;
   border-bottom: 1px solid black;
+  margin-right: 10px;
 }
 
 .navbar a {
   font-size: 20px;
+  font-weight: bold;
   color: black;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
+}
+
+#logo {
+  width: 220px; 
+  height: auto; 
+  margin-top: 5px;
+  margin-left: 80px;
 }
 
 .navbar a:first-child {
@@ -29,7 +33,7 @@ body {
 
 .navbar a:not(:first-child) {
   float: right;
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
 }
 
@@ -40,11 +44,84 @@ body {
   left: -10px; 
   top: 24px; 
   height: 18px; 
-  width: 2px;
+  width: 3px;
   background-color: rgb(172, 154, 154);
+  border: none;
 }
 
 .navbar a:hover {
   color: red;
 }
 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  z-index: 1;
+  top: 73px;
+  height: 300px;
+  margin-left: -945px;
+  border-top: 1px solid red; 
+  border-bottom: 1px solid red; 
+}
+
+.dropdown {
+  display: flex;
+}
+
+#logo2 {
+  width: 150px;
+  height: auto;
+}
+
+.content-left {
+  flex: 1;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  padding: 10px; 
+  background-color: rgb(236, 234, 234);
+}
+
+.content-left p {
+  margin: 0;
+  line-height: 0.5;
+  position: relative;
+}
+
+.content-left p::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px; 
+  height: 100%;
+  width: 1px;
+  background-color: red;
+}
+
+.content-left p:nth-child(3) {
+  font-size: 30px;
+}
+
+.content-right {
+  flex: 2;
+  padding: 10px; 
+}
+
+.navbar a:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content p:hover {
+  background-color: #f1f1f1;
+}

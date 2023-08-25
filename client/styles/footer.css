@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: 700 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-left {
+  width: 40%;
+}
+
+.footer-distributed .footer-center, .footer-distributed .footer-left, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer h3 {
+  color: #c9ced4;
+  font: normal 36px Do Hyeon;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.footer-info {
+  margin-top: 20px;
+    font-size: 12px;
+    color: #8f9296;
+    padding-bottom: 5px;
+}
+
+.footer-company-name {
+  color: #8f9296;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-center {
+  width:35%;
+}
+
+.footer-center .icon {
+  display: inline-block;
+  background-color: #33383b;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #8f9296;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+}
+
+.footer-distributed .footer-center, .footer-distributed .footer-left, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}

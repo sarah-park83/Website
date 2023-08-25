@@ -4,19 +4,14 @@ import '../styles/dropdownmenu.css'
 export default function Dropdownmenu() {
   return (
     <div className="navbar">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <div className="dropdown">
-        <button className="dropbtn">
-          Dropdown
-          <i className="fa fa-caret-down"></i>
-        </button>
-        <div className="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
+      <a href="/">Logo</a>
+      <a href="#info">체육회 소개</a>
+      <a href="#association-info">단체소개</a>
+      <a href="#info">대회정보</a>
+      <a href="#news">알림마당</a>
+      <a href="#docs">자료실</a>
+      <a href="#coorporates">협력기관</a>
+      <a href="#news">회원가입/회원증 확인</a>
     </div>
   )
 }

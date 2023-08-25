@@ -112,7 +112,10 @@
 
 .content-right {
   flex: 2;
-  padding: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
 }
 
 .navbar a:hover .dropdown-content {

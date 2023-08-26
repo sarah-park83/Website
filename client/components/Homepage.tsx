@@ -1,4 +1,4 @@
-import Dropdownmenu from './Dropdownmenu'
+import Dropdownmenu from './Dropdown/Dropdownmenu'
 import Photogallery from './Photogallery'
 import Footer from './Footer'
 import '../styles/homepage.css'

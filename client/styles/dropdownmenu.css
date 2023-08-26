@@ -44,7 +44,7 @@
   top: 24px; 
   height: 18px; 
   width: 3px;
-  background-color: rgb(172, 154, 154);
+  background-color: rgb(233, 228, 228);
   border: none;
 }
 
@@ -110,8 +110,9 @@
   justify-content: flex-end; 
   align-items: flex-end; 
   padding: 10px 30px 32px 10px; 
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(241, 241, 241);
   margin-left: 15%;
+  margin-bottom: 5px;
 }
 
 .content-left p {
@@ -145,41 +146,91 @@
   justify-content: flex-start; 
   align-items: flex-start; 
   margin-left: 25px;
+  height: 300px;
 }
 
-.right-line-1 {
+.right-line {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid red;
   position: relative;
+  height: 49.6px;
 }
 
-.right-line-1 p {
+#first-orange {
   color: orange;
-  position: relative;
 }
 
-.right-line-1 p::after {
+#line-1::before {
   content: '';
   position: absolute;
-  top: 15px;
-  left: 100%;
+  bottom: 0;
+  left: 15px;
+  width: 800%; 
+  height: 1px;
+  background-color: red;
+}
+
+#line-2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-4::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-5::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 1200%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+.right-line p::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 140px;
   height: 25px;
   width: 2px;
-  background-color: red;
+  background-color: orangered;
   visibility: visible;
   border: none;
 }
-
 
 .links {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: absolute;
+  padding-left: 160px;
 }
 
 .links a:first-child {
-  margin-left: 25px;
   color: black;
   margin-right: 15px;
 }
@@ -192,12 +243,12 @@
   top: 24px; 
   height: 18px; 
   width: 3px;
-  background-color: rgb(172, 154, 154);
+  background-color: rgb(233, 228, 228);
   border: none;
 }
 
 .links a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .links a:hover {

@@ -15,8 +15,8 @@ export default function Dropdown1() {
           </div>
 
           <div className="content-right">
-            <div className="right-line-1">
-              <p>체육회 소개</p>
+            <div className="right-line" id="line-1">
+              <p id="first-orange">체육회 소개</p>
               <div className="links">
                 <a href="#1">Link1</a>
                 <a href="#2">Link2</a>
@@ -26,15 +26,48 @@ export default function Dropdown1() {
               </div>
             </div>
 
-            <p>2</p>
+            <div className="right-line" id="line-2">
+              <p>단체소개</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+                <a href="#2">Link2</a>
+                <a href="#3">Link3</a>
+                <a href="#4">Link4</a>
+              </div>
+            </div>
 
-            <p>3</p>
+            <div className="right-line" id="line-3">
+              <p>대회정보</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+                <a href="#2">Link2</a>
+                <a href="#3">Link3</a>
+              </div>
+            </div>
 
-            <p>4</p>
+            <div className="right-line" id="line-4">
+              <p>알림마당</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+                <a href="#2">Link2</a>
+                <a href="#3">Link3</a>
+                <a href="#4">Link4</a>
+              </div>
+            </div>
 
-            <p>5</p>
+            <div className="right-line" id="line-5">
+              <p>자료실</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+              </div>
+            </div>
 
-            <p>6</p>
+            <div className="right-line">
+              <p>협력기관</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

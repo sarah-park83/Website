@@ -1,4 +1,6 @@
 
+/*****************Navbar *************/
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -7,16 +9,19 @@
   height: 80px;
   padding: 0 20px;
   border-bottom: 1px solid black;
-  margin-right: 10px;
 }
 
-.navbar a {
+.navbar a:not(:first-child) {
   font-size: 20px;
   font-weight: bold;
   color: black;
   text-align: center;
   padding: 20px 16px;
+  float: right;
+  margin-left: 15px;
+  position: relative;
   text-decoration: none;
+  height: 100%;
 }
 
 #logo {
@@ -31,21 +36,15 @@
   margin-right: auto;
 }
 
-.navbar a:not(:first-child) {
-  float: right;
-  margin-left: 10px;
-  position: relative;
-}
-
 .navbar a:nth-child(n + 3)::before {
   content: "";
   display: block;
   position: absolute;
-  left: -10px; 
+  left: -8px; 
   top: 24px; 
   height: 18px; 
   width: 3px;
-  background-color: rgb(172, 154, 154);
+  background-color: rgb(233, 228, 228);
   border: none;
 }
 
@@ -53,6 +52,7 @@
   color: red;
 }
 
+/***************** Dropdown *************/
 
 .dropdown-content {
   display: none;
@@ -60,16 +60,43 @@
   background-color: white;
   width: 100vw;
   z-index: 1;
-  top: 73px;
+  top: 79px;
   height: 300px;
-  margin-left: -945px;
+  margin-left: -925px;
   border-top: 1px solid red; 
   border-bottom: 1px solid red; 
+}
+
+.navbar a:hover .dropdown-content {
+  display: block;
+  animation: fadeIn 0.7s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content p:hover {
+  display: block;
+  opacity: 1;
 }
 
 .dropdown {
   display: flex;
 }
+
+/***************** Left Content *************/
 
 #logo2 {
   width: 150px;
@@ -82,8 +109,10 @@
   flex-direction: column; 
   justify-content: flex-end; 
   align-items: flex-end; 
-  padding: 10px; 
-  background-color: rgb(236, 234, 234);
+  padding: 10px 30px 32px 10px; 
+  background-color: rgb(241, 241, 241);
+  margin-left: 15%;
+  margin-bottom: 5px;
 }
 
 .content-left p {
@@ -96,32 +125,132 @@
   content: '';
   position: absolute;
   top: 0;
-  right: -10px; 
+  right: 2px; 
   height: 100%;
-  width: 1px;
+  width: 3px;
   background-color: red;
 }
 
-.content-left p:nth-child(3) {
-  font-size: 30px;
+.content-left h3 {
+  font-size: 25px;
+  color: black;
+  line-height: 1.5;
 }
+
+/***************** Right Content *************/
 
 .content-right {
-  flex: 2;
-  padding: 10px; 
+  flex: 3;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-left: 25px;
+  height: 300px;
 }
 
-.navbar a:hover .dropdown-content {
-  display: block;
+.right-line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 49.6px;
 }
 
-.dropdown-content p {
+#first-orange {
+  color: orange;
+}
+
+#line-1::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 800%; 
+  height: 1px;
+  background-color: red;
+}
+
+#line-2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-4::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 985%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+#line-5::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 1200%; 
+  height: 1px;
+  background-color:  rgb(233, 228, 228);
+}
+
+.right-line p::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  height: 25px;
+  width: 2px;
+  background-color: orangered;
+  visibility: visible;
+  border: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  padding-left: 160px;
+}
+
+.links a:first-child {
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  margin-right: 15px;
 }
 
-.dropdown-content p:hover {
-  background-color: #f1f1f1;
+.links a:nth-child(n + 2)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -16px; 
+  top: 24px; 
+  height: 18px; 
+  width: 3px;
+  background-color: rgb(233, 228, 228);
+  border: none;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: orangered;
 }

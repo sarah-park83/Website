@@ -15,11 +15,25 @@ export default function Dropdown1() {
           </div>
 
           <div className="content-right">
-            <p>체육회 소개</p>
+            <div className="right-line-1">
+              <p>체육회 소개</p>
+              <div className="links">
+                <a href="#1">Link1</a>
+                <a href="#2">Link2</a>
+                <a href="#3">Link3</a>
+                <a href="#4">Link4</a>
+                <a href="#5">Link5</a>
+              </div>
+            </div>
+
             <p>2</p>
+
             <p>3</p>
+
             <p>4</p>
+
             <p>5</p>
+
             <p>6</p>
           </div>
         </div>

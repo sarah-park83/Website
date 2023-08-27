@@ -179,6 +179,11 @@
   height: 49.6px;
 }
 
+.right-line p {
+  width: 140px;
+  text-align: left;
+}
+
 #first-orange {
   color: orange;
 }
@@ -217,10 +222,11 @@
 
 .links {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
-  position: absolute;
-  padding-left: 160px;
+  position: relative;
+  padding-left: 30px;
 }
 
 .links a:first-child {
@@ -228,22 +234,30 @@
   margin-right: 15px;
 }
 
-.links a:nth-child(n + 2)::before {
+.links a::before {
+  /* Add a separator before all links except the first one */
   content: "";
   display: block;
   position: absolute;
-  left: -16px; 
-  top: 24px; 
-  height: 18px; 
+  left: -16px;
+  top: 24px;
+  height: 18px;
   width: 3px;
   background-color: rgb(233, 228, 228);
   border: none;
 }
 
+.links a:nth-child(1)::before {
+  /* Remove separator for the first link */
+  content: none;
+  position: absolute;
+}
+
 .links a {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .links a:hover {
-  color: orangered;
+  color: orange;
 }

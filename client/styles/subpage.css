@@ -1,6 +1,5 @@
 .subpage-container {
     height: max-content;
-    min-height: 200px;
     padding-bottom: 20px;
     margin: 0 12%;
     display: flex;
@@ -17,9 +16,10 @@
     width: 100%;
     justify-content: flex-end;
     align-items: center;
+    font-family: NanumBarunGothic,serif;
 }
 
-.location-container > * {
+.location-container > *:not(:last-child) {
     margin-right: 4px;
 }
 
@@ -32,11 +32,69 @@
 
 .homeIcon {
     display: inline-block;
-    margin-right: 6px;
     color: #ff7300;
 }
 
 .icon-style {
     color: #999;
     font-size: 7px;
+}
+
+/**************** Navbar Container ****************/
+
+.navbar-container {
+    width: 20%;
+    height: max-content;
+    display: inline-block;
+}
+
+.navbarVertricle {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    font-family: NanumBarunGothic,serif!important;
+}
+
+.title {
+    height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    border-bottom: 3px solid #ff7300;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 40px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/**************** Content Container ****************/
+
+.content-container {
+    width: 80%;
+    height: -moz-max-content;
+    height: max-content;
+    padding-left: 20px;
+}
+
+.subMenu-title-container {
+    width: 100%;
+    display: inline-block;
+    font-family: Pretendard-Regular,sans-serif;
+    color: #333;
+    word-break: keep-all;
+}
+
+.subMenu__title__container h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    opacity: 1;
+    transform: none;
+}
+
+.subMenu__title__container h3 {
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 1;
+    transform: none;
 }

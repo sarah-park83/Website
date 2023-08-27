@@ -255,6 +255,7 @@
 
 .links a {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .links a:hover {

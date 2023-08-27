@@ -6,8 +6,7 @@ import {
 
 import App from './components/App'
 import { Homepage } from './components/Homepage'
-
-import { 총재인사말 } from './components/links/총재인사말'
+import { 총재인사말 } from './components/Links/총재인사말'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

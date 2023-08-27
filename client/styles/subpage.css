@@ -1,0 +1,42 @@
+.subpage-container {
+    height: max-content;
+    min-height: 200px;
+    padding-bottom: 20px;
+    margin: 0 12%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**************** Location Container ****************/
+
+.location-container {
+    margin: 30px 0;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.location-container > * {
+    margin-right: 4px;
+}
+
+.location-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.homeIcon {
+    display: inline-block;
+    margin-right: 6px;
+    color: #ff7300;
+}
+
+.icon-style {
+    color: #999;
+    font-size: 7px;
+}

@@ -18,8 +18,18 @@
   padding-bottom: 150px;
 }
 
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .banner_text {
-  opacity: 1;
+  opacity: 0;
+  animation: fadeAnimation 2s ease;
   transform: none;
   width: 700px;
   padding-bottom: 5vh;

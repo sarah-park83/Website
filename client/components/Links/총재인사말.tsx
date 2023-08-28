@@ -78,9 +78,11 @@ export function 총재인사말() {
         </div>
 
         <div className="content-container">
-          <div className="subMenu-title-container">
-            <h2>총재 인사말</h2>
-            <h3>대한생활체육회 총재 김균식의 인사말입니다.</h3>
+          <div>
+            <div className="subMenu-title-container">
+              <h2>총재 인사말</h2>
+              <h3>대한생활체육회 총재 김균식의 인사말입니다.</h3>
+            </div>
           </div>
         </div>
       </div>

@@ -73,7 +73,7 @@ a {
     border-bottom: 3px solid #ff7300;
     padding-top: 12px;
     padding-left: 12px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font: inherit;
     vertical-align: baseline;
 }
@@ -109,7 +109,6 @@ a {
 
 .content-container {
     width: 80%;
-    height: -moz-max-content;
     height: max-content;
     padding-left: 20px;
 }
@@ -122,15 +121,14 @@ a {
     word-break: keep-all;
 }
 
-.subMenu__title__container h2 {
+.subMenu-title-container h2 {
     font-size: 38px;
     font-weight: 700;
-    margin-bottom: 10px;
     opacity: 1;
     transform: none;
 }
 
-.subMenu__title__container h3 {
+.subMenu-title-container h3 {
     font-size: 17px;
     font-weight: 700;
     opacity: 1;

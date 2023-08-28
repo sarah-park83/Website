@@ -1,5 +1,4 @@
 body {
-  position: absolute;
   left: 0;
   margin: 0;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -8,9 +7,9 @@ body {
   padding: 0;
   position: fixed;
   height:100%;
+  overflow-y: auto;
 }
 
 html {
   height: 100%;
-  overflow-y: scroll;
 }

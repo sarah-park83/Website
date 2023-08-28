@@ -2,7 +2,7 @@ import '../../styles/link-header.css'
 
 export default function Header() {
   const getRandomImage = () => {
-    const images = ['test1.jpg', 'test2.jpg', 'test3.jpg', 'test4.jpg']
+    const images = ['test1.png', 'test2.png', 'test3.png', 'test4.jpg']
 
     const randomIndex = Math.floor(Math.random() * images.length)
 

@@ -1,35 +1,20 @@
 import Dropdownmenu from './Dropdown/Dropdownmenu'
 import Photogallery from './Photogallery'
 import Footer from './Footer'
-import '../styles/homepage.css'
 import Banner from './Banner'
+import HomepageVideo from './HomepageVideo'
+
+import '../styles/homepage.css'
 
 export function Homepage() {
   return (
-    <div>
+    <div className="page-container">
       <Dropdownmenu />
       <Banner />
+      <div className="video-section">
+        <HomepageVideo />
+      </div>
       <Photogallery />
-      <br /> <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </div>
   )

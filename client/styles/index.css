@@ -1,13 +1,11 @@
 body {
-  left: 0;
   margin: 0;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  position: fixed;
+  padding-bottom: 100px;
   height:100%;
-  overflow-y: auto;
+  /* overflow-y: auto; */
+  overflow:auto;
 }
 
 html {

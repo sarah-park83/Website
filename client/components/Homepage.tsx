@@ -11,9 +11,6 @@ export function Homepage() {
       <Dropdownmenu />
       <Banner />
       <Photogallery />
-      hello
-      <br /> hello
-      <br /> hello
       <Footer />
     </div>
   )

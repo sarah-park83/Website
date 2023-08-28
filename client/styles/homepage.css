@@ -4,3 +4,9 @@
   min-height:100vh;
   overflow:auto;
 }
+
+.video-section {
+  max-width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}

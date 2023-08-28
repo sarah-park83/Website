@@ -1,4 +1,5 @@
 import logo2 from '/images/logo2.png'
+import { Link } from 'react-router-dom'
 
 export default function Dropdown1() {
   return (
@@ -17,7 +18,7 @@ export default function Dropdown1() {
             <div className="right-line" id="line-1">
               <p id="first-orange">체육회 소개</p>
               <div className="links">
-                <a href="#1">총재 인사말</a>
+                <Link to="/info/greet">총재 인사말</Link>
                 <a href="#2">설립목적</a>
                 <a href="#3">중앙 조직도</a>
                 <a href="#4">임원현황</a>

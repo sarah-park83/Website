@@ -6,7 +6,6 @@ import Dropdown3 from './Dropdown-3-대회정보'
 import Dropdown4 from './Dropdown-4-알림마당'
 import Dropdown5 from './Dropdown-5-자료실'
 import Dropdown6 from './Dropdown-6-협력기관'
-// import { Link } from 'react-router-dom'
 
 export default function Dropdownmenu() {
   return (

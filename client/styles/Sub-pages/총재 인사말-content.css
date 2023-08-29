@@ -7,6 +7,16 @@
     background-color: #fffcf8;
     padding: 10px;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 1.8s ease 0.8s forwards;
+    overflow: hidden;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 .greet-content-container img {
@@ -21,4 +31,34 @@
     text-align: center;
     color: #555;
     margin-bottom: 20px;
+}
+
+.greet-content-container h4 {
+    width: 100%;
+    color: #ff7300;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    height: max-content;
+}
+
+.greet-content-container h5 {
+    width: 100%;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.greet-text-container {
+    justify-content: flex-start;
+}
+
+.greet-text-container p {
+    width: 100%;
+    color: #413328;
+    font-size: 18px;
+    line-height: 26px;
+    white-space: pre-wrap;
+    margin-top: 12px;
+    margin-bottom: 30px;
 }

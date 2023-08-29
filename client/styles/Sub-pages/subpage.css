@@ -105,7 +105,7 @@ a {
     color: orangered;
 }
 
-/**************** Content Container ****************/
+/**************** SubMenu Title Container ****************/
 
 .content-container {
     width: 80%;
@@ -135,7 +135,7 @@ a {
 
 .subMenu-title-container h3 {
     font-size: 17px;
-    animation: slideInAndFadeInH3 0.8s ease forwards 1s; /* Apply delay */
+    animation: slideInAndFadeInH3 0.8s ease forwards .5s; 
 }
 
 @keyframes slideInAndFadeInH2 {

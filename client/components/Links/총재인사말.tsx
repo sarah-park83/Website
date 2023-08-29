@@ -1,4 +1,5 @@
-import '../../styles/subpage.css'
+import '../../styles/Sub-pages/subpage.css'
+import '../../styles/Sub-pages/총재 인사말-content.css'
 import Dropdownmenu from '../Dropdown/Dropdownmenu'
 import Footer from '../Footer'
 import Header from './Link-header'
@@ -82,6 +83,14 @@ export function 총재인사말() {
             <div className="subMenu-title-container">
               <h2>총재 인사말</h2>
               <h3>대한생활체육회 총재 김균식의 인사말입니다.</h3>
+            </div>
+
+            <div className="greet-content-container">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/setting%2Fgreet?alt=media&amp;token=7f37a933-4732-40bf-a300-ddfb7f336df2"
+                alt="총재"
+              />
+              <h6>대한생활체육회 총재 김균식</h6>
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ export function 총재인사말() {
                   <div className="navLink">총재 인사말</div>
                 </div>
               </Link>
-              <Link to="#info/purpose">
+              <Link to="/info/purpose">
                 <div className="navItem">
                   <div className="navLink">설립목적</div>
                 </div>

@@ -19,7 +19,7 @@ export default function Dropdown1() {
               <p id="first-orange">체육회 소개</p>
               <div className="links">
                 <Link to="/info/greet">총재 인사말</Link>
-                <a href="#2">설립목적</a>
+                <Link to="/info/purpose">설립목적</Link>
                 <a href="#3">중앙 조직도</a>
                 <a href="#4">임원현황</a>
                 <a href="#5">오시는 길</a>

@@ -89,6 +89,10 @@ a {
     cursor: pointer;
 }
 
+.navItem:hover {
+    border-bottom: 2px solid orange;
+}
+
 .navItem div {
     color: black;
     transition: transform 0.8s ease;

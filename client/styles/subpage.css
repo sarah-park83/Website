@@ -121,16 +121,34 @@ a {
     word-break: keep-all;
 }
 
+.subMenu-title-container h2,
+.subMenu-title-container h3 {
+    font-weight: 700;
+    opacity: 0;
+    transform: translateX(-15px);
+}
+
 .subMenu-title-container h2 {
     font-size: 38px;
-    font-weight: 700;
-    opacity: 1;
-    transform: none;
+    animation: slideInAndFadeInH2 0.8s ease forwards;
 }
 
 .subMenu-title-container h3 {
     font-size: 17px;
-    font-weight: 700;
-    opacity: 1;
-    transform: none;
+    animation: slideInAndFadeInH3 0.8s ease forwards 1s; /* Apply delay */
 }
+
+@keyframes slideInAndFadeInH2 {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInAndFadeInH3 {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+

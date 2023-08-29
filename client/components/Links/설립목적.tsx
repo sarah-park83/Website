@@ -59,7 +59,7 @@ export function 설립목적() {
                   <div className="navLink">설립목적</div>
                 </div>
               </Link>
-              <Link to="#info/chart">
+              <Link to="/info/chart">
                 <div className="navItem">
                   <div className="navLink">중앙 조직도</div>
                 </div>
@@ -82,7 +82,7 @@ export function 설립목적() {
           <div>
             <div className="subMenu-title-container">
               <h2>설립목적</h2>
-              <h3>대한생활체육회의 설립목적을 소개합니다..</h3>
+              <h3>대한생활체육회의 설립목적을 소개합니다.</h3>
             </div>
 
             <div className="purpose-content-container">

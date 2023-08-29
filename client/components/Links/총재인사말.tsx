@@ -59,7 +59,7 @@ export function 총재인사말() {
                   <div className="navLink">설립목적</div>
                 </div>
               </Link>
-              <Link to="#info/chart">
+              <Link to="/info/chart">
                 <div className="navItem">
                   <div className="navLink">중앙 조직도</div>
                 </div>

@@ -21,7 +21,7 @@ export default function Dropdown1() {
                 <Link to="/info/greet">총재 인사말</Link>
                 <Link to="/info/purpose">설립목적</Link>
                 <Link to="/info/chart">중앙 조직도</Link>
-                <a href="#4">임원현황</a>
+                <Link to="/info/status">임원현황</Link>
                 <a href="#5">오시는 길</a>
               </div>
             </div>

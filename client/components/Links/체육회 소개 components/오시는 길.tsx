@@ -82,7 +82,7 @@ export function 오시는길() {
           <div>
             <div className="subMenu-title-container">
               <h2>오시는 길</h2>
-              <h3>대한생활체육회의 설립목적을 소개합니다.</h3>
+              <h3>대한생활체육회로 오시는 길을 안내드립니다.</h3>
             </div>
 
             {/* Hi Sarah! pls fix next part - location map */}

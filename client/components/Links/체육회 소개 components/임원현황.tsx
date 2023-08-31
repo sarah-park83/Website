@@ -82,7 +82,7 @@ export function 임원현황() {
           <div>
             <div className="subMenu-title-container">
               <h2>임원현황</h2>
-              <h3>대한생활체육회의 설립목적을 소개합니다.</h3>
+              <h3>대한생활체육회 임원현황을 소개합니다.</h3>
             </div>
 
             <div className="status-result-container">

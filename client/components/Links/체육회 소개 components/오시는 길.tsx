@@ -85,8 +85,9 @@ export function 오시는길() {
               <h3>대한생활체육회의 설립목적을 소개합니다.</h3>
             </div>
 
+            {/* Hi Sarah! pls fix next part - location map */}
             <div className="location-map">
-              <div className="kakao-map-container">
+              <div id="kakao-map-container">
                 <div className="kakao-map-content">
                   <div className="kakao-map-content1">
                     <div className="kakao-map-content1-a"></div>
@@ -175,6 +176,48 @@ export function 오시는길() {
                         draggable="false"
                         className="content1-b-img12"
                       />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img13"
+                      />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img14"
+                      />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img15"
+                      />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img16"
+                      />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img17"
+                      />
+                      <img
+                        src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNG01/v22_galhg/3/1983/869.png"
+                        alt=""
+                        role="presentation"
+                        draggable="false"
+                        className="content1-b-img18"
+                      />
                     </div>
                     <div className="kakao-map-content1-c"></div>
                     <div className="kakao-map-content1-d"></div>
@@ -255,6 +298,40 @@ export function 오시는길() {
                     <div className="kakao-map-label-1a"></div>
                     <div className="kakao-map-label-1b">50m</div>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sarah just up to here - End of Map */}
+
+            <div className="mapLocation-title">찾아오시는 길</div>
+            <div className="mapLlocation-main-container">
+              <div className="mapLocation-container">
+                <div className="mapLocation-item">- 주 소</div>
+                <div className="mapLocation-context">
+                  서울 영등포구 버드나루로 88 (우)07230
+                  <br />
+                  지번 : 영등포동7가 94-49{' '}
+                </div>
+              </div>
+              <div className="mapLocation-container">
+                <div className="mapLocation-item">- 지하철 역</div>
+                <div className="mapLocation-context">
+                  5호선 영등포시장역 2번출구 도보 11분
+                  <br />
+                  9호선 국회의사당역 6번출구 도보 15분
+                  <br />
+                  9호선/2호선 당산역 8번출구 도보 16분
+                </div>
+              </div>
+              <div className="mapLocation-container">
+                <div className="mapLocation-item">- 버스정류장</div>
+                <div className="mapLocation-context">
+                  마을 영등포03 남부햄.제일빌딩 37m
+                  <br />
+                  지선 6623 영동초교.영등포평생학습관 165m
+                  <br />
+                  일반 70-2 영동초교.영등포평생학습관 165m
                 </div>
               </div>
             </div>

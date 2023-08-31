@@ -22,7 +22,7 @@ export default function Dropdown1() {
                 <Link to="/info/purpose">설립목적</Link>
                 <Link to="/info/chart">중앙 조직도</Link>
                 <Link to="/info/status">임원현황</Link>
-                <a href="#5">오시는 길</a>
+                <Link to="/info/location">오시는 길</Link>
               </div>
             </div>
 

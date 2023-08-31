@@ -69,7 +69,7 @@ export function 설립목적() {
                   <div className="navLink">임원현황</div>
                 </div>
               </Link>
-              <Link to="#info/location">
+              <Link to="/info/location">
                 <div className="navItem">
                   <div className="navLink">오시는 길</div>
                 </div>

@@ -1,0 +1,426 @@
+.location-map {
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+
+.kakao-map-container {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    background: url(https://t1.daumcdn.net/mapjsapi/images/2x/bg_tile.png);
+}
+
+.kakao-map-content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    cursor: url(https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico) 7 5, url(https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico), default;
+}
+
+.kakao-map-content1 {
+    position: absolute;
+    left: 117px;
+    top: 194px;
+}
+
+.kakao-map-content1-a {
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+}
+
+.kakao-map-content1-b {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+.content1-b-img1 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: -186px;
+    top: -6px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img2 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 70px;
+    top: -6px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img3 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: -186px;
+    top: -262px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img4 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 70px;
+    top: -262px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img5 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: -186px;
+    top: -518px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img6 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 70px;
+    top: -518px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img7 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 326px;
+    top: -6px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img8 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 326px;
+    top: -262px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img9 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 326px;
+    top: -518px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img10{
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 582px;
+    top: -6px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img11 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 582px;
+    top: -262px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.content1-b-img12 {
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: none;
+    max-height: none;
+    left: 582px;
+    top: -518px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 256px;
+    height: 256px;
+}
+
+.kakao-map-content1-c {
+    position: absolute;
+    z-index: 1;
+}
+
+.kakao-map-content1-d {
+    position: absolute;
+    z-index: 1;
+    width: 595px;
+    height: 360px;
+}
+
+.kakao-map-content1-e {
+    position: absolute;
+    z-index: 1;
+}
+
+.content1-e-svg {
+    stroke: none;
+    stroke-dashoffset: 0.5;
+    stroke-linejoin: round;
+    fill: none;
+    transform: translateZ(0px);
+    position: absolute;
+    left: -1307px;
+    top: -914px;
+    width: 2975px;
+    height: 1800px;
+}
+
+.kakao-map-content1-f {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 0px;
+    transform: translateZ(0px);
+}
+
+.content1-f-1 {
+    cursor: default;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(118, 129, 168);
+    z-index: 0;
+    display: block;
+    width: 150px;
+    height: 32px;
+    left: 22px;
+    top: -91px;
+}
+
+.content1-f-1a {
+    position: absolute;
+    width: 11px;
+    height: 9px;
+    background: url(https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/2x/triangle.png) 0% 0% / 11px 9px no-repeat;
+    left: 69px;
+    top: 32px;
+}
+
+.content1-f-1b {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.content1-f-1b-conatiner {
+    white-space: nowrap;
+}
+
+.location-marker {
+    width: 145px;
+    padding: 2px 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.location-marker a {
+    color: blue;
+}
+
+.content1-f-2 {
+    position: absolute;
+    margin: -39px 0px 0px -14px;
+    z-index: 0;
+    left: 97px;
+    top: -11px;
+    display: block;
+}
+
+.content1-f-2-img1 {
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 99999px;
+    max-height: none;
+    border: 0px;
+    display: block;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    clip: rect(0px, 29px, 42px, 0px);
+    top: 0px;
+    left: 0px;
+    width: 29px;
+    height: 42px;
+}
+
+.content1-f-2-img2 {
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 99999px;
+    max-height: none;
+    border: 0px;
+    display: block;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    width: 29px;
+    height: 42px;
+}
+
+.map-area {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.kakao-map-label {
+    position: absolute;
+    cursor: default;
+    z-index: 1;
+    margin: 0px 6px;
+    height: 19px;
+    line-height: 14px;
+    left: 0px;
+    bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.kakao-map-label-1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10px;
+    float: left;
+    display: none;
+}
+
+.kakao-map-label-1a {
+    float: left;
+    margin: 2px 3px 0px 4px;
+    height: 6px;
+    transition: width 0.1s ease 0s;
+    border-top: none rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-image: initial;
+    width: 46px;
+}
+
+.kakao-map-label-1b {
+    float: left;
+    margin: 0px 4px 0px 0px;
+    font-family: AppleSDGothicNeo-Regular, 돋움, dotum, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}

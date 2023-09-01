@@ -1,5 +1,4 @@
-// Component (Banner.jsx)
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import '../styles/banner.css'
 
 export default function Banner() {

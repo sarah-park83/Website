@@ -18,35 +18,41 @@
   padding-bottom: 50px;
 }
 
-@keyframes fadeAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.homeHeader_banner_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
 }
 
 .banner_text {
-  opacity: 0;
-  animation: fadeAnimation 2s ease;
-  transform: none;
-  width: 700px;
-  padding-bottom: 5vh;
   margin-left: 17vw;
-  font-size: 38px;
   line-height: 45px;
-  font-family: NanumSquareRound,sans-serif;
-  font-weight: 700;
-  margin-top: 5px;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s ease, transform 0.5s ease;
 }
 
-.banner_text h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+.banner_text.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.banner_text.show h3 {
+  font-size: 38px;
+  font-family: NanumSquareRound,sans-serif;
+  font-weight: 500;
+}
+
+.banner_text.show h1 {
+  font-size: 55px;
+  margin-top:25px;
+  margin-bottom:25px;
+  font-weight: bolder;
+}
+
+.banner_text.show h4 {
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Roboto,sans-serif;
 }

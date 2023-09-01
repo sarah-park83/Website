@@ -1,32 +1,29 @@
-import { useEffect, useState } from 'react'
+// Component (Banner.jsx)
+import React, { useEffect, useState } from 'react'
 import '../styles/banner.css'
 
 export default function Banner() {
-  const [currentTextIndex, setCurrentTextIndex] = useState(0)
+  const [currentTextIndex, setCurrentTextIndex] = useState(-1) // Start with -1 to hide all texts initially
   const [animationsDone, setAnimationsDone] = useState(false)
 
   const textArray = [
-    // eslint-disable-next-line react/jsx-key
-    <h3>국민의 건강과</h3>,
-    // eslint-disable-next-line react/jsx-key
-    <h3>행복의 장을 여는</h3>,
-    // eslint-disable-next-line react/jsx-key
-    <h1>뉴질랜드대한생활체육회</h1>,
-    // eslint-disable-next-line react/jsx-key
-    <h4>New Zealand Korea Sports For All Athletic Association</h4>,
+    '국민의 건강과',
+    '행복의 장을 여는',
+    '뉴질랜드대한생활체육회',
+    'New Zealand Korea Sports For All Athletic Association',
   ]
 
   useEffect(() => {
     if (currentTextIndex < textArray.length - 1) {
       const timeout = setTimeout(() => {
         setCurrentTextIndex((prevIndex) => prevIndex + 1)
-      }, 2000)
+      }, 1000)
 
       return () => clearTimeout(timeout)
     } else {
       setTimeout(() => {
         setAnimationsDone(true)
-      }, 2000)
+      }, 1000)
     }
   }, [currentTextIndex, textArray.length])
 
@@ -34,18 +31,32 @@ export default function Banner() {
     <div className="homeHeader_banner">
       <div className="homeHeader_banner_content">
         <div className="homeHeader_banner_text">
-          {textArray.map((text, index) => (
-            <div
-              key={index}
-              className="banner_text"
-              style={{
-                opacity: index <= currentTextIndex || animationsDone ? 1 : 0,
-                transition: 'opacity 1s ease',
-              }}
-            >
-              {text}
-            </div>
-          ))}
+          {textArray.map((text, index) => {
+            let Element = 'h3'
+
+            if (index === 2) {
+              Element = 'h1'
+            } else if (index === 3) {
+              Element = 'h4'
+            }
+
+            return (
+              <div
+                key={index}
+                className={`banner_text ${
+                  (index <= currentTextIndex || animationsDone) && 'show'
+                }`}
+              >
+                {Element === 'h1' ? (
+                  <h1>{text}</h1>
+                ) : Element === 'h4' ? (
+                  <h4>{text}</h4>
+                ) : (
+                  <h3>{text}</h3>
+                )}
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>

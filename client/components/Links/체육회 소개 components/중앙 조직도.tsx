@@ -82,7 +82,7 @@ export function 중앙조직도() {
           <div>
             <div className="subMenu-title-container">
               <h2>중앙 조직도</h2>
-              <h3>대한생활체육회의 설립목적을 소개합니다.</h3>
+              <h3>대한생활체육회의 중앙 조직도를 소개합니다.</h3>
             </div>
             <div className="chart-container">
               <img

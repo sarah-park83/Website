@@ -11,10 +11,55 @@
   box-shadow: 1px 1px 5px #333;
 }
 
+.headerPopup_buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -46px;
+  margin-right: 20px;
+}
+
+.headerPopup_button {
+  font-size: 38px;
+  max-width: 100%;
+  width: 35px;
+  height: auto;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .headerPopup_img {
   object-fit: contain;
   width: 100%;
   height: 100%;
   cursor: pointer;
   transition: 1s;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+/* img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} */
+
+a {
+  color: inherit;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
 }

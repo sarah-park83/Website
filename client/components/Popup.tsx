@@ -3,9 +3,11 @@ import {
   IoMdArrowDroprightCircle,
 } from 'react-icons/io'
 
+import '../styles/popup.css'
+
 export default function Popup() {
   return (
-    <div>
+    <div className="headerPopup_container">
       <a href="https://xn--vk1by6xrzecngs4l6obxj.com/article/anouncement/1/wBwT6IpiRh0pkWfXADw5">
         <img
           className="headerPopup_img"
@@ -14,11 +16,19 @@ export default function Popup() {
         />
       </a>
       <div className="headerPopup_buttonContainer">
-        <svg focusable="false" aria-hidden="true">
+        <svg
+          className="headerPopup_button"
+          focusable="false"
+          aria-hidden="true"
+        >
           <IoMdArrowDropleftCircle />
-          <svg focusable="false" aria-hidden="true">
-            <IoMdArrowDroprightCircle />
-          </svg>
+        </svg>
+        <svg
+          className="headerPopup_button"
+          focusable="false"
+          aria-hidden="true"
+        >
+          <IoMdArrowDroprightCircle />
         </svg>
       </div>
     </div>

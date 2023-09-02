@@ -1,5 +1,6 @@
 import Dropdownmenu from './Dropdown/Dropdownmenu'
 import Photogallery from './Photogallery'
+import Videogallery from './Videogallery'
 import Footer from './Footer'
 import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
@@ -17,6 +18,7 @@ export function Homepage() {
         <HomepageVideo />
       </div>
       <Photogallery />
+      <Videogallery />
       <Footer />
     </div>
   )

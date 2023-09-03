@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
+import Noticeboard from './Noticeboard'
 
 import '../styles/homepage.css'
 
@@ -14,6 +15,7 @@ export function Homepage() {
       <Dropdownmenu />
       <Banner />
       <Popup />
+      <Noticeboard />
       <div className="video-section">
         <HomepageVideo />
       </div>

@@ -1,0 +1,26 @@
+.video-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.video-iframe {
+  width: 120% !important;
+  height: 500px !important;
+  z-index: 1 !important;
+  cursor: pointer !important;
+}
+
+.video-video {
+  width: 120%!important;
+  height: 500px!important;
+  z-index: 1!important;
+  cursor: pointer!important;
+}

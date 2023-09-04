@@ -38,7 +38,7 @@ export function 전국체육회현황() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="#info/purpose">
+          <Link to="/group/nation">
             <h2>전국체육회현황</h2>
           </Link>
         </div>
@@ -59,7 +59,7 @@ export function 전국체육회현황() {
                   <div className="navLink">국제체육회현황</div>
                 </div>
               </Link>
-              <Link to="#group/sports">
+              <Link to="/group/sports">
                 <div className="navItem">
                   <div className="navLink">종목별 운영현황</div>
                 </div>

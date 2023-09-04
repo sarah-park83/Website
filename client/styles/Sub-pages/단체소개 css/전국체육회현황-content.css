@@ -29,8 +29,10 @@
 
 .group-list-img-container2 {
     width: 110px;
-    margin: 0;
-    padding: 0;
+}
+
+.group-list-img-container2 button {
+    cursor: pointer;
 }
 
 .group-image {

@@ -49,22 +49,22 @@ export function 전국체육회현황() {
               <h2>단체소개</h2>
             </div>
             <div className="itemList">
-              <Link to="#info/greet">
+              <Link to="/group/nation">
                 <div className="navItem">
                   <div className="navLink">전국체육회현황</div>
                 </div>
               </Link>
-              <Link to="#info/purpose">
+              <Link to="/group/internation">
                 <div className="navItem">
                   <div className="navLink">국제체육회현황</div>
                 </div>
               </Link>
-              <Link to="#info/chart">
+              <Link to="#group/sports">
                 <div className="navItem">
                   <div className="navLink">종목별 운영현황</div>
                 </div>
               </Link>
-              <Link to="#info/status">
+              <Link to="#group/sanha">
                 <div className="navItem">
                   <div className="navLink">산하단체</div>
                 </div>

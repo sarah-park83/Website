@@ -29,8 +29,8 @@ export default function Dropdown1() {
             <div className="right-line" id="line-2">
               <p>단체소개</p>
               <div className="links">
-                <a href="#1">전국체육회현황</a>
-                <a href="#2">국제체육회현황</a>
+                <Link to="/group/nation">전국체육회현황</Link>
+                <Link to="/group/internation">국제체육회현황</Link>
                 <a href="#3">종목별 운영현황</a>
                 <a href="#4">산하단체</a>
               </div>

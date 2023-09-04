@@ -29,10 +29,8 @@
 
 .group-list-img-container2 {
     width: 110px;
-}
-
-.enlarge-link {
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .group-image {

@@ -8,22 +8,6 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 export function 전국체육회현황() {
-  //   function handleEnlarge(imageSrc: string) {
-  //     const enlargedImageUrl = getEnlargedImageUrl(imageSrc)
-
-  //     // Open a new tab with the enlarged image
-  //     window.open(enlargedImageUrl, '_blank')
-  //   }
-
-  //   // Function to get the URL of the enlarged image
-  //   function getEnlargedImageUrl(originalUrl: string) {
-  //     // You can modify the URL or use any logic to get the enlarged image URL
-  //     // For example, adding "_large" before the file extension
-  //     const parts = originalUrl.split('.')
-  //     const extension = parts.pop()
-  //     return `${parts.join('.')}_large.${extension}`
-  //   }
-
   return (
     <div>
       <Dropdownmenu />
@@ -100,20 +84,23 @@ export function 전국체육회현황() {
                 <div className="group-list-title">서울특별시생활체육회</div>
                 <div className="group-list-img-container">
                   <div className="group-list-img-container2">
-                    {/* <button
-                      className="enlarge-link"
-                      onClick={() =>
-                        handleEnlarge(
-                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&token=041fbbf2-27cc-41a9-9606-5d11f933d6fb'
+                    <a
+                      href="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
                         )
-                      }
-                    > */}
-                    <img
-                      className="group-image"
-                      src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb"
-                      alt="서울특별시생활체육회"
-                    />
-                    {/* </button> */}
+                      }}
+                    >
+                      <img
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb"
+                        alt="서울특별시생활체육회"
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="group-list-text-container">
@@ -121,6 +108,26 @@ export function 전국체육회현황() {
                     회장 : 이육행
                     <br />
                     체육회명 : 서울특별시생활체육회
+                  </p>
+                </div>
+              </div>
+
+              <div className="group-list-container">
+                <div className="group-list-title">경기도생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <img
+                      className="group-image"
+                      src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fgye.png?alt=media&amp;token=069bdf6c-8398-4dea-b12d-2362f32bc579"
+                      alt="경기도생활체육회"
+                    />
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 최호열
+                    <br />
+                    체육회명 : 경기도생활체육회
                   </p>
                 </div>
               </div>

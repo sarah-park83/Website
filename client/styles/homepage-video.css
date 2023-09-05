@@ -1,0 +1,36 @@
+
+/* Rest of your CSS */
+
+video {
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease;
+  transform-origin: bottom center;
+}
+
+.video-container {
+  width: 100vh;
+  height: 400 px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 3s;
+  overflow: hidden; 
+}
+
+.video-video {
+  width: 2000px!important;
+  height: 400px!important;
+  z-index: 1!important;
+  cursor: pointer!important;
+  transform-origin: top center;
+  will-change: transform;
+  transition: transform 2s ease;
+  transform: scaleY(0.5) translateZ(0); /* Initial half size */
+}
+
+.video-container.hovered .video-video {
+  transform: scaleY(1) translateZ(0); 
+  height:1000vh;
+}

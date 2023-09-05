@@ -64,7 +64,7 @@ export function 종목별운영현황() {
                   <div className="navLink">종목별 운영현황</div>
                 </div>
               </Link>
-              <Link to="#group/sanha">
+              <Link to="/group/sanha">
                 <div className="navItem">
                   <div className="navLink">산하단체</div>
                 </div>

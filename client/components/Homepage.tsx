@@ -1,11 +1,11 @@
 import Dropdownmenu from './Dropdown/Dropdownmenu'
 import Photogallery from './Photogallery'
-import Videogallery from './Videogallery'
 import Footer from './Footer'
 import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
 import Noticeboard from './Noticeboard'
+import Associationintro from './Associationintro'
 
 import '../styles/homepage.css'
 
@@ -19,9 +19,11 @@ export function Homepage() {
       <div className="video-section">
         <HomepageVideo />
       </div>
-      <Photogallery />
-      <Videogallery />
-      <Footer />
+      <div>
+        <Associationintro />
+        <Photogallery />
+        <Footer />
+      </div>
     </div>
   )
 }

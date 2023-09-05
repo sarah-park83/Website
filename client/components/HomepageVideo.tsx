@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import YouTube from 'react-youtube'
 
 import '../styles/homepage-video.css'
 
@@ -14,13 +13,6 @@ export default function HomepageVideo() {
     setIsHovered(false)
   }
 
-  const videoOptions = {
-    playerVars: {
-      autoplay: 1,
-      mute: 1,
-    },
-  }
-
   return (
     <div
       className={`video-container ${isHovered ? 'hovered' : ''}`}
@@ -29,11 +21,13 @@ export default function HomepageVideo() {
     >
       <div className="video-video">
         <div className="video-frame">
-          <YouTube
-            videoId="-Gh3OUIO2WA"
-            opts={videoOptions}
-            // onReady={(e) => e.target.pauseVideo()}
-          />
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/-Gh3OUIO2WA?autoplay=1&mute=1"
+            title="대한생활체육회를 소개합니다"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ export function 오시는길() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/info/status">
+          <Link to="/info/location">
             <h2>오시는 길</h2>
           </Link>
         </div>

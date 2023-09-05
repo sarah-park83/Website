@@ -31,8 +31,8 @@
     width: 110px;
 }
 
-.enlarge-link {
-    width: 100%;
+.group-list-img-container2 button {
+    cursor: pointer;
 }
 
 .group-image {

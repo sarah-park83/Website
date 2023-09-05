@@ -12,6 +12,9 @@ import { 중앙조직도 } from './components/Links/체육회 소개 components/
 import { 임원현황 } from './components/Links/체육회 소개 components/임원현황'
 import { 오시는길 } from './components/Links/체육회 소개 components/오시는 길'
 import { 전국체육회현황 } from './components/Links/단체소개 components/전국체육회현황'
+import { 국제체육회현황 } from './components/Links/단체소개 components/국제체육회현황'
+import { 종목별운영현황 } from './components/Links/단체소개 components/종목별 운영현황'
+import { 산하단체 } from './components/Links/단체소개 components/산하단체'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +26,9 @@ export const router = createBrowserRouter(
       <Route path="/info/status" element={<임원현황 />} />
       <Route path="/info/location" element={<오시는길 />} />
       <Route path="/group/nation" element={<전국체육회현황 />} />
+      <Route path="/group/internation" element={<국제체육회현황 />} />
+      <Route path="/group/sports" element={<종목별운영현황 />} />
+      <Route path="/group/sanha" element={<산하단체 />} />
     </Route>
   )
 )

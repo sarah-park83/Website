@@ -1,28 +1,39 @@
-import { CSSProperties } from 'react'
+import { useState } from 'react'
+import YouTube from 'react-youtube'
+
 import '../styles/homepage-video.css'
-/* eslint-disable jsx-a11y/iframe-has-title */
+
 export default function HomepageVideo() {
-  const videoVideoStyle = {
-    width: '640px',
-    height: '360px',
+  const [isHovered, setIsHovered] = useState(false)
+
+  const onPlayVideo = () => {
+    setIsHovered(true)
   }
-  const iframeStyle = {
-    width: '100%',
-    height: '100%',
+
+  const onPauseVideo = () => {
+    setIsHovered(false)
   }
+
+  const videoOptions = {
+    playerVars: {
+      autoplay: 1,
+      mute: 1,
+    },
+  }
+
   return (
-    <div className="video-container">
-      <div className="video-video" style={videoVideoStyle}>
+    <div
+      className={`video-container ${isHovered ? 'hovered' : ''}`}
+      onMouseEnter={onPlayVideo}
+      onMouseLeave={onPauseVideo}
+    >
+      <div className="video-video">
         <div className="video-frame">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/-Gh3OUIO2WA"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            title="대한생활체육회를 소개합니다"
-            style={iframeStyle}
-            className="video-iframe"
-          ></iframe>
+          <YouTube
+            videoId="-Gh3OUIO2WA"
+            opts={videoOptions}
+            // onReady={(e) => e.target.pauseVideo()}
+          />
         </div>
       </div>
     </div>

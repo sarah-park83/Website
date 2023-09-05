@@ -76,19 +76,19 @@ export function 산하단체() {
         <div className="content-container">
           <div>
             <div className="subMenu-title-container">
-              <h2>국제체육회현황</h2>
-              <h3>대한생활체육회의 국제체육회현황입니다.</h3>
+              <h2>산하단체</h2>
+              <h3>대한생활체육회의 산하단체입니다.</h3>
             </div>
             <div>
               <div className="group-list-container">
-                <div className="group-list-title">한인미주대한생활체육회</div>
+                <div className="group-list-title">대한유청소년생활체육회</div>
                 <div className="group-list-img-container">
                   <div className="group-list-img-container2">
                     <button
                       onClick={(e) => {
                         e.preventDefault()
                         window.open(
-                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fusa.png?alt=media&amp;token=61d68bb8-9799-410b-b3e3-d1cc57b80b6c',
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fzxc.png?alt=media&amp;token=27da75a4-572e-4358-a1d3-8743f6130f05',
                           '_blank',
                           'width=380,height=500,top=100,left=100'
                         )
@@ -96,17 +96,110 @@ export function 산하단체() {
                     >
                       <img
                         className="group-image"
-                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fusa.png?alt=media&amp;token=61d68bb8-9799-410b-b3e3-d1cc57b80b6c"
-                        alt="한인미주대한생활체육회"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fzxc.png?alt=media&amp;token=27da75a4-572e-4358-a1d3-8743f6130f05"
+                        alt="대한유청소년생활체육회"
                       />
                     </button>
                   </div>
                 </div>
                 <div className="group-list-text-container">
                   <p>
-                    회장 : 전경수
+                    회장 : 김의종
                     <br />
-                    체육회명 : 한인미주대한생활체육회
+                    체육회명 : 대한유청소년생활체육회
+                  </p>
+                </div>
+              </div>
+
+              <div className="group-list-container">
+                <div className="group-list-title">대한노인생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fqwe.png?alt=media&amp;token=c29f7ee3-de6f-4fd5-bf89-aae9c150486f',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <img
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fqwe.png?alt=media&amp;token=c29f7ee3-de6f-4fd5-bf89-aae9c150486f"
+                        alt="대한노인생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 강석만
+                    <br />
+                    체육회명 : 대한노인생활체육회
+                  </p>
+                </div>
+              </div>
+
+              <div className="group-list-container">
+                <div className="group-list-title">대한직장생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fasd.png?alt=media&amp;token=baf5e375-cd1d-446b-ad0c-b7b66008506d',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <img
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fasd.png?alt=media&amp;token=baf5e375-cd1d-446b-ad0c-b7b66008506d"
+                        alt="대한직장생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 이충재
+                    <br />
+                    체육회명 : 대한직장생활체육회
+                  </p>
+                </div>
+              </div>
+
+              <div className="group-list-container">
+                <div className="group-list-title">대한다문화생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fsch.png?alt=media&amp;token=680c4b70-e496-4e4f-ab31-ff99c86977b9',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <img
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fsch.png?alt=media&amp;token=680c4b70-e496-4e4f-ab31-ff99c86977b9"
+                        alt="대한다문화생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 심철효
+                    <br />
+                    체육회명 : 대한다문화생활체육회
                   </p>
                 </div>
               </div>

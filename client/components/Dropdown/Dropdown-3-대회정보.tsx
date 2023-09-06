@@ -1,8 +1,9 @@
 import logo2 from '/images/logo2.png'
+import { Link } from 'react-router-dom'
 
 export default function Dropdown3() {
   return (
-    <a href="#info">
+    <a href="#notice">
       대회정보
       <div className="dropdown-content" id="dropdown-content3">
         <div className="dropdown">
@@ -17,7 +18,7 @@ export default function Dropdown3() {
             <div className="right-line" id="line-1">
               <p id="first-orange">대회정보</p>
               <div className="links">
-                <a href="#1">대회신청</a>
+                <Link to="/notice/apply/1">대회신청</Link>
                 <a href="#2">대회/행사일정</a>
                 <a href="#3">경기결과</a>
               </div>
@@ -26,21 +27,21 @@ export default function Dropdown3() {
             <div className="right-line" id="line-2">
               <p>체육회 소개</p>
               <div className="links">
-                <a href="#1">총재 인사말</a>
-                <a href="#2">설립목적</a>
-                <a href="#3">중앙 조직도</a>
-                <a href="#4">임원현황</a>
-                <a href="#4">오시는 길</a>
+                <Link to="/info/greet">총재 인사말</Link>
+                <Link to="/info/purpose">설립목적</Link>
+                <Link to="/info/chart">중앙 조직도</Link>
+                <Link to="/info/status">임원현황</Link>
+                <Link to="/info/location">오시는 길</Link>
               </div>
             </div>
 
             <div className="right-line" id="line-2">
               <p>단체소개</p>
               <div className="links">
-                <a href="#1">전국체육회현황</a>
-                <a href="#2">국제체육회현황</a>
-                <a href="#3">종목별 운영현황</a>
-                <a href="#4">산하단체</a>
+                <Link to="/group/nation">전국체육회현황</Link>
+                <Link to="/group/internation">국제체육회현황</Link>
+                <Link to="/group/sports">종목별운영현황</Link>
+                <Link to="/group/sanha">산하단체</Link>
               </div>
             </div>
 

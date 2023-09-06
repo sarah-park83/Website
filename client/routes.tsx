@@ -15,6 +15,7 @@ import { 전국체육회현황 } from './components/Links/단체소개 component
 import { 국제체육회현황 } from './components/Links/단체소개 components/국제체육회현황'
 import { 종목별운영현황 } from './components/Links/단체소개 components/종목별 운영현황'
 import { 산하단체 } from './components/Links/단체소개 components/산하단체'
+import { 대회신청 } from './components/Links/대회정보 components/대회신청'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,6 +30,7 @@ export const router = createBrowserRouter(
       <Route path="/group/internation" element={<국제체육회현황 />} />
       <Route path="/group/sports" element={<종목별운영현황 />} />
       <Route path="/group/sanha" element={<산하단체 />} />
+      <Route path="/notice/apply/1" element={<대회신청 />} />
     </Route>
   )
 )

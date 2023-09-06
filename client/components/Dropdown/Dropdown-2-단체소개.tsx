@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Dropdown2() {
   return (
-    <a href="#association-info">
+    <a href="#group">
       단체소개
       <div className="dropdown-content" id="dropdown-content2">
         <div className="dropdown">

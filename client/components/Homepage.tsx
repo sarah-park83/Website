@@ -5,7 +5,7 @@ import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
 import Noticeboard from './Noticeboard'
-import Associationintro from './Associationintro'
+import Intro from './Intro'
 
 import '../styles/homepage.css'
 
@@ -20,7 +20,7 @@ export function Homepage() {
         <HomepageVideo />
       </div>
       <div>
-        <Associationintro />
+        <Intro />
         <Photogallery />
         <Footer />
       </div>

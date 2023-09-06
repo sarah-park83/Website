@@ -240,7 +240,6 @@
 }
 
 .links a::before {
-  /* Add a separator before all links except the first one */
   content: "";
   display: block;
   position: absolute;
@@ -253,7 +252,6 @@
 }
 
 .links a:nth-child(1)::before {
-  /* Remove separator for the first link */
   content: none;
   position: absolute;
 }
@@ -265,4 +263,55 @@
 
 .links a:hover {
   color: orange;
+}
+
+/***************** Media Query Phone *************/
+
+@media screen and (max-width: 480px) {
+  /* Navbar adjustments */
+  .navbar {
+    height: auto; /* Adjust the height to fit content */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items vertically */
+  }
+
+  .navbar a:not(:first-child) {
+    padding: 10px; /* Reduce padding for links */
+    margin-left: 0; /* Remove margin */
+    float: none; /* Reset float */
+  }
+
+  /* Dropdown adjustments */
+  .dropdown-content {
+    width: 100%; /* Full width */
+    margin-left: 0; /* Remove margin */
+  }
+
+  /* Left Content adjustments */
+  .content-left {
+    margin-left: 0; /* Remove margin */
+  }
+
+  .content-left p {
+    text-align: center; /* Center text */
+  }
+
+  .content-left p::after {
+    display: none; /* Remove the line */
+  }
+
+  /* Right Content adjustments */
+  .content-right {
+    margin-left: 0; /* Remove margin */
+  }
+
+  .right-line p {
+    width: auto; /* Adjust width as needed */
+    text-align: center; /* Center text */
+  }
+
+  /* Additional adjustments for links */
+  .links a {
+    font-size: 16px; /* Reduce font size */
+  }
 }

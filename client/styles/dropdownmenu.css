@@ -61,9 +61,16 @@
   z-index: 1;
   top: 79px;
   height: 300px;
-  border-top: 1px solid red; 
+  border-top: 2px solid red; 
   border-bottom: 1px solid red; 
   cursor: default;
+}
+
+.dropdown {
+  display: grid;
+  grid-template-columns: .4fr 1fr; 
+  align-items: center;
+  padding-left: 200px;
 }
 
 #dropdown-content1 {
@@ -115,32 +122,24 @@
   display: block;
 }
 
-.dropdown-content p:hover {
-  display: block;
-  opacity: 1;
-}
-
-.dropdown {
-  display: flex;
-}
-
 /***************** Left Content *************/
+
+.content-left {
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-items: end;
+  padding: 18px 30px 23px 20px;
+  margin-bottom: 4px; 
+  background-color: rgb(241, 241, 241);
+  margin-left: 15%;
+}
 
 #logo2 {
   width: 150px;
   height: auto;
-}
-
-.content-left {
-  flex: 1;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: flex-end; 
-  align-items: flex-end; 
-  padding: 10px 30px 32px 10px; 
-  background-color: rgb(241, 241, 241);
-  margin-left: 15%;
-  margin-bottom: 5px;
+  margin: 0;
+  padding: 0;
+  justify-self: end;
 }
 
 .content-left p {
@@ -267,5 +266,32 @@
 
 /***************** Media Query Phone *************/
 
-/* @media screen and (max-width: 480px) {
-  / */
+@media screen and (min-width: 769px) and (max-width: 1380px) {
+
+.navbar {
+  padding: 0 10px; 
+}
+
+#logo {
+  margin-left: 10px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 945px) {
+
+.navbar a:not(:first-child) {
+  font-size: 15px;
+  padding: 15px 11px;
+  margin-left: 5px;
+}
+}
+
+@media screen and (min-width: 946px) and (max-width: 1024px) {
+
+  .navbar a:not(:first-child) {
+    font-size: 15px;
+    padding: 25px 11px;
+    margin-left: 10px;
+  }
+  }

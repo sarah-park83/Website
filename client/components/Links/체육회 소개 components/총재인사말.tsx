@@ -1,6 +1,8 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/체육회 소개 css/총재 인사말-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../Dropdown/Mobile-check'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -8,9 +10,11 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 export function 총재인사말() {
+  const isMobile = MobileCheck()
+
   return (
     <div>
-      <Dropdownmenu />
+      {isMobile ? <Dropdownmenu_mobile /> : <Dropdownmenu />}
 
       <Header />
 

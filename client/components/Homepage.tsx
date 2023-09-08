@@ -7,26 +7,11 @@ import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
 import Noticeboard from './Noticeboard'
 import Intro from './Intro'
-
+import MobileCheck from './Dropdown/Mobile-check'
 import '../styles/homepage.css'
 
-import { useState, useEffect } from 'react'
-
 export function Homepage() {
-  const [isMobile, setIsMobile] = useState(false)
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768)
-    }
-
-    window.addEventListener('resize', handleResize)
-    handleResize()
-
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
+  const isMobile = MobileCheck()
 
   return (
     <div className="page-container">

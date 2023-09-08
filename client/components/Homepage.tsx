@@ -12,7 +12,7 @@ import '../styles/homepage.css'
 
 export function Homepage() {
   const isMobile = MobileCheck()
-
+  console.log('isMobile:', isMobile)
   return (
     <div className="page-container">
       <div>{isMobile ? <Dropdownmenu_mobile /> : <Dropdownmenu />}</div>

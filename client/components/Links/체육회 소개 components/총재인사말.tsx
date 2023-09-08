@@ -11,10 +11,18 @@ import { Link } from 'react-router-dom'
 
 export function 총재인사말() {
   const isMobile = MobileCheck()
-
+  console.log('isMobile:', isMobile)
   return (
     <div>
-      {isMobile ? <Dropdownmenu_mobile /> : <Dropdownmenu />}
+      {isMobile ? (
+        <div>
+          <Dropdownmenu_mobile />
+        </div>
+      ) : (
+        <div>
+          <Dropdownmenu />
+        </div>
+      )}
 
       <Header />
 

@@ -1,14 +1,12 @@
-/* Reset box-sizing for all elements */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Style for the distributed footer content */
 .footer-distributed {
   background-color: #292c2f;
-  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing:border-box;
   width:100%;
   text-align: left;
@@ -17,29 +15,26 @@
   margin-top: 80px;
 }
 
-/* Style for footer sections */
 .footer-center,
 .footer-left,
 .footer-right {
   display: inline-block;
   vertical-align: top;
-  margin: 0 20px; /* Adjust the margin as needed */
+  margin: 0 20px;
 }
 
 .footer-center .icon,
 .footer-left p,
 .footer-right p {
-  margin-bottom: 15px; /* Adjust the margin as needed */
+  margin-bottom: 15px;
 }
 
-/* Style for footer headings */
 footer h3 {
   color: #c9ced4;
   font: normal 36px Do Hyeon;
   letter-spacing: 2px;
 }
 
-/* Style for footer info text */
 .footer-info {
   margin-top: 20px;
   font-size: 12px;
@@ -47,19 +42,16 @@ footer h3 {
   padding-bottom: 5px;
 }
 
-/* Style for footer company name */
 .footer-company-name {
   color: #8f9296;
   font-size: 14px;
   font-weight: 400;
 }
 
-/* Style for the center section of the footer */
 .footer-center {
   width: 35%;
 }
 
-/* Style for footer center icons */
 .footer-center .icon {
   display: inline-block;
   background-color: #33383b;
@@ -74,12 +66,10 @@ footer h3 {
   margin: 10px 15px;
 }
 
-/* Style for the right section of the footer */
 .footer-right {
   width: 20%;
 }
 
-/* Style for footer company about section */
 .footer-company-about {
   line-height: 20px;
   color: #92999f;
@@ -89,7 +79,6 @@ footer h3 {
   word-break: keep-all;
 }
 
-/* Style for the footer company about span */
 .footer-company-about span {
   display: block;
   color: #b2b7be;
@@ -98,3 +87,8 @@ footer h3 {
   margin-bottom: 15px;
 }
 
+@media (max-width: 880px){
+.footer-distributed {
+    font: 700 14px sans-serif;
+}
+}

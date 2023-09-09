@@ -50,6 +50,9 @@ img {
 /******************* Media Query **************/
 
 @media screen and (max-width: 1024px) {
+.header-image {
+    height: 170px;
+}
 
 #header-quote{
     color: white;
@@ -68,17 +71,21 @@ img {
 
 @media screen and (max-width: 450px) {
 
-    #header-quote{
-        color: white;
-        position: absolute;
-        z-index: 1;
-        left: 50%; 
-        transform: translateX(-50%); 
-        transition: transform 0.3s ease, font-size 0.3s ease;
-        font-size: 15px; 
-    }
+.header-image {
+    height: 150px;
+}
+
+#header-quote{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    font-size: 15px; 
+}
     
-    #header-quote:hover {
-        transform: translateX(-50%) scale(1.15);
-      }
-    }
+#header-quote:hover {
+    transform: translateX(-50%) scale(1.15);
+}
+}

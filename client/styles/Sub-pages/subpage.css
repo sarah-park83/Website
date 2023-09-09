@@ -1,5 +1,4 @@
 .subpage-container {
-    /* flex: 1; */
     height: max-content;
     padding-bottom: 20px;
     margin: 0 12%;
@@ -61,7 +60,6 @@ a {
 
 .title {
     height: 50px;
-    font-size: 25px;
     font-weight: 800;
     border-bottom: 3px solid #ff7300;
     padding-top: 12px;
@@ -149,3 +147,95 @@ a {
     }
 }
 
+/******************* Media Query **************/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.subpage-container { 
+    margin: 0 20px;
+}
+
+.location-container {
+    margin: 12px 0;
+    height: 10px;
+    font-size: 10px;
+}
+
+.location-container > *:not(:last-child) {
+    margin-right: 2px;
+}
+
+.location-container a {
+    font-size: 9px;
+}
+
+.content-container {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.subMenu-title-container h2 {
+    font-size: 18px;
+}
+
+.subMenu-title-container h3 {
+    font-size: 12px;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.subpage-container { 
+    margin: 0 20px;
+}
+    
+.location-container {
+    margin: 15px 0;
+    height: 15px;
+    font-size: 15px;
+}
+    
+.location-container > *:not(:last-child) {
+    margin-right: 4px;
+}
+    
+.location-container a {
+    font-size: 10px;
+}
+    
+.subMenu-title-container h2 {
+    font-size: 25px;
+}
+    
+.subMenu-title-container h3 {
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.subpage-container { 
+    margin: 0 6%;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 20px;
+}
+
+.itemList{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.subMenu-title-container h2 {
+    font-size: 30px;
+}
+    
+.subMenu-title-container h3 {
+    font-size: 17px;
+}
+
+}

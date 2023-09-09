@@ -1,6 +1,8 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/대회정보 css/대회신청-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../Dropdown/Mobile-check'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -8,6 +10,8 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 export function 대회신청() {
+  const isMobile = MobileCheck()
+
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
     const newValue = event.target.value
     if (newValue !== '1') {
@@ -17,7 +21,15 @@ export function 대회신청() {
 
   return (
     <div>
-      <Dropdownmenu />
+      {isMobile ? (
+        <div>
+          <Dropdownmenu_mobile />
+        </div>
+      ) : (
+        <div>
+          <Dropdownmenu />
+        </div>
+      )}
 
       <Header />
 
@@ -50,30 +62,32 @@ export function 대회신청() {
           </Link>
         </div>
 
-        <div className="navbar-container">
-          <div className="navbarVertricle">
-            <div className="title">
-              <h2>대회정보</h2>
-            </div>
-            <div className="itemList">
-              <Link to="/notice/apply/1">
-                <div className="navItem">
-                  <div className="navLink">대회신청</div>
-                </div>
-              </Link>
-              <Link to="#">
-                <div className="navItem">
-                  <div className="navLink">대회/행사일정</div>
-                </div>
-              </Link>
-              <Link to="#">
-                <div className="navItem">
-                  <div className="navLink">경기결과</div>
-                </div>
-              </Link>
+        {!isMobile && (
+          <div className="navbar-container">
+            <div className="navbarVertricle">
+              <div className="title">
+                <h2>대회정보</h2>
+              </div>
+              <div className="itemList">
+                <Link to="/notice/apply/1">
+                  <div className="navItem">
+                    <div className="navLink">대회신청</div>
+                  </div>
+                </Link>
+                <Link to="#">
+                  <div className="navItem">
+                    <div className="navLink">대회/행사일정</div>
+                  </div>
+                </Link>
+                <Link to="#">
+                  <div className="navItem">
+                    <div className="navLink">경기결과</div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div className="content-container">
           <div>

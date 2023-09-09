@@ -1,6 +1,8 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/체육회 소개 css/총재 인사말-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../Dropdown/Mobile-check'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -8,9 +10,19 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 export function 총재인사말() {
+  const isMobile = MobileCheck()
+
   return (
     <div>
-      <Dropdownmenu />
+      {isMobile ? (
+        <div>
+          <Dropdownmenu_mobile />
+        </div>
+      ) : (
+        <div>
+          <Dropdownmenu />
+        </div>
+      )}
 
       <Header />
 
@@ -43,40 +55,42 @@ export function 총재인사말() {
           </Link>
         </div>
 
-        <div className="navbar-container">
-          <div className="navbarVertricle">
-            <div className="title">
-              <h2>체육회소개</h2>
-            </div>
-            <div className="itemList">
-              <Link to="/info/greet">
-                <div className="navItem">
-                  <div className="navLink">총재 인사말</div>
-                </div>
-              </Link>
-              <Link to="/info/purpose">
-                <div className="navItem">
-                  <div className="navLink">설립목적</div>
-                </div>
-              </Link>
-              <Link to="/info/chart">
-                <div className="navItem">
-                  <div className="navLink">중앙 조직도</div>
-                </div>
-              </Link>
-              <Link to="/info/status">
-                <div className="navItem">
-                  <div className="navLink">임원현황</div>
-                </div>
-              </Link>
-              <Link to="/info/location">
-                <div className="navItem">
-                  <div className="navLink">오시는 길</div>
-                </div>
-              </Link>
+        {!isMobile && (
+          <div className="navbar-container">
+            <div className="navbarVertricle">
+              <div className="title">
+                <h2>체육회소개</h2>
+              </div>
+              <div className="itemList">
+                <Link to="/info/greet">
+                  <div className="navItem">
+                    <div className="navLink">총재 인사말</div>
+                  </div>
+                </Link>
+                <Link to="/info/purpose">
+                  <div className="navItem">
+                    <div className="navLink">설립목적</div>
+                  </div>
+                </Link>
+                <Link to="/info/chart">
+                  <div className="navItem">
+                    <div className="navLink">중앙 조직도</div>
+                  </div>
+                </Link>
+                <Link to="/info/status">
+                  <div className="navItem">
+                    <div className="navLink">임원현황</div>
+                  </div>
+                </Link>
+                <Link to="/info/location">
+                  <div className="navItem">
+                    <div className="navLink">오시는 길</div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div className="content-container">
           <div>

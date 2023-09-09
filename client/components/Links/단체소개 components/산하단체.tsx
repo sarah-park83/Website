@@ -1,6 +1,8 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/단체소개 css/전국체육회현황-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../Dropdown/Mobile-check'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -8,9 +10,19 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 export function 산하단체() {
+  const isMobile = MobileCheck()
+
   return (
     <div>
-      <Dropdownmenu />
+      {isMobile ? (
+        <div>
+          <Dropdownmenu_mobile />
+        </div>
+      ) : (
+        <div>
+          <Dropdownmenu />
+        </div>
+      )}
 
       <Header />
 
@@ -43,35 +55,37 @@ export function 산하단체() {
           </Link>
         </div>
 
-        <div className="navbar-container">
-          <div className="navbarVertricle">
-            <div className="title">
-              <h2>단체소개</h2>
-            </div>
-            <div className="itemList">
-              <Link to="/group/nation">
-                <div className="navItem">
-                  <div className="navLink">전국체육회현황</div>
-                </div>
-              </Link>
-              <Link to="/group/internation">
-                <div className="navItem">
-                  <div className="navLink">국제체육회현황</div>
-                </div>
-              </Link>
-              <Link to="/group/sports">
-                <div className="navItem">
-                  <div className="navLink">종목별 운영현황</div>
-                </div>
-              </Link>
-              <Link to="/group/sanha">
-                <div className="navItem">
-                  <div className="navLink">산하단체</div>
-                </div>
-              </Link>
+        {!isMobile && (
+          <div className="navbar-container">
+            <div className="navbarVertricle">
+              <div className="title">
+                <h2>단체소개</h2>
+              </div>
+              <div className="itemList">
+                <Link to="/group/nation">
+                  <div className="navItem">
+                    <div className="navLink">전국체육회현황</div>
+                  </div>
+                </Link>
+                <Link to="/group/internation">
+                  <div className="navItem">
+                    <div className="navLink">국제체육회현황</div>
+                  </div>
+                </Link>
+                <Link to="/group/sports">
+                  <div className="navItem">
+                    <div className="navLink">종목별 운영현황</div>
+                  </div>
+                </Link>
+                <Link to="/group/sanha">
+                  <div className="navItem">
+                    <div className="navLink">산하단체</div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div className="content-container">
           <div>

@@ -208,6 +208,11 @@ a {
 .subMenu-title-container h3 {
     font-size: 15px;
 }
+
+.content-container {
+    width: 100%;
+    padding-left: 0px;
+}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

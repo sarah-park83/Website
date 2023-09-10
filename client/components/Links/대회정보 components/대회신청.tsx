@@ -110,6 +110,9 @@ export function 대회신청() {
                     <p className="notice-list-table-count">2</p>
                     <h4 className="notice-list-table-title">
                       (사)대한노인생활체육회 전국시니어볼링대회
+                      <h4 className="notice-list-table-mobile">
+                        2023.06.23 | 관리자
+                      </h4>
                     </h4>
                     <h4 className="notice-list-table-createdAt">2023.06.23</h4>
                     <h4 className="notice-list-table-author">관리자</h4>

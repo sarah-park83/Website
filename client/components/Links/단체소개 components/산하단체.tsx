@@ -3,6 +3,7 @@ import '../../../styles/Sub-pages/단체소개 css/전국체육회현황-content
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
+import ImageLoader from '../Image-loader'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -108,7 +109,7 @@ export function 산하단체() {
                         )
                       }}
                     >
-                      <img
+                      <ImageLoader
                         className="group-image"
                         src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fzxc.png?alt=media&amp;token=27da75a4-572e-4358-a1d3-8743f6130f05"
                         alt="대한유청소년생활체육회"
@@ -139,7 +140,7 @@ export function 산하단체() {
                         )
                       }}
                     >
-                      <img
+                      <ImageLoader
                         className="group-image"
                         src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fqwe.png?alt=media&amp;token=c29f7ee3-de6f-4fd5-bf89-aae9c150486f"
                         alt="대한노인생활체육회"
@@ -170,7 +171,7 @@ export function 산하단체() {
                         )
                       }}
                     >
-                      <img
+                      <ImageLoader
                         className="group-image"
                         src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fasd.png?alt=media&amp;token=baf5e375-cd1d-446b-ad0c-b7b66008506d"
                         alt="대한직장생활체육회"
@@ -201,7 +202,7 @@ export function 산하단체() {
                         )
                       }}
                     >
-                      <img
+                      <ImageLoader
                         className="group-image"
                         src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fsch.png?alt=media&amp;token=680c4b70-e496-4e4f-ab31-ff99c86977b9"
                         alt="대한다문화생활체육회"

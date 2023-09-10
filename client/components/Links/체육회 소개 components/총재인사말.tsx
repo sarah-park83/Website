@@ -3,6 +3,7 @@ import '../../../styles/Sub-pages/체육회 소개 css/총재 인사말-content.
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
+import ImageLoader from '../Image-loader'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -100,7 +101,7 @@ export function 총재인사말() {
             </div>
 
             <div className="greet-content-container">
-              <img
+              <ImageLoader
                 src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/setting%2Fgreet?alt=media&amp;token=7f37a933-4732-40bf-a300-ddfb7f336df2"
                 alt="총재"
               />

@@ -3,6 +3,7 @@ import '../../../styles/Sub-pages/체육회 소개 css/중앙조직도-content.c
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
+import ImageLoader from '../Image-loader'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -99,7 +100,7 @@ export function 중앙조직도() {
               <h3>대한생활체육회의 중앙 조직도를 소개합니다.</h3>
             </div>
             <div className="chart-container">
-              <img
+              <ImageLoader
                 src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/setting%2Fchart?alt=media&amp;token=6bae171c-07bd-4593-9954-c9ea8d9df906"
                 alt="조직도"
                 className="chart-image"

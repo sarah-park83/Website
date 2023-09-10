@@ -182,3 +182,30 @@ ul {
         color: #ff7300;
     }
 }
+
+/************* Media Query *************/
+
+@media screen and (min-width: 320px) and (max-width: 560px) {
+.purpose-content-container {
+        margin-top: 10px;
+}
+
+.purpose-content-container h2 {
+    font-size: 16px;
+}
+
+.purpose-item-container {
+    padding: 10px 10px 10px 15px;
+}
+
+.purpose-number {
+    padding: 3px;
+    font-size: 14px;
+}
+
+.purpose-content {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0px 0;
+}
+}

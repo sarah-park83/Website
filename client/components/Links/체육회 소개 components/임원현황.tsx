@@ -187,7 +187,7 @@ export function 임원현황() {
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
                         <img
-                          className="i-photo"
+                          className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkhs.jpg?alt=media&amp;token=be9c0d2d-d421-45b1-a33b-2eefb9de5612"
                           alt="강호상"
                         />

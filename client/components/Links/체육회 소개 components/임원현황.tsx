@@ -3,6 +3,7 @@ import '../../../styles/Sub-pages/체육회 소개 css/임원현황-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
+import ImageLoader from '../Image-loader'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -118,7 +119,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Ftjrdydtjr.png?alt=media&amp;token=1bd63910-8055-4abd-97ad-4dbc7db44495"
                           alt="석용석"
@@ -141,7 +142,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fseots.png?alt=media&amp;token=cf84d8ca-1bad-447e-b7cb-fe8d77124cc3"
                           alt="서태석"
@@ -163,7 +164,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fudj.png?alt=media&amp;token=e71146a3-89c1-432f-b997-ae67927b969e"
                           alt="우동주"
@@ -186,8 +187,8 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
-                          className="i-photo"
+                        <ImageLoader
+                          className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkhs.jpg?alt=media&amp;token=be9c0d2d-d421-45b1-a33b-2eefb9de5612"
                           alt="강호상"
                         />
@@ -207,7 +208,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fcuk.png?alt=media&amp;token=040b83f0-cb6b-4815-b796-f273642e3719"
                           alt="최웅근"
@@ -230,7 +231,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlarbstlr.png?alt=media&amp;token=22edc30e-3364-4663-bcd6-b9bfeaf9e6e4"
                           alt="김균식"
@@ -253,7 +254,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fgong.png?alt=media&amp;token=e0dce238-09d2-4001-a8fc-040918ded7e7"
                           alt="_______"
@@ -275,7 +276,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkws.png?alt=media&amp;token=8a1f9603-7ad7-40e1-9ab9-d41550a6d209"
                           alt="김완수"
@@ -297,7 +298,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fwjdwlsrnr.PNG?alt=media&amp;token=e5db4d12-f12c-4e34-9553-e3363d1e407d"
                           alt="정진국"
@@ -319,7 +320,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fdlawhdfkr.png?alt=media&amp;token=4d47a0cf-d686-485a-a006-b44cb9b8a17d"
                           alt="임종락"
@@ -341,7 +342,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fdbckdgh.png?alt=media&amp;token=425f3850-bf59-46f9-97f1-84d94bd7d830"
                           alt="유창호"
@@ -363,7 +364,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fqkrcnsdhr.png?alt=media&amp;token=0266262c-9f53-4501-b3ea-77677debcd94"
                           alt="박춘옥"
@@ -385,7 +386,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlaaudrlf.png?alt=media&amp;token=0f71d662-e89d-4c09-91df-7ae831641677"
                           alt="김명길"
@@ -407,7 +408,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fqkrwlsdnd.jpg?alt=media&amp;token=e73db200-b5a8-4313-a6ba-f9ff36331003"
                           alt="박진웅"
@@ -431,7 +432,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fjmj.png?alt=media&amp;token=333ec865-ca3a-4fe8-b526-03cf38aa26c6"
                           alt="조미정"
@@ -453,7 +454,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkkl.png?alt=media&amp;token=0b2264a8-1f2f-473f-8b8d-2acbc4e0da39"
                           alt="김경이"
@@ -475,7 +476,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fltl.png?alt=media&amp;token=72dea994-ef53-478a-9caa-3c84df92dd73"
                           alt="이태의"
@@ -497,7 +498,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fcbj.png?alt=media&amp;token=e88f15e6-0dd9-495e-885c-eff1550804d9"
                           alt="최부진"
@@ -520,7 +521,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Ftlarnlwk.png?alt=media&amp;token=7a592760-83df-4a52-9400-0c047d16ca58"
                           alt="심귀자"
@@ -542,7 +543,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlaanstkd.png?alt=media&amp;token=32e5a11a-6efd-4027-b72b-f65017c9b96a"
                           alt="김문상"
@@ -565,7 +566,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fsamu.png?alt=media&amp;token=e92eaf70-fa19-45f4-b42b-44df66aae9e3"
                           alt="박영애"
@@ -588,7 +589,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlacnstlr.png?alt=media&amp;token=6707a2ff-53d0-45fb-b4ad-e48f7338d9eb"
                           alt="김춘식"
@@ -610,7 +611,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlaghwnd.png?alt=media&amp;token=41360c77-b7b3-4b13-b401-6da5bb14caff"
                           alt="김호중"
@@ -631,7 +632,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fqkdaudghks.png?alt=media&amp;token=0de5606c-5fe9-44bc-ac91-751c685afc77"
                           alt="방명환"
@@ -653,7 +654,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fcns.png?alt=media&amp;token=0b2be7cc-4203-45c3-9af3-07d694b9fee0"
                           alt="최은실"
@@ -674,7 +675,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkbs.png?alt=media&amp;token=54b12c9f-62e0-4537-99ba-1e9bc84f63a3"
                           alt="곽봉숙"
@@ -695,7 +696,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fhtk.png?alt=media&amp;token=9e20749b-d800-44e4-8a27-3bb5f0d6a8eb"
                           alt="허태길"
@@ -716,7 +717,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkjm.png?alt=media&amp;token=cb42d7f2-f270-4b62-8112-f4dd7c95121a"
                           alt="구자만"
@@ -738,7 +739,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fcjh.png?alt=media&amp;token=2e13346e-1bfc-4f07-91e8-ac34632e4094"
                           alt="최정현"
@@ -761,7 +762,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Finter.png?alt=media&amp;token=f26bb7b4-255a-4a3a-9739-631acadd971e"
                           alt="노동환"
@@ -785,7 +786,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Finterh.png?alt=media&amp;token=4128180c-b76e-4beb-a6ce-c10cdca6c9d9"
                           alt="이명교"
@@ -808,7 +809,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fpsk.png?alt=media&amp;token=b184beb9-8243-4bf7-9a9c-31bd795f9996"
                           alt="박선기"
@@ -831,7 +832,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fjsj.png?alt=media&amp;token=e36dbce6-199e-4e2b-aa0f-9c84eaba2643"
                           alt="정수진"
@@ -854,7 +855,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fptj.png?alt=media&amp;token=cb341829-8688-407e-a5b9-524946c6d228"
                           alt="박태준"
@@ -876,7 +877,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fysm.png?alt=media&amp;token=918018ce-c14b-44fc-a3ac-2f192ce956ba"
                           alt="유수민"
@@ -897,7 +898,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fhsb.png?alt=media&amp;token=f0703f47-e7f4-4ab6-8d91-f515237ce8d5"
                           alt="함샛별"
@@ -918,7 +919,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fpny.png?alt=media&amp;token=91a44305-24d9-4089-8985-89ae71b386d3"
                           alt="박은엽"
@@ -940,7 +941,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fljh.png?alt=media&amp;token=87838078-8d0b-417e-86cb-d914d7545ca9"
                           alt="이지훈"
@@ -962,7 +963,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkjh.png?alt=media&amp;token=bbfec297-0d41-4e5b-875a-73042ce490ab"
                           alt="김재희"
@@ -985,7 +986,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fhdh.png?alt=media&amp;token=0b8eb577-60da-42bc-a47a-5375c6c5a2cb"
                           alt="황도연"
@@ -1007,7 +1008,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkko.png?alt=media&amp;token=4cf31abf-da91-4a33-9cda-1aa828b0178e"
                           alt="김기옥"
@@ -1030,7 +1031,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Frlatjdwls.png?alt=media&amp;token=76a2e58c-b4fd-4391-adca-71be86659709"
                           alt="김성진"
@@ -1054,7 +1055,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Flks.png?alt=media&amp;token=2e66f9ae-4856-4590-83d9-668be7328171"
                           alt="이기수"
@@ -1077,7 +1078,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkih.png?alt=media&amp;token=9aee3bfa-fcda-404b-8b0f-75ca236b23f4"
                           alt="김일회"
@@ -1099,7 +1100,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fidu.png?alt=media&amp;token=ae82a591-f82b-4123-be57-d0f112c852be"
                           alt="이덕유"
@@ -1121,7 +1122,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fscs.png?alt=media&amp;token=ba667f5d-e651-4084-be77-50b8a55fa543"
                           alt="서찬수"
@@ -1144,7 +1145,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fljd.png?alt=media&amp;token=788eafd5-a3c6-4b8c-869d-0756b6c60184"
                           alt="이재도"
@@ -1167,7 +1168,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fjsy.png?alt=media&amp;token=8a1fc8cb-59a1-4235-8318-66fdbeaaaebf"
                           alt="조소영"
@@ -1190,7 +1191,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fcjh.png?alt=media&amp;token=2e13346e-1bfc-4f07-91e8-ac34632e4094"
                           alt="최주호"
@@ -1213,7 +1214,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fljk.png?alt=media&amp;token=b949c766-9023-4ca7-91ea-fbc7e768880c"
                           alt="이정길"
@@ -1236,7 +1237,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Ftlsrlfb.png?alt=media&amp;token=10442d82-2137-4e36-ac7f-9d5f48ab0ba8"
                           alt="신기류"
@@ -1258,7 +1259,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fuh.png?alt=media&amp;token=353cce82-a562-4fae-b7e9-a6dbc4c4b6cb"
                           alt="유화"
@@ -1280,7 +1281,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Ftsh.png?alt=media&amp;token=feb32fe5-5563-4df6-8c8e-83ad81620276"
                           alt="탁석훈"
@@ -1302,7 +1303,7 @@ export function 임원현황() {
                   <div className="status-content">
                     <div className="status-id-photo-container">
                       <div className="status-id-photo">
-                        <img
+                        <ImageLoader
                           className="id-photo"
                           src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/status%2Fkym.png?alt=media&amp;token=63ef8d3a-8266-4244-924d-635f36f6630d"
                           alt="김윤민"

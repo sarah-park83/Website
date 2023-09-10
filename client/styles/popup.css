@@ -44,17 +44,6 @@
   overflow: clip;
 }
 
-/* img {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-} */
-
 a {
   color: inherit;
 }

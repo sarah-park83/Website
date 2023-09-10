@@ -20,6 +20,7 @@
   display: inline-block;
   vertical-align: top;
   margin: 0 20px;
+  line-height: 0;
 }
 
 .footer-left p,
@@ -49,6 +50,7 @@ footer h3 {
 .footer-center {
   width: 35%;
   color: #8f9296;
+  padding-top: 65px;
 }
 
 .footer-center .icon {
@@ -60,13 +62,18 @@ footer h3 {
   color: #8f9296;
   width: 28px;
   height: 28px;
-  /* text-align: center; */
-  /* line-height: 42px; */
   margin: -9px 15px;
+}
+
+.footer-center p {
+  padding:20px;
+  line-height: 0.5;
+  font-size: 15px;
 }
 
 .footer-right {
   width: 20%;
+  padding-top: 65px;
 }
 
 .footer-company-about {
@@ -98,15 +105,16 @@ footer h3 {
   .footer-info {
     text-align: center;
     padding-bottom: 0px;
+    line-height: 1;
   }
   .footer-center {
     display: block;
     font-weight: 400;
     font-size: 13px;
-    line-height: 1.5;
   }
   .footer-center p {
     padding-top:10px;
+    line-height: 1;
   }
   .footer-center,
   .footer-left,
@@ -122,8 +130,68 @@ footer h3 {
     text-align: center;
   }
 
-  .footer-company-about {
-    padding-top:30px;
+}
+
+@media (max-width: 880px){
+  .footer-distributed {
+    padding: 20px;
+    text-align: center;
+    line-height: 0;
   }
+  .footer-logo {
+    font-size: 28px !important;
+  }
+  .footer-info {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .footer-center {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-top: 15px;
+  }
+  .footer-center p {
+    padding-top:10px;
+  }
+  .footer-company-about{
+    line-height: 1.2;
+  }
+  .footer-distributed .footer-center, .footer-distributed .footer-left, .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 1280px){
+  .footer-distributed {
+    padding: 20px;
+    text-align: left;
+  }
+  .footer-logo {
+    font-size: 28px !important;
+  }
+  .footer-center {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .footer-center p {
+    padding-top:10px;
+    font-size:13px;
+  }
+  .footer-center,
+  .footer-left,
+  .footer-right {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    line-height: 0;
+  }
+
 
 }

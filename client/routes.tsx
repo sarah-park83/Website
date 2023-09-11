@@ -6,40 +6,64 @@ import {
 
 import App from './components/App'
 import { Homepage } from './components/Homepage'
-import { 총재인사말 } from './components/Links/체육회 소개 components/총재인사말'
-import { 설립목적 } from './components/Links/체육회 소개 components/설립목적'
-import { 중앙조직도 } from './components/Links/체육회 소개 components/중앙 조직도'
-import { 임원현황 } from './components/Links/체육회 소개 components/임원현황'
-import { 오시는길 } from './components/Links/체육회 소개 components/오시는 길'
-import { 전국체육회현황 } from './components/Links/단체소개 components/전국체육회현황'
-import { 국제체육회현황 } from './components/Links/단체소개 components/국제체육회현황'
-import { 종목별운영현황 } from './components/Links/단체소개 components/종목별 운영현황'
-import { 산하단체 } from './components/Links/단체소개 components/산하단체'
-import { 대회신청 } from './components/Links/대회정보 components/대회신청'
-import { BNSHDS4LNFummHbOdUSR } from './components/Links/대회정보 components/BNSHDS4LNFummHbOdUSR'
-import { 대회행사일정p1 } from './components/Links/대회정보 components/대회행사일정-p1'
-import { 대회행사일정p2 } from './components/Links/대회정보 components/대회행사일정-p2'
+
+import * as 체육회소개Components from './components/Links/체육회소개 components'
+import * as 단체소개components from './components/Links/단체소개 components'
+import * as 대회정보components from './components/Links/대회정보 components'
+
+// import { 총재인사말 } from './components/Links/체육회 소개 components/총재인사말'
+// import { 설립목적 } from './components/Links/체육회 소개 components/설립목적'
+// import { 중앙조직도 } from './components/Links/체육회 소개 components/중앙 조직도'
+// import { 임원현황 } from './components/Links/체육회 소개 components/임원현황'
+// import { 오시는길 } from './components/Links/체육회 소개 components/오시는 길'
+// import { 전국체육회현황 } from './components/Links/단체소개 components/전국체육회현황'
+// import { 국제체육회현황 } from './components/Links/단체소개 components/국제체육회현황'
+// import { 종목별운영현황 } from './components/Links/단체소개 components/종목별 운영현황'
+// import { 산하단체 } from './components/Links/단체소개 components/산하단체'
+
+// import { 대회신청 } from './components/Links/대회정보 components/대회신청'
+// import { BNSHDS4LNFummHbOdUSR } from './components/Links/대회정보 components/BNSHDS4LNFummHbOdUSR'
+// import { 대회행사일정p1 } from './components/Links/대회정보 components/대회행사일정-p1'
+// import { 대회행사일정p2 } from './components/Links/대회정보 components/대회행사일정-p2'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Homepage />} />
-      <Route path="/info/greet" element={<총재인사말 />} />
-      <Route path="/info/purpose" element={<설립목적 />} />
-      <Route path="/info/chart" element={<중앙조직도 />} />
-      <Route path="/info/status" element={<임원현황 />} />
-      <Route path="/info/location" element={<오시는길 />} />
-      <Route path="/group/nation" element={<전국체육회현황 />} />
-      <Route path="/group/internation" element={<국제체육회현황 />} />
-      <Route path="/group/sports" element={<종목별운영현황 />} />
-      <Route path="/group/sanha" element={<산하단체 />} />
-      <Route path="/notice/apply/1" element={<대회신청 />} />
+      <Route path="/info/greet" element={<체육회소개Components.총재인사말 />} />
+      <Route path="/info/purpose" element={<체육회소개Components.설립목적 />} />
+      <Route path="/info/chart" element={<체육회소개Components.중앙조직도 />} />
+      <Route path="/info/status" element={<체육회소개Components.임원현황 />} />
+      <Route
+        path="/info/location"
+        element={<체육회소개Components.오시는길 />}
+      />
+      <Route
+        path="/group/nation"
+        element={<단체소개components.전국체육회현황 />}
+      />
+      <Route
+        path="/group/internation"
+        element={<단체소개components.국제체육회현황 />}
+      />
+      <Route
+        path="/group/sports"
+        element={<단체소개components.종목별운영현황 />}
+      />
+      <Route path="/group/sanha" element={<단체소개components.산하단체 />} />
+      <Route path="/notice/apply/1" element={<대회정보components.대회신청 />} />
       <Route
         path="/article/apply/1/BNSHDS4LNFummHbOdUSR"
-        element={<BNSHDS4LNFummHbOdUSR />}
+        element={<대회정보components.BNSHDS4LNFummHbOdUSR />}
       />
-      <Route path="/notice/schedule/1" element={<대회행사일정p1 />} />
-      <Route path="/notice/schedule/2" element={<대회행사일정p2 />} />
+      <Route
+        path="/notice/schedule/1"
+        element={<대회정보components.대회행사일정p1 />}
+      />
+      <Route
+        path="/notice/schedule/2"
+        element={<대회정보components.대회행사일정p2 />}
+      />
     </Route>
   )
 )

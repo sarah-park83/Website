@@ -17,7 +17,8 @@ import { 종목별운영현황 } from './components/Links/단체소개 component
 import { 산하단체 } from './components/Links/단체소개 components/산하단체'
 import { 대회신청 } from './components/Links/대회정보 components/대회신청'
 import { BNSHDS4LNFummHbOdUSR } from './components/Links/대회정보 components/BNSHDS4LNFummHbOdUSR'
-import { 대회행사일정 } from './components/Links/대회정보 components/대회행사일정'
+import { 대회행사일정p1 } from './components/Links/대회정보 components/대회행사일정-p1'
+import { 대회행사일정p2 } from './components/Links/대회정보 components/대회행사일정-p2'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,7 +38,8 @@ export const router = createBrowserRouter(
         path="/article/apply/1/BNSHDS4LNFummHbOdUSR"
         element={<BNSHDS4LNFummHbOdUSR />}
       />
-      <Route path="/notice/schedule/1" element={<대회행사일정 />} />
+      <Route path="/notice/schedule/1" element={<대회행사일정p1 />} />
+      <Route path="/notice/schedule/2" element={<대회행사일정p2 />} />
     </Route>
   )
 )

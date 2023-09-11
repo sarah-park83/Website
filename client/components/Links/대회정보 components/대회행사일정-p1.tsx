@@ -10,7 +10,7 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 
-export function 대회행사일정() {
+export function 대회행사일정p1() {
   const isMobile = MobileCheck()
   const [inputValue, setInputValue] = useState('1')
   const navigate = useNavigate()

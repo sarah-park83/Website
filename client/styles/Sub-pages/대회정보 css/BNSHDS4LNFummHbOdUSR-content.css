@@ -78,7 +78,6 @@
 .ql-editor {
     line-height: 24px;
     font-size: 18px;
-    width: 423px
 }
 
 .ql-editor p {
@@ -91,8 +90,10 @@
     width: auto;
 }
 
-#ql-video {
-    margin-bottom: 30px;
+.ql-video {
+    width: 400px;
+    height: 250px;
+    margin: 10px 10px 30px 10px;
 }
 
 .ql-size-large {
@@ -162,9 +163,10 @@
     height: 100%;
 }
 
-#ql-video {
+.ql-video {
     width: 100%;
     height: 150px;
+    margin: 7px 7px 20px 7px;
 }
 
 .ql-size-large {

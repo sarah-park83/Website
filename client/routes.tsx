@@ -11,21 +11,6 @@ import * as 체육회소개Components from './components/Links/체육회소개 c
 import * as 단체소개components from './components/Links/단체소개 components'
 import * as 대회정보components from './components/Links/대회정보 components'
 
-// import { 총재인사말 } from './components/Links/체육회 소개 components/총재인사말'
-// import { 설립목적 } from './components/Links/체육회 소개 components/설립목적'
-// import { 중앙조직도 } from './components/Links/체육회 소개 components/중앙 조직도'
-// import { 임원현황 } from './components/Links/체육회 소개 components/임원현황'
-// import { 오시는길 } from './components/Links/체육회 소개 components/오시는 길'
-// import { 전국체육회현황 } from './components/Links/단체소개 components/전국체육회현황'
-// import { 국제체육회현황 } from './components/Links/단체소개 components/국제체육회현황'
-// import { 종목별운영현황 } from './components/Links/단체소개 components/종목별 운영현황'
-// import { 산하단체 } from './components/Links/단체소개 components/산하단체'
-
-// import { 대회신청 } from './components/Links/대회정보 components/대회신청'
-// import { BNSHDS4LNFummHbOdUSR } from './components/Links/대회정보 components/BNSHDS4LNFummHbOdUSR'
-// import { 대회행사일정p1 } from './components/Links/대회정보 components/대회행사일정-p1'
-// import { 대회행사일정p2 } from './components/Links/대회정보 components/대회행사일정-p2'
-
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>

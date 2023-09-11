@@ -67,20 +67,18 @@ a:-webkit-any-link {
 
 @media (max-width: 1030px){
   .headerPopup_container {
-    right: 20px;
-    width: 300px;
-    height: 400px;
-    right: 40px;
-    top: 100px;
+    right: 30px;
+    width: 350px;
+    height: 450px;
+    top: 430px;
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1330px){
   .headerPopup_container {
-    right: 20px;
-    width: 300px;
-    height: 400px;
-    right: 40px;
-    top: 400px;
+    right: 30px;
+    width: 500px;
+    height: 600px;
+    top: 450px;
   }
 }

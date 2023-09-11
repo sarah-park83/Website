@@ -28,3 +28,9 @@ iframe {
 .video-container.hovered .video-video {
   transform: scaleY(1) translateZ(0);
 }
+
+@media (max-width: 386px) {
+  .video-container {
+    height: 50vh;
+  }
+}

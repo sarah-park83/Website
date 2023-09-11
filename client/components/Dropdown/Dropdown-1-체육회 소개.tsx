@@ -71,9 +71,9 @@ export default function Dropdown1() {
               <div className="right-line" id="line-2">
                 <p>대회정보</p>
                 <div className="links">
-                  <Link to="#1">대회신청</Link>
-                  <Link to="#2">대회/행사일정</Link>
-                  <Link to="#3">경기결과</Link>
+                  <Link to="/notice/apply/1">대회신청</Link>
+                  <Link to="/notice/schedule/1">대회/행사일정</Link>
+                  <Link to="/notice/result/1">경기결과</Link>
                 </div>
               </div>
 

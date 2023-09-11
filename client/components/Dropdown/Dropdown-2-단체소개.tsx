@@ -61,9 +61,9 @@ export default function Dropdown2() {
               <div className="right-line" id="line-2">
                 <p>대회정보</p>
                 <div className="links">
-                  <a href="#1">대회신청</a>
-                  <a href="#2">대회/행사일정</a>
-                  <a href="#3">경기결과</a>
+                  <Link to="/notice/apply/1">대회신청</Link>
+                  <Link to="/notice/schedule/1">대회/행사일정</Link>
+                  <Link to="/notice/result/1">경기결과</Link>
                 </div>
               </div>
 

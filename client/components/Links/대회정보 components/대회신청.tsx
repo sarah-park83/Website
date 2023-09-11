@@ -7,16 +7,26 @@ import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 
 export function 대회신청() {
   const isMobile = MobileCheck()
+  const [inputValue, setInputValue] = useState('1')
+  const navigate = useNavigate()
 
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
     const newValue = event.target.value
+    setInputValue(newValue)
+
     if (newValue !== '1') {
-      alert(`1가 마지막 페이지입니다.`)
+      alert('2가 마지막 페이지입니다.')
+      setInputValue('1')
     }
+  }
+
+  function handleGoButtonClick() {
+    navigate(`/notice/apply/${inputValue}`)
   }
 
   return (
@@ -74,12 +84,12 @@ export function 대회신청() {
                     <div className="navLink">대회신청</div>
                   </div>
                 </Link>
-                <Link to="#">
+                <Link to="/notice/schedule/1">
                   <div className="navItem">
                     <div className="navLink">대회/행사일정</div>
                   </div>
                 </Link>
-                <Link to="#">
+                <Link to="/notice/result/1">
                   <div className="navItem">
                     <div className="navLink">경기결과</div>
                   </div>
@@ -132,9 +142,19 @@ export function 대회신청() {
                   onInput={handleInputChange}
                 />
                 <p>/1페이지</p>
-                <Link to="/notice/apply/1">
-                  <div className="pagination-button">이동</div>
-                </Link>
+                <div
+                  className="pagination-button"
+                  onClick={handleGoButtonClick}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      handleGoButtonClick()
+                    }
+                  }}
+                  role="button"
+                  tabIndex={0}
+                >
+                  이동
+                </div>
               </div>
             </div>
           </div>

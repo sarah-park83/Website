@@ -41,8 +41,8 @@ export default function Dropdown3() {
                 <p id="first-orange">대회정보</p>
                 <div className="links">
                   <Link to="/notice/apply/1">대회신청</Link>
-                  <a href="#2">대회/행사일정</a>
-                  <a href="#3">경기결과</a>
+                  <Link to="/notice/schedule/1">대회/행사일정</Link>
+                  <Link to="/notice/result/1">경기결과</Link>
                 </div>
               </div>
 

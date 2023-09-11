@@ -39,11 +39,15 @@ export const router = createBrowserRouter(
       <Route path="/notice/apply/1" element={<대회정보components.대회신청 />} />
       <Route
         path="/article/apply/1/BNSHDS4LNFummHbOdUSR"
-        element={<대회정보components.BNSHDS4LNFummHbOdUSR />}
+        element={<대회정보components.대회신청Link2 />}
       />
       <Route
         path="/notice/schedule/1"
         element={<대회정보components.대회행사일정p1 />}
+      />
+      <Route
+        path="/article/schedule/1/7HKTKI48bMbERkxfMUHT"
+        element={<대회정보components.대회행사일정Link18 />}
       />
       <Route
         path="/notice/schedule/2"

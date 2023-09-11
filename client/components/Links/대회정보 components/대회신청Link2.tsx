@@ -1,5 +1,5 @@
 import '../../../styles/Sub-pages/subpage.css'
-import '../../../styles/Sub-pages/대회정보 css/BNSHDS4LNFummHbOdUSR-content.css'
+import '../../../styles/Sub-pages/대회정보 css/articles-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function BNSHDS4LNFummHbOdUSR() {
+export function 대회신청Link2() {
   const isMobile = MobileCheck()
 
   return (
@@ -68,12 +68,12 @@ export function BNSHDS4LNFummHbOdUSR() {
                     <div className="navLink">대회신청</div>
                   </div>
                 </Link>
-                <Link to="#">
+                <Link to="/notice/schedule/1">
                   <div className="navItem">
                     <div className="navLink">대회/행사일정</div>
                   </div>
                 </Link>
-                <Link to="#">
+                <Link to="/notice/result/1">
                   <div className="navItem">
                     <div className="navLink">경기결과</div>
                   </div>
@@ -116,21 +116,21 @@ export function BNSHDS4LNFummHbOdUSR() {
                   <ImageLoader
                     src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230623_200954806.jpg?alt=media&amp;token=6b4db290-9f52-4b4b-8a84-5262dece0dc0 alt="
                     alt="KakaoTalk_20230623_200954806.jpg"
-                    className="ql-editor-img"
+                    className="ql-editor-img2"
                   />
                 </p>
                 <p>
                   <ImageLoader
                     src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230623_200954806_01.png?alt=media&amp;token=04e94851-72c8-4ffb-b504-72aae56f23e2 alt="
                     alt="KakaoTalk_20230623_200954806_01.png"
-                    className="ql-editor-img"
+                    className="ql-editor-img2"
                   />
                 </p>
                 <p>
                   <ImageLoader
                     src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230623_200954806_02.png?alt=media&amp;token=6161f9c5-e1b1-4a91-9fe6-c7898ea2c15d alt="
                     alt="KakaoTalk_20230623_200954806_02.png"
-                    className="ql-editor-img"
+                    className="ql-editor-img2"
                   />
                 </p>
                 <iframe

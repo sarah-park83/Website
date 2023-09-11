@@ -121,17 +121,14 @@
     font-size: 18px;
 }
 
-.ql-editor p {
-    padding-bottom: 30px;
-}
-
 .ql-editor-img2 {
     margin-left: 0;
     height: 750px;
     width: auto;
 }
 
-.ql-editor-img18 {
+.ql-editor-img18,
+.ql-editor-img17 {
     margin-left: 0;
     height: 300px;
     width: auto;
@@ -213,12 +210,13 @@
 
 .ql-editor {
     line-height: 16px;
-    font-size: 14px;
+    font-size: 13px;
     width: 100%;
 }
 
 .ql-editor-img2,
-.ql-editor-img18 {
+.ql-editor-img18,
+.ql-editor-img17 {
     width: 100%;
     height: 100%;
 }

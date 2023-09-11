@@ -128,11 +128,17 @@ export function 대회행사일정Link18() {
               >
                 <p>제2회 헬스케어 전문가 양성과정 및 자격검증 시험</p>
                 <p>
+                  <br />
+                </p>
+                <p>
                   <ImageLoader
                     src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2F2health.png?alt=media&amp;token=f0e9c005-82b8-4c1f-9144-0cc6f6855705 alt="
                     alt="2health.png"
                     className="ql-editor-img18"
                   />
+                </p>
+                <p>
+                  <br />
                 </p>
               </div>
             </div>

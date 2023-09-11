@@ -5,7 +5,7 @@
   transition: 3s;
 }
 
-iframe {
+.video-frame iframe {
   width: 100% !important;
   height: 400px !important;
   z-index: 1 !important;

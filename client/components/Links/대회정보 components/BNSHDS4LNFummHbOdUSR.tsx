@@ -134,7 +134,7 @@ export function BNSHDS4LNFummHbOdUSR() {
                   />
                 </p>
                 <iframe
-                  id="ql-video"
+                  className="ql-video"
                   frameBorder={0}
                   allowFullScreen={true}
                   src="https://www.youtube.com/embed/AD7iFcgAWgw?showinfo=0"

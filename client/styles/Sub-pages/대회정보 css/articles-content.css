@@ -132,7 +132,8 @@
 .ql-editor-img16,
 .ql-editor-img15,
 .ql-editor-img14,
-.ql-editor-img13 {
+.ql-editor-img13,
+.ql-editor-img12 {
     margin-left: 0;
     height: 300px;
     width: auto;
@@ -224,7 +225,8 @@
 .ql-editor-img16,
 .ql-editor-img15,
 .ql-editor-img14,
-.ql-editor-img13 {
+.ql-editor-img13,
+.ql-editor-img12 {
     width: 100%;
     height: 100%;
 }

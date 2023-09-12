@@ -140,7 +140,8 @@
 .ql-editor-img8,
 .ql-editor-img7,
 .ql-editor-img6,
-.ql-editor-img5 {
+.ql-editor-img5,
+.ql-editor-img4 {
     margin-left: 0;
     height: 300px;
     width: auto;
@@ -240,7 +241,8 @@
 .ql-editor-img8,
 .ql-editor-img7,
 .ql-editor-img6,
-.ql-editor-img5 {
+.ql-editor-img5,
+.ql-editor-img4 {
     width: 100%;
     height: 100%;
 }

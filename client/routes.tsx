@@ -109,6 +109,10 @@ export const router = createBrowserRouter(
         path="/article/schedule/2/14aECHOUOJAmUe1O5W37"
         element={<대회정보components.대회행사일정Link4 />}
       />
+      <Route
+        path="/article/schedule/2/zSrurc48fshLr24J9CHm"
+        element={<대회정보components.대회행사일정Link3 />}
+      />
     </Route>
   )
 )

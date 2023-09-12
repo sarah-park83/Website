@@ -53,10 +53,10 @@ a:-webkit-any-link {
   cursor: pointer;
 }
 
-@media (max-width: 1330px){
+@media (max-width: 1280px){
   .headerPopup_container {
     right: 30px;
-    width: 500px;
+    width: 550px;
     height: 600px;
     top: 450px;
   }
@@ -64,9 +64,9 @@ a:-webkit-any-link {
 
 @media (max-width: 1030px){
   .headerPopup_container {
-    right: 30px;
-    width: 350px;
-    height: 500px;
+    right: 25px;
+    width: 400px;
+    height: 550px;
     top: 500px;
   }
 }

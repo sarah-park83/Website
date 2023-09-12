@@ -101,7 +101,7 @@ export function 대회행사일정Link13() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2023/11/8</h4>
+                <h4>2022/11/8</h4>
               </div>
             </div>
 

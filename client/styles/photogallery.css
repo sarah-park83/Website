@@ -97,3 +97,47 @@
 .photo_image_createdAt {
   padding-top: 7px;
 }
+
+@media (max-width: 600px) {
+  .photo_title {
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .photo_subtitle {
+    font-size: 17px;
+    color: #ff7300;
+    font-weight: 700;
+    margin-bottom: -5px;
+  }
+
+  .photo_button {
+    font-size: 12px;
+  }
+  
+  .photo_list {
+    display:unset;
+  }
+}
+
+@media (max-width: 280px) {
+  .photo_title {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .photo_subtitle {
+    font-size: 13px;
+    color: #ff7300;
+    font-weight: 700;
+    margin-bottom: -5px;
+  }
+
+  .photo_button {
+    font-size: 8px;
+  }
+  
+  .photo_list {
+    display: unset;
+  }
+}

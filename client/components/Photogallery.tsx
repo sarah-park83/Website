@@ -14,7 +14,7 @@ export default function Photogallery() {
           <li className="photo_image_table">
             <div className="photo_image_container">
               <img
-                className="photo_video__x0z8l"
+                className="photo_video"
                 src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230901_224609162.jpg?alt=media&amp;token=231d60f1-d2e3-422c-b204-d5a883816387"
               />
             </div>

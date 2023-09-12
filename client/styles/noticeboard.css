@@ -90,64 +90,19 @@
 
 /* Media queries for responsiveness */
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 1330px) {
   .noticeboard_container {
-    min-height: 280px;
-    width: 85%;
-    padding-left: 0px;
+    min-height: 500px;
+    width: 58%;
   }
   .noticeboard_tab {
-    height: 50px;
+    height: 70px;
   }
   .noticeboard_tab li {
-    font-size: 10px;
-    padding: 0 5px;
-    margin-top: 20px;
-    height: 17px;
-  }
-  .article_content_container {
-    margin: 10px 10px;
-  }
-  .article_content_container li {
-    padding: 7px 0px;
-    font-size: 11px;
-  }
-  .article_createdAt {
-    font-size: 11px;
-    padding-right: 8px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .noticeboard_container {
-    min-height: 400px;
-    width: 100%;
-  }
-  .noticeboard_noticeboard_container {
-    margin: 0 40px;
-    width: 100%;
-    height: auto;
-    min-height: 350px;
-  }
-  .noticeboard_tab {
-    height: 65px;
-  }
-  .noticeboard_tab li {
-    font-size: 18px;
-    padding: 0 13px;
-    margin-top: 25px;
-    height: 20px;
-  }
-  .article_content_container {
-    margin: 13px 13px;
-  }
-  .article_content_container li {
-    padding: 7px 0px;
-    font-size: 17px;
-  }
-  .article_createdAt {
-    font-size: 17px;
-    padding-right: 12px;
+    font-size: 19px;
+    padding: 0 20px;
+    margin-top: 23px;
+    height: 23px;
   }
 }
 
@@ -184,18 +139,68 @@
   }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 600px) {
   .noticeboard_container {
-    min-height: 500px;
-    width: 58%;
+    min-height: 400px;
+    width: 100%;
+  }
+  .noticeboard_noticeboard_container {
+    margin: 0 40px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
   }
   .noticeboard_tab {
-    height: 70px;
+    height: 65px;
   }
   .noticeboard_tab li {
-    font-size: 19px;
-    padding: 0 20px;
-    margin-top: 23px;
-    height: 23px;
+    font-size: 17px;
+    padding: 0 13px;
+    margin-top: 25px;
+    height: 20px;
+  }
+  .article_content_container {
+    margin: 13px 13px;
+  }
+  .article_content_container li {
+    padding: 7px 0px;
+    font-size: 17px;
+  }
+  .article_createdAt {
+    font-size: 17px;
+    padding-right: 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .noticeboard_container {
+    min-height: 350px;
+    width: 95%;
+  }
+  .noticeboard_noticeboard_container {
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    margin-left: 10px;
+  }
+  .noticeboard_tab {
+    height: 45px;
+  }
+  .noticeboard_tab li {
+    font-size: 11px;
+    padding: 0 9px;
+    margin-top: 20px;
+    height: 10px;
+  }
+  .article_content_container {
+    margin: 13px 13px;
+  }
+  .article_content_container li {
+    padding: 7px 0px;
+    font-size: 15px;
+  }
+  .article_createdAt {
+    font-size: 17px;
+    padding-right: 10px;
   }
 }

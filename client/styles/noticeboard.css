@@ -1,7 +1,7 @@
 .noticeboard_container {
   width: 100%;
   height: auto;
-  min-height: 280px;
+  min-height: 400px;
   background-color: #f7fbff;
   display: flex;
   align-items: center;
@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 870px) {
   .noticeboard_container {
-    min-height: 430px;
+    min-height: 500px;
     width: 100%;
   }
   .noticeboard_noticeboard_container {

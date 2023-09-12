@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 200px;
+  height: 300px;
 }
 
 .banner_text {
@@ -49,6 +49,7 @@
   margin-top:25px;
   margin-bottom:25px;
   font-weight: bolder;
+  line-height: 30px;
 }
 
 .banner_text.show h4 {

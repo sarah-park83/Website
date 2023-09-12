@@ -53,9 +53,21 @@ a:-webkit-any-link {
   cursor: pointer;
 }
 
-@media (max-width: 659px){
+@media (max-width: 1280px){
   .headerPopup_container {
-    display: none;
+    right: 30px;
+    width: 550px;
+    height: 600px;
+    top: 450px;
+  }
+}
+
+@media (max-width: 1030px){
+  .headerPopup_container {
+    right: 25px;
+    width: 400px;
+    height: 550px;
+    top: 500px;
   }
 }
 
@@ -65,20 +77,8 @@ a:-webkit-any-link {
   }
 }
 
-@media (max-width: 1030px){
+@media (max-width: 659px){
   .headerPopup_container {
-    right: 30px;
-    width: 350px;
-    height: 450px;
-    top: 430px;
-  }
-}
-
-@media (max-width: 1330px){
-  .headerPopup_container {
-    right: 30px;
-    width: 500px;
-    height: 600px;
-    top: 450px;
+    display: none;
   }
 }

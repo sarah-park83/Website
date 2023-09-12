@@ -8,7 +8,8 @@ export default function Banner() {
   const textArray = [
     '국민의 건강과',
     '행복의 장을 여는',
-    '뉴질랜드대한생활체육회',
+    '뉴질랜드',
+    '대한생활체육회',
     'New Zealand Korea Sports For All Athletic Association',
   ]
 
@@ -35,8 +36,40 @@ export default function Banner() {
 
             if (index === 2) {
               Element = 'h1'
+              return (
+                <div
+                  key={index}
+                  className={`banner_text ${
+                    (index <= currentTextIndex || animationsDone) && 'show'
+                  }`}
+                >
+                  <h1>{text}</h1>
+                </div>
+              )
             } else if (index === 3) {
+              Element = 'h1'
+              return (
+                <div
+                  key={index}
+                  className={`banner_text ${
+                    (index <= currentTextIndex || animationsDone) && 'show'
+                  }`}
+                >
+                  <h1>{text}</h1>
+                </div>
+              )
+            } else if (index === 4) {
               Element = 'h4'
+              return (
+                <div
+                  key={index}
+                  className={`banner_text ${
+                    (index <= currentTextIndex || animationsDone) && 'show'
+                  }`}
+                >
+                  <h4>{text}</h4>
+                </div>
+              )
             }
 
             return (
@@ -46,13 +79,7 @@ export default function Banner() {
                   (index <= currentTextIndex || animationsDone) && 'show'
                 }`}
               >
-                {Element === 'h1' ? (
-                  <h1>{text}</h1>
-                ) : Element === 'h4' ? (
-                  <h4>{text}</h4>
-                ) : (
-                  <h3>{text}</h3>
-                )}
+                <h3>{text}</h3>
               </div>
             )
           })}

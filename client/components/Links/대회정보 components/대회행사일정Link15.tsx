@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function 대회행사일정Link16() {
+export function 대회행사일정Link15() {
   const isMobile = MobileCheck()
 
   return (
@@ -94,8 +94,7 @@ export function 대회행사일정Link16() {
               <div className="article-title">
                 <p>제목</p>
                 <h4>
-                  대한생활체육한국레저골프협회 제2회 KLGA 한국레저골프 지도자
-                  2급 자격시험 및 교육일정
+                  대한생활체육골프협회 2023 강진군 한부모가정돕기 자선골프대회
                 </h4>
               </div>
               <div className="article-author">
@@ -104,7 +103,7 @@ export function 대회행사일정Link16() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2023/2/10</h4>
+                <h4>2023/1/18</h4>
               </div>
             </div>
 
@@ -113,11 +112,11 @@ export function 대회행사일정Link16() {
               <div className="article-file-list">
                 <li className="article-file-name">
                   <a
-                    href="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2F2klg.jpg?alt=media&amp;token=e2bdf8d4-3336-4f80-8ce3-fa53a9ffecfd alt="
+                    href="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2Fgolfkang.jpg?alt=media&amp;token=019e121a-41dc-44c0-a626-363fed3b7fec alt="
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <h6>2klg.jpg</h6>
+                    <h6>golfkang.jpg</h6>
                   </a>
                 </li>
               </div>
@@ -130,17 +129,16 @@ export function 대회행사일정Link16() {
                 contentEditable="false"
               >
                 <p>
-                  대한생활체육한국레저골프협회 제2회 KLGA 한국레저골프 지도자
-                  2급 자격시험 및 교육일정
+                  대한생활체육골프협회 2023 강진군 한부모가정돕기 자선골프대회
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2F2klg.jpg?alt=media&amp;token=e2bdf8d4-3336-4f80-8ce3-fa53a9ffecfd alt="
-                    alt="2klg.jpg"
-                    className="ql-editor-img16"
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2Fgolfkang.jpg?alt=media&amp;token=019e121a-41dc-44c0-a626-363fed3b7fec alt="
+                    alt="golfkang.jpg"
+                    className="ql-editor-img15"
                   />
                 </p>
                 <p>

@@ -131,7 +131,8 @@
 .ql-editor-img17,
 .ql-editor-img16,
 .ql-editor-img15,
-.ql-editor-img14 {
+.ql-editor-img14,
+.ql-editor-img13 {
     margin-left: 0;
     height: 300px;
     width: auto;
@@ -172,7 +173,7 @@
 @media screen and (min-width: 320px) and (max-width: 490px) {
 
 .quill-article-container {
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 
 .article-title p {
@@ -222,7 +223,8 @@
 .ql-editor-img17,
 .ql-editor-img16,
 .ql-editor-img15,
-.ql-editor-img14 {
+.ql-editor-img14,
+.ql-editor-img13 {
     width: 100%;
     height: 100%;
 }

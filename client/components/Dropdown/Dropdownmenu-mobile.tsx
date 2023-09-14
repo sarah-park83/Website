@@ -10,9 +10,7 @@ export default function Dropdownmenu_mobile() {
   const [isMenuActive, setIsMenuActive] = useState(false)
   const [isExpanded1, setIsExpanded1] = useState(false)
   const [isExpanded2, setIsExpanded2] = useState(false)
-  const [isExpanded3, setIsExpanded3] = useState(false)
   const [isExpanded4, setIsExpanded4] = useState(false)
-  const [isExpanded5, setIsExpanded5] = useState(false)
   const [isExpanded6, setIsExpanded6] = useState(false)
 
   const toggleMobileNavMenu = useCallback(() => {
@@ -38,27 +36,14 @@ export default function Dropdownmenu_mobile() {
   const toggleMobileNav1 = () => {
     setIsExpanded1(!isExpanded1)
     setIsExpanded2(false)
-    setIsExpanded3(false)
     setIsExpanded4(false)
-    setIsExpanded5(false)
     setIsExpanded6(false)
   }
 
   const toggleMobileNav2 = () => {
     setIsExpanded2(!isExpanded2)
     setIsExpanded1(false)
-    setIsExpanded3(false)
     setIsExpanded4(false)
-    setIsExpanded5(false)
-    setIsExpanded6(false)
-  }
-
-  const toggleMobileNav3 = () => {
-    setIsExpanded3(!isExpanded3)
-    setIsExpanded1(false)
-    setIsExpanded2(false)
-    setIsExpanded4(false)
-    setIsExpanded5(false)
     setIsExpanded6(false)
   }
 
@@ -66,17 +51,6 @@ export default function Dropdownmenu_mobile() {
     setIsExpanded4(!isExpanded4)
     setIsExpanded1(false)
     setIsExpanded2(false)
-    setIsExpanded3(false)
-    setIsExpanded5(false)
-    setIsExpanded6(false)
-  }
-
-  const toggleMobileNav5 = () => {
-    setIsExpanded5(!isExpanded5)
-    setIsExpanded1(false)
-    setIsExpanded2(false)
-    setIsExpanded3(false)
-    setIsExpanded4(false)
     setIsExpanded6(false)
   }
 
@@ -84,9 +58,7 @@ export default function Dropdownmenu_mobile() {
     setIsExpanded6(!isExpanded6)
     setIsExpanded1(false)
     setIsExpanded2(false)
-    setIsExpanded3(false)
     setIsExpanded4(false)
-    setIsExpanded5(false)
   }
 
   return (
@@ -162,19 +134,15 @@ export default function Dropdownmenu_mobile() {
           {isExpanded1 && (
             <>
               <Link to="/info/greet">
-                <div className="mobile-nav-item">총재 인사말</div>
+                <div className="mobile-nav-item">
+                  뉴질랜드 대한생활체육회 회장
+                </div>
               </Link>
               <Link to="/info/purpose">
                 <div className="mobile-nav-item">설립목적</div>
               </Link>
-              <Link to="/info/chart">
-                <div className="mobile-nav-item">중앙 조직도</div>
-              </Link>
               <Link to="/info/status">
-                <div className="mobile-nav-item">임원현황</div>
-              </Link>
-              <Link to="/info/location">
-                <div className="mobile-nav-item">오시는 길</div>
+                <div className="mobile-nav-item">뉴질랜드 회원 클럽</div>
               </Link>
             </>
           )}
@@ -221,43 +189,6 @@ export default function Dropdownmenu_mobile() {
 
           <button
             className={`mobile-nav-title ${
-              isExpanded3 ? 'mobile-nav-title-selected' : ''
-            }`}
-            onClick={toggleMobileNav3}
-          >
-            대회정보
-            {isExpanded3 ? (
-              <BiSolidUpArrow
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                className="up-arrow-icon"
-              />
-            ) : (
-              <BiSolidDownArrow
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                className="down-arrow-icon"
-              />
-            )}
-          </button>
-          {isExpanded3 && (
-            <>
-              <Link to="/notice/apply/1">
-                <div className="mobile-nav-item">대회신청</div>
-              </Link>
-              <Link to="/notice/schedule/1">
-                <div className="mobile-nav-item">대회/행사일정</div>
-              </Link>
-              <Link to="/notice/result/1">
-                <div className="mobile-nav-item">경기결과</div>
-              </Link>
-            </>
-          )}
-
-          <button
-            className={`mobile-nav-title ${
               isExpanded4 ? 'mobile-nav-title-selected' : ''
             }`}
             onClick={toggleMobileNav4}
@@ -284,45 +215,8 @@ export default function Dropdownmenu_mobile() {
               <Link to="/notice/announcement/1">
                 <div className="mobile-nav-item">공지/소식사항</div>
               </Link>
-              <Link to="/notice/media/1">
-                <div className="mobile-nav-item">언론보도</div>
-              </Link>
-              <Link to="/notice/photo/1">
-                <div className="mobile-nav-item">포토갤러리</div>
-              </Link>
-              <Link to="/notice/video/1">
-                <div className="mobile-nav-item">동영상갤러리</div>
-              </Link>
-            </>
-          )}
-
-          <button
-            className={`mobile-nav-title ${
-              isExpanded5 ? 'mobile-nav-title-selected' : ''
-            }`}
-            onClick={toggleMobileNav5}
-          >
-            자료실
-            {isExpanded5 ? (
-              <BiSolidUpArrow
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                className="up-arrow-icon"
-              />
-            ) : (
-              <BiSolidDownArrow
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                className="down-arrow-icon"
-              />
-            )}
-          </button>
-          {isExpanded5 && (
-            <>
-              <Link to="/notice/reference/1">
-                <div className="mobile-nav-item">자료실</div>
+              <Link to="/notice/gallery/1">
+                <div className="mobile-nav-item">갤러리</div>
               </Link>
             </>
           )}
@@ -333,7 +227,7 @@ export default function Dropdownmenu_mobile() {
             }`}
             onClick={toggleMobileNav6}
           >
-            협력기관
+            스폰서
             {isExpanded6 ? (
               <BiSolidUpArrow
                 focusable="false"
@@ -353,7 +247,7 @@ export default function Dropdownmenu_mobile() {
           {isExpanded6 && (
             <>
               <Link to="/mou/mou">
-                <div className="mobile-nav-item">협력기관</div>
+                <div className="mobile-nav-item">스폰서</div>
               </Link>
             </>
           )}

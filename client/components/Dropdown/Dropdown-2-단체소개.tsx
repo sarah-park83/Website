@@ -50,44 +50,24 @@ export default function Dropdown2() {
               <div className="right-line" id="line-2">
                 <p>체육회 소개</p>
                 <div className="links">
-                  <Link to="/info/greet">총재 인사말</Link>
+                  <Link to="/info/greet">뉴질랜드 대한생활체육회 회장</Link>
                   <Link to="/info/purpose">설립목적</Link>
-                  <Link to="/info/chart">중앙 조직도</Link>
-                  <Link to="/info/status">임원현황</Link>
-                  <Link to="/info/location">오시는 길</Link>
-                </div>
-              </div>
-
-              <div className="right-line" id="line-2">
-                <p>대회정보</p>
-                <div className="links">
-                  <Link to="/notice/apply/1">대회신청</Link>
-                  <Link to="/notice/schedule/1">대회/행사일정</Link>
-                  <Link to="/notice/result/1">경기결과</Link>
+                  <Link to="/info/status">뉴질랜드 회원 클럽</Link>
                 </div>
               </div>
 
               <div className="right-line" id="line-2">
                 <p>알림마당</p>
                 <div className="links">
-                  <a href="#1">공지/소식사항</a>
-                  <a href="#2">언론보도</a>
-                  <a href="#3">포토갤러리</a>
-                  <a href="#4">동영상갤러리</a>
-                </div>
-              </div>
-
-              <div className="right-line" id="line-2">
-                <p>자료실</p>
-                <div className="links">
-                  <a href="#1">자료실</a>
+                  <Link to="#1">공지/소식사항</Link>
+                  <Link to="#3">갤러리</Link>
                 </div>
               </div>
 
               <div className="right-line">
-                <p>협력기관</p>
+                <p>스폰서</p>
                 <div className="links">
-                  <a href="#1">협력기관</a>
+                  <a href="#1">스폰서</a>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 .homeHeader_banner {
   width: 100%;
-  height: 500px;
+  height: 550px;
   background: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   height: inherit;
-  color: #000;
+  color: white;
   background-color: rgba(225,253,255,.178);
   width: 100%;
   padding-bottom: 50px;
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 300px;
+  height: 100px;
 }
 
 .banner_text {

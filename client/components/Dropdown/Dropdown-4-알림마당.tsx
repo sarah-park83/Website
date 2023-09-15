@@ -40,20 +40,16 @@ export default function Dropdown4() {
                 <p id="first-orange">알림마당</p>
                 <div className="links">
                   <a href="#1">공지/소식사항</a>
-                  <a href="#2">언론보도</a>
-                  <a href="#3">포토갤러리</a>
-                  <a href="#4">동영상갤러리</a>
+                  <a href="#3">갤러리</a>
                 </div>
               </div>
 
               <div className="right-line" id="line-2">
                 <p>체육회 소개</p>
                 <div className="links">
-                  <a href="#1">총재 인사말</a>
+                  <a href="#1">뉴질랜드 대한생활체육회 회장</a>
                   <a href="#2">설립목적</a>
-                  <a href="#3">중앙 조직도</a>
-                  <a href="#4">임원현황</a>
-                  <a href="#4">오시는 길</a>
+                  <a href="#4">뉴질랜드 회원 클럽</a>
                 </div>
               </div>
 
@@ -67,26 +63,10 @@ export default function Dropdown4() {
                 </div>
               </div>
 
-              <div className="right-line" id="line-2">
-                <p>대회정보</p>
-                <div className="links">
-                  <a href="#1">대회신청</a>
-                  <a href="#2">대회/행사일정</a>
-                  <a href="#3">경기결과</a>
-                </div>
-              </div>
-
-              <div className="right-line" id="line-2">
-                <p>자료실</p>
-                <div className="links">
-                  <a href="#1">자료실</a>
-                </div>
-              </div>
-
               <div className="right-line">
-                <p>협력기관</p>
+                <p>스폰서</p>
                 <div className="links">
-                  <a href="#1">협력기관</a>
+                  <a href="#1">스폰서</a>
                 </div>
               </div>
             </div>

@@ -9,19 +9,19 @@ import { Homepage } from './components/Homepage'
 
 import * as 체육회소개Components from './components/Links/체육회소개 components'
 import * as 단체소개components from './components/Links/단체소개 components'
-import * as 대회정보components from './components/Links/대회정보 components'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Homepage />} />
-      <Route path="/info/greet" element={<체육회소개Components.총재인사말 />} />
-      <Route path="/info/purpose" element={<체육회소개Components.설립목적 />} />
-      <Route path="/info/chart" element={<체육회소개Components.중앙조직도 />} />
-      <Route path="/info/status" element={<체육회소개Components.임원현황 />} />
       <Route
-        path="/info/location"
-        element={<체육회소개Components.오시는길 />}
+        path="/info/greet"
+        element={<체육회소개Components.뉴질랜드대한생활체육회회장 />}
+      />
+      <Route path="/info/purpose" element={<체육회소개Components.설립목적 />} />
+      <Route
+        path="/info/status"
+        element={<체육회소개Components.뉴질랜드회원클럽 />}
       />
       <Route
         path="/group/nation"
@@ -36,19 +36,6 @@ export const router = createBrowserRouter(
         element={<단체소개components.종목별운영현황 />}
       />
       <Route path="/group/sanha" element={<단체소개components.산하단체 />} />
-      <Route path="/notice/apply/1" element={<대회정보components.대회신청 />} />
-      <Route
-        path="/article/apply/1/BNSHDS4LNFummHbOdUSR"
-        element={<대회정보components.BNSHDS4LNFummHbOdUSR />}
-      />
-      <Route
-        path="/notice/schedule/1"
-        element={<대회정보components.대회행사일정p1 />}
-      />
-      <Route
-        path="/notice/schedule/2"
-        element={<대회정보components.대회행사일정p2 />}
-      />
     </Route>
   )
 )

@@ -64,7 +64,7 @@ export function 설립목적() {
               <div className="itemList">
                 <Link to="/info/greet">
                   <div className="navItem">
-                    <div className="navLink">총재 인사말</div>
+                    <div className="navLink">뉴질랜드 대한생활체육회 회장</div>
                   </div>
                 </Link>
                 <Link to="/info/purpose">
@@ -72,19 +72,9 @@ export function 설립목적() {
                     <div className="navLink">설립목적</div>
                   </div>
                 </Link>
-                <Link to="/info/chart">
-                  <div className="navItem">
-                    <div className="navLink">중앙 조직도</div>
-                  </div>
-                </Link>
                 <Link to="/info/status">
                   <div className="navItem">
-                    <div className="navLink">임원현황</div>
-                  </div>
-                </Link>
-                <Link to="/info/location">
-                  <div className="navItem">
-                    <div className="navLink">오시는 길</div>
+                    <div className="navLink">뉴질랜드 회원 클럽</div>
                   </div>
                 </Link>
               </div>

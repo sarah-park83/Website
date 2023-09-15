@@ -60,7 +60,7 @@
   z-index: 999;
   top: 79px;
   left: 0;
-  height: 300px;
+  height: 250px;
   border-top: 2px solid red; 
   border-bottom: 1px solid red; 
   cursor: default;
@@ -100,15 +100,15 @@
   display: grid;
   grid-template-columns: 1fr; 
   justify-items: end;
-  padding: 18px 30px 23px 20px;
+  padding: 12px 30px 23px 20px;
   margin-bottom: 4px; 
   background-color: rgb(241, 241, 241);
   margin-left: 15%;
-  height: 296px;
+  height: 247px;
 }
 
 #logo2 {
-  width: 150px;
+  width: 130px;
   height: auto;
   margin: 0;
   padding: 0;
@@ -117,7 +117,7 @@
 
 .content-left p {
   margin: 0;
-  line-height: 0.5;
+  line-height: 0.3;
   position: relative;
 }
 
@@ -145,15 +145,15 @@
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: flex-start; 
-  margin-left: 25px;
-  height: 300px;
+  margin-left: 10px;
+
 }
 
 .right-line {
   display: flex;
   align-items: center;
   position: relative;
-  height: 49.6px;
+  height: 60px;
 }
 
 .right-line p {
@@ -269,7 +269,7 @@
 
 .dropdown-content {
   top: 72px;
-  height: 250px;
+  height: 220px;
 }
 
 .dropdown {
@@ -284,8 +284,8 @@
 
 .content-left {
   padding: 10px 20px 10px 0px;
-  margin-bottom: 55px; 
-  height: 247px;
+  margin-bottom: 68px; 
+  height: 217px;
   margin-left: 0px;
 }
 
@@ -308,18 +308,19 @@
 .content-right {
   margin-left: 7px;
   height: 150px;
-  margin-bottom: 145px;
+  margin-bottom: 130px;
 }
 
 .right-line {
-  height: 40px;
+  height: 60px;
 }
 
 .right-line p {
-  width: 100px;
+  width: 110px;
   text-align: left;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
+  padding-left: 2px;
 }
 
 .right-line p::after {
@@ -367,11 +368,15 @@
 
   .navbar a:not(:first-child) {
     top: 5px;
-    padding: 21px 11px 30px 11px;
+    padding: 26px 11px 30px 11px;
   }
 
   .navbar a:nth-child(n + 3)::before {
     top: 26px; 
+  }
+
+  .right-line {
+    height: 55px;
   }
 
   .links a:before {
@@ -450,7 +455,7 @@
 }
 
 .right-line {
-  height: 40px;
+  height: 60px;
 }
 
 .right-line p {

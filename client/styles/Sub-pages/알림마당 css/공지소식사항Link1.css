@@ -1,0 +1,250 @@
+.article-info-container {
+    display: flex;
+    width: 100%;
+    border-top: 2px solid #ff9b00;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: Pretendard-Regular,sans-serif;
+}
+
+.article-title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,153,0,.101);
+    font-size: 18px;
+    border-bottom: 2px solid rgba(255,153,0,.118);
+}
+
+.article-title p {
+    width: 20%;
+    font-size: 15px;
+}
+
+.article-title h4 {
+    width: 80%;
+    text-align: left;
+    font-weight: 500;
+}
+
+.article-author {
+    border-bottom: 2px solid rgba(255,153,0,.118);
+    width: 50%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-right: 2px solid rgba(255,153,0,.118);
+}
+
+.article-author p {
+    width: 40%;
+    font-size: 15px;
+}
+
+.article-author h4 {
+    font-weight: 500;
+}
+
+.article-createdAt {
+    border-bottom: 2px solid rgba(255,153,0,.118);
+    width: 50%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.article-createdAt p {
+    width: 40%;
+    font-size: 15px;
+}
+
+.article-createdAt h4 {
+    font-weight: 500;
+}
+
+.article-file-container {
+    font-family: Pretendard-Regular,sans-serif;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgba(255,153,0,.118);
+    align-items: center;
+    text-align: center;
+    min-height: 50px;
+}
+
+.article-file-container h4 {
+    width: 20%;
+    font-size: 15px;
+}
+
+.article-file-list {
+    width: 80%;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+.article-file-name {
+    padding: 10px 0 0 5px;
+}
+
+.article-file-name h6 {
+    border-bottom: 1.5px solid #bdbdbd;
+    padding-bottom: 3px;
+    width: fit-content;
+    cursor: pointer;
+    transition: .2s;
+    color: black;
+}
+
+.article-file-name h6:hover {
+    color: orange;
+}
+  
+
+.quill-article-container {
+    padding: 20px 10px;
+    font-family: Pretendard-Regular,sans-serif!important;
+    font-size: large!important;
+    width: 100%;
+    border-bottom: 2px solid #ff9b00;
+}
+
+.ql-editor {
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.ql-editor-img2 {
+    margin-left: 0;
+    height: 750px;
+    width: auto;
+}
+
+.ql-editor-img1 {
+    margin-left: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.ql-video {
+    width: 400px;
+    height: 250px;
+    margin: 10px 10px 30px 10px;
+}
+
+.ql-size-large {
+    font-size: 23px;
+    color: blue;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.ql-size-large2 {
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.ql-size-large3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.article-button-container {
+    font-family: Pretendard-Regular,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.article-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ff9b00;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/************* Media Query *************/
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+.quill-article-container {
+    padding-bottom: 20px;
+}
+
+.article-title p {
+    font-size: 13px;
+}
+
+.article-title h4 {
+    font-size: 14px;
+}
+
+.article-author p {
+    font-size: 13px;
+}
+
+.article-author h4 {
+    font-size: 14px;
+}
+
+.article-createdAt p {
+    font-size: 13px;
+}
+
+.article-createdAt h4 {
+    font-size: 14px;
+}
+
+.article-file-container h4 {
+    font-size: 12px;
+}
+
+.article-file-list {
+    font-size: 18px;
+}
+
+.article-file-name h6 {
+    border: none;
+}
+
+.ql-editor {
+    line-height: 16px;
+    font-size: 13px;
+    width: 100%;
+}
+
+.ql-editor-img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.ql-video {
+    width: 100%;
+    height: 150px;
+    margin: 7px 7px 20px 7px;
+}
+
+.ql-size-large {
+    font-size: 15px;
+}
+
+.article-button-container {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.article-button {
+    padding: 7px 10px;
+}
+}

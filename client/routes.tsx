@@ -9,6 +9,7 @@ import { Homepage } from './components/Homepage'
 
 import * as 체육회소개Components from './components/Links/체육회소개 components'
 import * as 단체소개components from './components/Links/단체소개 components'
+import * as 공지소식사항components from './components/Links/알림마당 components'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,6 +37,18 @@ export const router = createBrowserRouter(
         element={<단체소개components.종목별운영현황 />}
       />
       <Route path="/group/sanha" element={<단체소개components.산하단체 />} />
+      <Route
+        path="/notice/announcement/1"
+        element={<공지소식사항components.공지소식사항 />}
+      />
+      <Route
+        path="/article/anouncement/1/wBwT6IpiRh0pkWfXADw5"
+        element={<공지소식사항components.공지소식사항Link1 />}
+      />
+      <Route
+        path="/notice/gallery/1"
+        element={<공지소식사항components.갤러리 />}
+      />
     </Route>
   )
 )

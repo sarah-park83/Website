@@ -40,15 +40,9 @@ export default function Dropdown1() {
               <div className="right-line" id="line-1">
                 <p id="first-orange">체육회 소개</p>
                 <div className="links">
-                  <Link to="/info/greet" className="links-pages">
-                    뉴질랜드 대한생활체육회 회장
-                  </Link>
-                  <Link to="/info/purpose" className="links-pages">
-                    설립목적
-                  </Link>
-                  <Link to="/info/status" className="links-pages">
-                    뉴질랜드 회원 클럽
-                  </Link>
+                  <Link to="/info/greet">뉴질랜드 대한생활체육회 회장</Link>
+                  <Link to="/info/purpose">설립목적</Link>
+                  <Link to="/info/status">뉴질랜드 회원 클럽</Link>
                 </div>
               </div>
 
@@ -65,8 +59,8 @@ export default function Dropdown1() {
               <div className="right-line" id="line-2">
                 <p>알림마당</p>
                 <div className="links">
-                  <Link to="#1">공지/소식사항</Link>
-                  <Link to="#3">갤러리</Link>
+                  <Link to="/notice/announcement/1">공지/소식사항</Link>
+                  <Link to="/notice/gallery/1">갤러리</Link>
                 </div>
               </div>
 

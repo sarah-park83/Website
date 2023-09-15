@@ -1,0 +1,84 @@
+.intro_container {
+  height: -moz-max-content;
+  height: max-content;
+  font-family: Pretendard-Regular;
+  align-items: center;
+  position: relative;
+  word-break: keep-all;
+  border-bottom: 4px solid #e9e9e9;
+  padding-bottom: 0px;
+}
+
+.intro_main_title_container {
+  text-align: center;
+}
+
+.intro_main_title {
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.intro_main_subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.intro_border {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #ff7300;
+  width: 50px;
+  height: 2px;
+}
+
+.intro_content_container {
+  margin-top: 40px;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  text-align: center;
+  word-break: keep-all;
+  align-content: center;
+  justify-content: center;
+}
+
+.intro_item_container {
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #555;
+  cursor: pointer;
+  transition: .75s;
+}
+
+.intro_title {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.intro_item_container h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.intro_item_container p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.icon {
+  font-size: 40px;
+}

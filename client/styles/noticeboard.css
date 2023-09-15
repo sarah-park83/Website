@@ -1,6 +1,7 @@
 .noticeboard_container {
   width: 100%;
-  height: 420px;
+  height: auto;
+  min-height: 280px;
   background-color: #f7fbff;
   display: flex;
   align-items: center;
@@ -9,29 +10,42 @@
 .noticeboard_noticeboard_container {
   background-color: #fff;
   border-radius: 15px;
-  border-bottom-right-radius: 0;
   border: 1px solid #888;
   width: 50%;
-  height: 330px;
+  height: auto;
+  min-height: 330px;
   margin-left: 80px;
   box-shadow: 5px 5px 10px #333;
-  font-family: Pretendard-Regular,sans-serif;
+  font-family: "Pretendard-Regular", sans-serif;
 }
 
 .noticeboard_tab {
   list-style: none;
   height: 90px;
   display: flex;
-  border-bottom: 3px solid #ffb13b;
+  border-bottom: 3px solid #ffb13b; 
   margin: 0 30px;
   color: #ff7300;
+}
+
+.noticeboard_tab li {
+  font-size: 22px;
+  padding: 0 20px;
+  margin-top: 40px;
+  height: 20px;
+  cursor: pointer;
+  border-right: 2px solid #ffb13b;
+  font-weight: 700;
+  transition: .3s;
+  display: flex;
+  align-items: center;
 }
 
 .noticeboard_selected {
   color: #000;
 }
 
-.noticeboard_content_container {
+.article_content_container {
   margin: 10px 15px 10px 65px;
   list-style: square;
   width: fit-content;
@@ -39,10 +53,20 @@
   font-size: 15px;
 }
 
+.article_list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 1s;
+}
+
 .article_createdAt {
   width: fit-content;
-  padding-right: 10px;
-  font-size: 15px;
+  font-size: 16px;
+  padding-right: 20px;
+  color: #000;
+  font-weight: 400;
 }
 
 .article_title {
@@ -50,4 +74,128 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  color: #000;
+  font-weight: 400;
+}
+
+.article_content_container li {
+  padding: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 1s;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 386px) {
+  .noticeboard_container {
+    min-height: 280px;
+    width: 85%;
+    padding-left: 0px;
+  }
+  .noticeboard_tab {
+    height: 50px;
+  }
+  .noticeboard_tab li {
+    font-size: 10px;
+    padding: 0 5px;
+    margin-top: 20px;
+    height: 17px;
+  }
+  .article_content_container {
+    margin: 10px 10px;
+  }
+  .article_content_container li {
+    padding: 7px 0px;
+    font-size: 11px;
+  }
+  .article_createdAt {
+    font-size: 11px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .noticeboard_container {
+    min-height: 400px;
+    width: 100%;
+  }
+  .noticeboard_noticeboard_container {
+    margin: 0 40px;
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+  }
+  .noticeboard_tab {
+    height: 65px;
+  }
+  .noticeboard_tab li {
+    font-size: 18px;
+    padding: 0 13px;
+    margin-top: 25px;
+    height: 20px;
+  }
+  .article_content_container {
+    margin: 13px 13px;
+  }
+  .article_content_container li {
+    padding: 7px 0px;
+    font-size: 17px;
+  }
+  .article_createdAt {
+    font-size: 17px;
+    padding-right: 12px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .noticeboard_container {
+    min-height: 430px;
+    width: 100%;
+  }
+  .noticeboard_noticeboard_container {
+    margin: 0 30px;
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+  }
+  .noticeboard_tab {
+    height: 80px;
+  }
+  .noticeboard_tab li {
+    font-size: 26px;
+    padding: 0 25px;
+    margin-top: 30px;
+    height: 30px;
+  }
+  .article_content_container {
+    margin: 5px 20px;
+  }
+  .article_content_container li {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .article_createdAt {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .noticeboard_container {
+    min-height: 500px;
+    width: 58%;
+  }
+  .noticeboard_tab {
+    height: 70px;
+  }
+  .noticeboard_tab li {
+    font-size: 19px;
+    padding: 0 20px;
+    margin-top: 23px;
+    height: 23px;
+  }
 }

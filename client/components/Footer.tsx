@@ -5,7 +5,11 @@ export default function Footer() {
   return (
     <footer className="footer-distributed">
       <div className="footer-left">
-        <h3 className="footer-logo">뉴질랜드대한생활체육회</h3>
+        <h3 className="footer-logo">
+          뉴질랜드
+          <br />
+          대한생활체육회
+        </h3>
         <div className="footer-info">
           <p>상호 : (사)대한생활체육회 | 대표자명 : 김균식</p>
           <p>고유번호 : 102-82-10135</p>
@@ -13,7 +17,8 @@ export default function Footer() {
             대표번호 : 02-2088-7508 | 팩스 : 02-2088-7509 | 이메일 :
             ksfaa21@naver.com
           </p>
-          <p>주소 : 서울특별시 영등포구 버드나루로88, 인따르시아빌딩 101호</p>
+          <p>주소 : 서울특별시 영등포구 버드나루로88,</p>
+          <p>인따르시아빌딩 101호</p>
         </div>
         <p className="footer-company-name">뉴질랜드대한생활체육회 © 2023</p>
       </div>
@@ -22,8 +27,7 @@ export default function Footer() {
         <div>
           <p>
             <MdMap className="icon" />
-            <span> 서울특별시 영등포구 버드나루로88</span>
-            인따르시아빌딩 101호
+            서울특별시 영등포구 버드나루로88 인따르시아빌딩 101호
           </p>
         </div>
         <div>

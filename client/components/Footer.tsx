@@ -11,14 +11,8 @@ export default function Footer() {
           대한생활체육회
         </h3>
         <div className="footer-info">
-          <p>상호 : (사)대한생활체육회 | 대표자명 : 김균식</p>
-          <p>고유번호 : 102-82-10135</p>
-          <p>
-            대표번호 : 02-2088-7508 | 팩스 : 02-2088-7509 | 이메일 :
-            ksfaa21@naver.com
-          </p>
-          <p>주소 : 서울특별시 영등포구 버드나루로88,</p>
-          <p>인따르시아빌딩 101호</p>
+          <p>상호 : (사)뉴질랜드 대한생활체육회 | 대표자명 : 김웅기</p>
+          <p>이메일 : nzklsct@gmail.com</p>
         </div>
         <p className="footer-company-name">뉴질랜드대한생활체육회 © 2023</p>
       </div>
@@ -26,20 +20,10 @@ export default function Footer() {
       <div className="footer-center">
         <div>
           <p>
-            <MdMap className="icon" />
-            서울특별시 영등포구 버드나루로88 인따르시아빌딩 101호
-          </p>
-        </div>
-        <div>
-          <p>
-            <MdCall className="icon" />
-            02-2088-7508
-          </p>
-        </div>
-        <div>
-          <p>
             <MdEmail className="icon" />
-            <a href="mainto:ksfaa@naver.com"> contact@ksfaa21@naver.com</a>
+            <a className="email" href="mainto:nzklsct@gmail.com">
+              nzklsct@gmail.com
+            </a>
           </p>
         </div>
       </div>

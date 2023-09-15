@@ -5,9 +5,9 @@ import Footer from './Footer'
 import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
-import Noticeboard from './Noticeboard'
 import Intro from './Intro'
 import MobileCheck from './Dropdown/Mobile-check'
+import Tafisa from './Tafisa'
 import '../styles/homepage.css'
 
 export function Homepage() {
@@ -18,7 +18,7 @@ export function Homepage() {
       <div>{isMobile ? <Dropdownmenu_mobile /> : <Dropdownmenu />}</div>
       <Banner />
       <Popup />
-      <Noticeboard />
+      <Tafisa />
       <div className="video-section">
         <HomepageVideo />
       </div>

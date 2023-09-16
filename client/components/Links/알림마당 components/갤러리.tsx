@@ -103,7 +103,6 @@ export function 갤러리() {
 
           <div>
             <ul className="gallery-list">
-              <Link to="/article/photo/1/PRD1XR57m9dKNGUQdCub"></Link>
               <li className="gallery-list-table">
                 <div className="gallery-list-container">
                   <ImageLoader
@@ -112,12 +111,14 @@ export function 갤러리() {
                     alt="image1"
                   />
                 </div>
-                <div className="gallery-list-text-container">
-                  <div className="gallery-list-title">
-                    태백시 이상호시장님 방문
+                <Link to="/article/photo/1/PRD1XR57m9dKNGUQdCub">
+                  <div className="gallery-list-text-container">
+                    <div className="gallery-list-title">
+                      태백시 이상호시장님 방문
+                    </div>
+                    <div className="gallery-list-createdAt">2023.09.11</div>
                   </div>
-                  <div className="gallery-list-createdAt">2023.09.11</div>
-                </div>
+                </Link>
               </li>
             </ul>
 

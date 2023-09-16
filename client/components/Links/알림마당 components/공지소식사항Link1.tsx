@@ -150,7 +150,7 @@ export function 공지소식사항Link1() {
                   <ImageLoader
                     src="https://firebasestorage.googleapis.com/v0/b/sports-asso-v2.appspot.com/o/images%2FIjZiqBcGbRSLAaFRtxQ1MM5GLEL2%2F%EB%8C%80%ED%95%9C%EC%83%9D%ED%99%9C%EC%B2%B4%EC%9C%A1%ED%9A%8C%20MOU%20%ED%9A%8C%EC%9B%90%20%EA%B0%80%EC%9E%85%20%ED%98%9C%ED%83%9D.jpg?alt=media&amp;token=fdffef3a-5a51-48b1-9738-8e663513200a"
                     alt="대한생활체육회 MOU 회원 가입 혜택.jpg"
-                    className="ql-editor-img1"
+                    className="ql-editor-공지소식사항-img1"
                   />
                 </p>
                 <p>

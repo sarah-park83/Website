@@ -1,5 +1,5 @@
 import '../../../styles/Sub-pages/subpage.css'
-// import '../../../styles/Sub-pages/알림마당 css/갤러리-content.css'
+import '../../../styles/Sub-pages/알림마당 css/갤러리Img1.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function PRD1XR57m9dKNGUQdCub() {
+export function 갤러리Img1() {
   const isMobile = MobileCheck()
 
   return (
@@ -88,7 +88,7 @@ export function PRD1XR57m9dKNGUQdCub() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>대한생활체육회 가입 회원 제휴 혜택 안내</h4>
+                <h4>태백시 이상호시장님 방문</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -96,24 +96,9 @@ export function PRD1XR57m9dKNGUQdCub() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2022/2/18</h4>
+                <h4>2023/9/11</h4>
               </div>
             </div>
-
-            <ul className="article-file-container">
-              <h4>첨부파일</h4>
-              <div className="article-file-list">
-                <li className="article-file-name">
-                  <a
-                    href="https://firebasestorage.googleapis.com/v0/b/sports-asso-v2.appspot.com/o/images%2FIjZiqBcGbRSLAaFRtxQ1MM5GLEL2%2F%EB%8C%80%ED%95%9C%EC%83%9D%ED%99%9C%EC%B2%B4%EC%9C%A1%ED%9A%8C%20MOU%20%ED%9A%8C%EC%9B%90%20%EA%B0%80%EC%9E%85%20%ED%98%9C%ED%83%9D.jpg?alt=media&amp;token=fdffef3a-5a51-48b1-9738-8e663513200a"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <h6>대한생활체육회 MOU 회원 가입 혜택.jpg</h6>
-                  </a>
-                </li>
-              </div>
-            </ul>
 
             <div className="quill-article-container">
               <div
@@ -121,36 +106,65 @@ export function PRD1XR57m9dKNGUQdCub() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>대한생활체육회 가입회원제휴혜택 안내</p>
-                <p>
-                  <br />
-                </p>
-                <p>혜택 1</p>
-                <p>구로고려대학교병원 건강검진 40%할인</p>
-                <p>
-                  <br />
-                </p>
-                <p>헤택 2</p>
-                <p>용평리조트 55%할인</p>
-                <p>
-                  <br />
-                </p>
-                <p>혜택 3</p>
-                <p>강남글로리안과 서울대학교 안과 대학 라식, 라섹 할인 혜택</p>
-                <p>
-                  <br />
-                </p>
-                <p>혜택 4</p>
-                <p>서울스마일 치과 서울대학교 치과 대학</p>
-                <p>임플란트, 지르코, 틀니 할인 혜택</p>
+                <p>태백시 이상호시장님 방문</p>
                 <p>
                   <br />
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sports-asso-v2.appspot.com/o/images%2FIjZiqBcGbRSLAaFRtxQ1MM5GLEL2%2F%EB%8C%80%ED%95%9C%EC%83%9D%ED%99%9C%EC%B2%B4%EC%9C%A1%ED%9A%8C%20MOU%20%ED%9A%8C%EC%9B%90%20%EA%B0%80%EC%9E%85%20%ED%98%9C%ED%83%9D.jpg?alt=media&amp;token=fdffef3a-5a51-48b1-9738-8e663513200a"
-                    alt="대한생활체육회 MOU 회원 가입 혜택.jpg"
-                    className="ql-editor-img1"
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752.jpg?alt=media&amp;token=3a014ca8-cdc1-4d0b-b8b9-33a019c8876d alt="
+                    alt="KakaoTalk_20230911_105838752.jpg"
+                    className="ql-editor-갤러리-img1"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_01.jpg?alt=media&amp;token=87617a4a-3395-4aa9-81ca-7e9c7a3dbee4 alt="
+                    alt="KakaoTalk_20230911_105838752_01.jpg"
+                    className="ql-editor-갤러리-img1"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_02.jpg?alt=media&amp;token=62199167-8723-47fd-b3f1-3e4e3872f406 alt="
+                    alt="KakaoTalk_20230911_105838752_02.jpg"
+                    className="ql-editor-갤러리-img1"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_03.jpg?alt=media&amp;token=1d1773df-d7bb-44bf-9b76-26a68e6ac616 alt="
+                    alt="KakaoTalk_20230911_105838752_03.jpg"
+                    className="ql-editor-갤러리-img1"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_04.jpg?alt=media&amp;token=1dd3190e-1452-4e9b-81c0-0e548d8999da alt="
+                    alt="KakaoTalk_20230911_105838752_04.jpg"
+                    className="ql-editor-갤러리-img1"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_05.jpg?alt=media&amp;token=aeaa61fb-c8c9-4bef-a614-21ab97928e3b alt="
+                    alt="KakaoTalk_20230911_105838752_05.jpg"
+                    className="ql-editor-갤러리-img1"
                   />
                 </p>
                 <p>
@@ -160,7 +174,7 @@ export function PRD1XR57m9dKNGUQdCub() {
             </div>
 
             <div className="article-button-container">
-              <a href="/notice/announcement/1">
+              <a href="/notice/gallery/1">
                 <div className="article-button">돌아가기</div>
               </a>
             </div>

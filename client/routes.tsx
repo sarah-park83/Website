@@ -51,7 +51,7 @@ export const router = createBrowserRouter(
       />
       <Route
         path="/article/photo/1/PRD1XR57m9dKNGUQdCub"
-        element={<공지소식사항components.PRD1XR57m9dKNGUQdCub />}
+        element={<공지소식사항components.갤러리Img1 />}
       />
     </Route>
   )

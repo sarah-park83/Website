@@ -27,7 +27,7 @@ export function 갤러리() {
   }
 
   function handleGoButtonClick() {
-    navigate(`/notice/apply/${inputValue}`)
+    navigate(`/notice/gallery/${inputValue}`)
   }
 
   return (
@@ -68,7 +68,7 @@ export function 갤러리() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/notice/apply/1">
+          <Link to="/notice/gallery/1">
             <h2>갤러리</h2>
           </Link>
         </div>
@@ -103,6 +103,7 @@ export function 갤러리() {
 
           <div>
             <ul className="gallery-list">
+              {/**** Photo ****/}
               <li className="gallery-list-table">
                 <div className="gallery-list-container">
                   <ImageLoader
@@ -117,6 +118,30 @@ export function 갤러리() {
                       태백시 이상호시장님 방문
                     </div>
                     <div className="gallery-list-createdAt">2023.09.11</div>
+                  </div>
+                </Link>
+              </li>
+
+              {/**** Video ****/}
+              <li className="gallery-list-table">
+                <div className="gallery-list-container">
+                  <div className="gallery-list-item">
+                    <div className="vid-preview">
+                      <iframe
+                        title="YouTube Video"
+                        src="https://www.youtube.com/embed/Z3zlHNo9ylQ"
+                        className="iframe-video"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <Link to="/article/video/1/I7AOsNSrNuBCk8RBz9II">
+                  <div className="gallery-list-text-container">
+                    <div className="gallery-list-title">
+                      대한생활체육낚시협회 [직격 인터뷰] 낚시인 천만 시대,
+                      과제는?(2023.8.21/뉴스투데이/MBC경남)
+                    </div>
+                    <div className="gallery-list-createdAt">2023.09.02</div>
                   </div>
                 </Link>
               </li>

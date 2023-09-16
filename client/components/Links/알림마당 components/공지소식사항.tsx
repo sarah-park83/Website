@@ -26,7 +26,7 @@ export function 공지소식사항() {
   }
 
   function handleGoButtonClick() {
-    navigate(`/notice/apply/${inputValue}`)
+    navigate(`/notice/announcement/${inputValue}`)
   }
 
   return (
@@ -67,7 +67,7 @@ export function 공지소식사항() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/notice/apply/1">
+          <Link to="/notice/announcement/1">
             <h2>공지/소식사항</h2>
           </Link>
         </div>

@@ -67,7 +67,7 @@ export default function Dropdown4() {
               <div className="right-line">
                 <p>스폰서</p>
                 <div className="links">
-                  <a href="#1">스폰서</a>
+                  <Link to="/mou/mou">스폰서</Link>
                 </div>
               </div>
             </div>

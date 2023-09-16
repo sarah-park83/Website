@@ -1,5 +1,5 @@
 import '../../../styles/Sub-pages/subpage.css'
-import '../../../styles/Sub-pages/알림마당 css/갤러리Img1.css'
+import '../../../styles/Sub-pages/알림마당 css/갤러리Item.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
@@ -51,7 +51,7 @@ export function 갤러리Img1() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/notice/apply/1">
+          <Link to="/notice/gallery/1">
             <h2>갤러리</h2>
           </Link>
         </div>

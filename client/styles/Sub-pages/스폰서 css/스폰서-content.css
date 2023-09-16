@@ -1,0 +1,79 @@
+.mouList-title-container {
+    font-size: 22px;
+}
+
+.mouList-container {
+    font-family: SUIT-Medium,sans-serif;
+    border-bottom: 1.5px solid rgba(255,206,70,.226);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.mouList-imgContainer {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid rgba(255,115,0,.562);
+    cursor: pointer;
+}
+
+.mouList-imgContainer button {
+    border: none;
+    background-color: white;
+}
+
+.mouList-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mouList-contextContainer {
+    width: 75%;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.mouList-context-title {
+    font-size: 19px;
+    width: 100%;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #ff5e00;
+}
+
+.mouList-contextContainer p {
+    font-size: 16px;
+    margin-bottom: 7px;
+    white-space: pre-line;
+    line-height: 22px;
+    transition: 1s;
+    width: 100%;
+    height: fit-content;
+    transition: transform 1s ease;
+}
+
+.mouList-contextContainer p:hover {
+    transform: translateX(7px); 
+    color: orangered;
+}
+
+.mouList-button {
+    padding: 4px 6px;
+    border: 1px solid #eb5600;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: color 1s ease;
+}
+
+.mouList-button:hover {
+    color: white;
+    background-color: #ff5e00;
+}

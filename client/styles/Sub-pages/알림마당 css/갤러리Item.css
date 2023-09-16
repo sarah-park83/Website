@@ -127,6 +127,12 @@
     width: auto;
 }
 
+.ql-editor-갤러리-vid1 {
+    width: 400px;
+    height: 250px!important;
+    margin: 10px;
+}
+
 .article-button-container {
     font-family: Pretendard-Regular,sans-serif;
     width: 100%;

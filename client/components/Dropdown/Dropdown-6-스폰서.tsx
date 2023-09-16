@@ -40,7 +40,7 @@ export default function Dropdown6() {
               <div className="right-line" id="line-1">
                 <p id="first-orange">스폰서</p>
                 <div className="links">
-                  <a href="#1">스폰서</a>
+                  <Link to="/mou/mou">스폰서</Link>
                 </div>
               </div>
 

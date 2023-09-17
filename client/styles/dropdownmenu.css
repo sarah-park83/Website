@@ -72,6 +72,7 @@
   grid-template-columns: .4fr 1fr; 
   align-items: center;
   padding-left: 200px;
+  height: 250px;
 }
 
 .dropdown-content {
@@ -190,7 +191,7 @@
 .right-line p::after {
   content: '';
   position: absolute;
-  top: 10px;
+  top: 16px;
   left: 140px;
   height: 25px;
   width: 2px;
@@ -257,7 +258,7 @@
 }
 
 .navbar a:nth-child(n + 3)::before {
-  left: -8px;  
+  left: -5px;
   height: 18px; 
   width: 3px;
   background-color: rgb(233, 228, 228);
@@ -311,21 +312,17 @@
   margin-bottom: 130px;
 }
 
-.right-line {
-  height: 60px;
-}
-
 .right-line p {
   width: 110px;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
-  padding-left: 2px;
+  padding-left: 15px;
 }
 
 .right-line p::after {
-  top: 10px;
-  left: 90px;
+  top: 12px;
+  left: 100px;
   height: 25px;
 }
 
@@ -352,15 +349,19 @@
 
   .navbar a:not(:first-child) {
     top: 3px;
-    padding: 15px 11px 20px 11px;
+    padding: 23px 11px 25px 11px;
   }
 
   .navbar a:nth-child(n + 3)::before {
-    top: 20px; 
+    top: 24px; 
   }
 
   .links a:before {
-    top: 20px;
+    top: 24px;
+  }
+
+  .right-line {
+    height: 54px;
   }
 }
 
@@ -454,9 +455,6 @@
   margin-bottom: 145px;
 }
 
-.right-line {
-  height: 60px;
-}
 
 .right-line p {
   width: 130px;
@@ -466,7 +464,7 @@
 }
 
 .right-line p::after {
-  top: 10px;
+  top: 16px;
   left: 120px;
   height: 25px;
 }

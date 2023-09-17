@@ -40,34 +40,34 @@ export default function Dropdown6() {
               <div className="right-line" id="line-1">
                 <p id="first-orange">스폰서</p>
                 <div className="links">
-                  <a href="#1">스폰서</a>
+                  <Link to="/mou/mou">스폰서</Link>
                 </div>
               </div>
 
               <div className="right-line" id="line-2">
                 <p>체육회 소개</p>
                 <div className="links">
-                  <a href="#1">뉴질랜드 대한생활체육회 회장</a>
-                  <a href="#2">설립목적</a>
-                  <a href="#4">뉴질랜드 회원 클럽</a>
+                  <Link to="/info/greet">뉴질랜드 대한생활체육회 회장</Link>
+                  <Link to="/info/purpose">설립목적</Link>
+                  <Link to="/info/status">뉴질랜드 회원 클럽</Link>
                 </div>
               </div>
 
               <div className="right-line" id="line-2">
                 <p>단체소개</p>
                 <div className="links">
-                  <a href="#1">전국체육회현황</a>
-                  <a href="#2">국제체육회현황</a>
-                  <a href="#3">종목별 운영현황</a>
-                  <a href="#4">산하단체</a>
+                  <Link to="/group/nation">전국체육회현황</Link>
+                  <Link to="/group/internation">국제체육회현황</Link>
+                  <Link to="/group/sports">종목별운영현황</Link>
+                  <Link to="/group/sanha">산하단체</Link>
                 </div>
               </div>
 
-              <div className="right-line" id="line-2">
+              <div className="right-line">
                 <p>알림마당</p>
                 <div className="links">
-                  <Link to="#1">공지/소식사항</Link>
-                  <Link to="#3">갤러리</Link>
+                  <Link to="/notice/announcement/1">공지/소식사항</Link>
+                  <Link to="/notice/gallery/1">갤러리</Link>
                 </div>
               </div>
             </div>

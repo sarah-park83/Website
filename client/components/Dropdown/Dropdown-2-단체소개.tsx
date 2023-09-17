@@ -59,15 +59,15 @@ export default function Dropdown2() {
               <div className="right-line" id="line-2">
                 <p>알림마당</p>
                 <div className="links">
-                  <Link to="#1">공지/소식사항</Link>
-                  <Link to="#3">갤러리</Link>
+                  <Link to="/notice/announcement/1">공지/소식사항</Link>
+                  <Link to="/notice/gallery/1">갤러리</Link>
                 </div>
               </div>
 
               <div className="right-line">
                 <p>스폰서</p>
                 <div className="links">
-                  <a href="#1">스폰서</a>
+                  <Link to="/mou/mou">스폰서</Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 .video-container {
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
   cursor: pointer;
   transition: 3s;
 }
@@ -14,7 +14,7 @@
 
 @media (max-width: 1280px) {
   .video-container {
-    height: 65vh;
+    height: 118vh;
   }
   iframe {
     height: 900px !important;
@@ -23,7 +23,7 @@
 
 @media (max-width: 1024px) {
   .video-container {
-    height: 70vh;
+    height: 130vh;
   }
   iframe {
     height: 750px !important;
@@ -32,7 +32,7 @@
 
 @media (max-width: 912px) {
   .video-container {
-    height: 28vh;
+    height: 50vh;
   }
   iframe {
     height: 650px !important;
@@ -41,7 +41,7 @@
 
 @media (max-width: 820px) {
   .video-container {
-    height: 33vh;
+    height: 58vh;
   }
   iframe {
     height: 650px !important;
@@ -50,7 +50,7 @@
 
 @media (max-width: 768px) {
   .video-container {
-    height: 37vh;
+    height: 67vh;
   }
   iframe {
     height: 650px !important;
@@ -59,7 +59,7 @@
 
 @media (max-width: 540px) {
   .video-container {
-    height: 50vh;
+    height: 80vh;
   }
   iframe {
     height: 550px !important;
@@ -68,7 +68,7 @@
 
 @media (max-width: 414px) {
   .video-container {
-    height: 35vh;
+    height: 55vh;
   }
   iframe {
     height: 450px !important;
@@ -77,7 +77,31 @@
 
 @media (max-width: 412px) {
   .video-container {
-    height: 30vh;
+    height: 53vh;
+  }
+  iframe {
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 393px) {
+  .video-container {
+    height: 58vh;
+  }
+  iframe {
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .video-container {
+    height: 72vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .video-container {
+    height: 65vh;
   }
   iframe {
     height: 450px !important;
@@ -86,7 +110,7 @@
 
 @media (max-width: 280px) {
   .video-container {
-    height: 40vh;
+    height: 70vh;
   }
   iframe {
     height: 400px !important;

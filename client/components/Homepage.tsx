@@ -4,10 +4,10 @@ import Footer from './Footer'
 import Banner from './Banner'
 import HomepageVideo from './HomepageVideo'
 import Popup from './Popup'
-import Intro from './Intro'
 import MobileCheck from './Dropdown/Mobile-check'
 import Tafisa from './Tafisa'
 import Gallery from './Gallery'
+import TafisaIntro from './TafisaIntro'
 
 import '../styles/homepage.css'
 
@@ -29,7 +29,8 @@ export function Homepage() {
         <HomepageVideo />
       </div>
       <div>
-        <Intro />
+        <TafisaIntro />
+        <p className="gallery_title">뉴질랜드 대한생활체육회 활동</p>
         <Gallery imagePaths={imagePaths} />
         <Footer />
       </div>

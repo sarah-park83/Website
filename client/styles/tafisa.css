@@ -15,7 +15,7 @@
 
 .tafisa_title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   padding: 15px;
   color:#ff7300;
@@ -25,6 +25,7 @@
 
 .tafisa_info {
   padding: 10px 23px;
+  font-size: 18px;
 }
 
 .tafisa_list {

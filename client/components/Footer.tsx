@@ -20,6 +20,7 @@ export default function Footer() {
       <div className="footer-center">
         <div>
           <p>
+            Contact
             <MdEmail className="icon" />
             <a className="email" href="mainto:nzklsct@gmail.com">
               nzklsct@gmail.com

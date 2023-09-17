@@ -36,7 +36,7 @@ footer h3 {
 
 .footer-info {
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
   color: #8f9296;
   padding-bottom: 5px;
   text-align: left;
@@ -70,7 +70,7 @@ footer h3 {
 .footer-center p {
   padding:20px;
   line-height: 0.5;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .footer-center .email {
@@ -84,7 +84,7 @@ footer h3 {
 .footer-company-about {
   line-height: 20px;
   color: #92999f;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   margin: 0;
   word-break: keep-all;

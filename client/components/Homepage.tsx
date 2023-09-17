@@ -13,11 +13,7 @@ import '../styles/homepage.css'
 
 export function Homepage() {
   const isMobile = MobileCheck()
-  const popupImagePaths = [
-    '/images/Gallery/image1.jpeg',
-    '/images/Gallery/image2.jpeg',
-    '/images/Gallery/image3.jpeg',
-  ]
+  const popupImagePaths = ['/images/Popup/ad.jpeg']
   const imagePaths = [
     '/images/Gallery/image1.jpeg',
     '/images/Gallery/image2.jpeg',

@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import {
   IoMdArrowDropleftCircle,
   IoMdArrowDroprightCircle,
@@ -5,32 +6,42 @@ import {
 
 import '../styles/popup.css'
 
-export default function Popup() {
+interface PopupProps {
+  popupImagePaths: string[] // Specify the type of imagePaths prop
+}
+
+const Popup: React.FC<PopupProps> = ({ popupImagePaths }) => {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex > 0 ? prevIndex - 1 : popupImagePaths.length - 1
+    )
+  }
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex < popupImagePaths.length - 1 ? prevIndex + 1 : 0
+    )
+  }
+
   return (
     <div className="headerPopup_container">
-      <a href="https://xn--vk1by6xrzecngs4l6obxj.com/article/anouncement/1/wBwT6IpiRh0pkWfXADw5">
-        <img
-          className="headerPopup_img"
-          src="images/Popup/ad.jpeg"
-          alt="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/mainPopup%2F%EB%8C%80%ED%95%9C%EC%83%9D%ED%99%9C%EC%B2%B4%EC%9C%A1%ED%9A%8C%20MOU%20%ED%9A%8C%EC%9B%90%20%EA%B0%80%EC%9E%85%20%ED%98%9C%ED%83%9D.jpg?alt=media&amp;token=05a33938-2875-48bf-8e6d-51f9482113f8"
-        />
-      </a>
+      <img
+        className="headerPopup_img"
+        src={popupImagePaths[currentIndex]}
+        alt="Popup"
+      />
       <div className="headerPopup_buttonContainer">
-        <svg
-          className="headerPopup_button"
-          focusable="false"
-          aria-hidden="true"
-        >
+        <button onClick={prevImage} className="headerPopup_button">
           <IoMdArrowDropleftCircle />
-        </svg>
-        <svg
-          className="headerPopup_button"
-          focusable="false"
-          aria-hidden="true"
-        >
+        </button>
+        <button onClick={nextImage} className="headerPopup_button">
           <IoMdArrowDroprightCircle />
-        </svg>
+        </button>
       </div>
     </div>
   )
 }
+
+export default Popup

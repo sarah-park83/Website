@@ -32,3 +32,25 @@
   padding: 10px 15px 10px;
   text-align: center;
 }
+
+@media (max-width: 280px) {
+  .tafisa_container {
+    padding: 20px 10px;
+    height: 300px;
+  }
+
+  .photo_subtitle {
+    font-size: 13px;
+    color: #ff7300;
+    font-weight: 700;
+    margin-bottom: -5px;
+  }
+
+  .photo_button {
+    font-size: 8px;
+  }
+  
+  .photo_list {
+    display: unset;
+  }
+}

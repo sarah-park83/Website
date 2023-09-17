@@ -5,7 +5,7 @@ export default function Tafisa() {
     <div className="tafisa_container">
       <div className="container">
         <div className="tafisa_title">
-          TAFISA(THE ASSOCIATION FOR INTERNATIONAL SPORT FOR ALL)
+          TAFISA (THE ASSOCIATION FOR INTERNATIONAL SPORT FOR ALL)
         </div>
         <p className="tafisa_info">
           TAFISA(THE ASSOCIATION FOR INTERNATIONAL SPORT FOR ALL)는 1969

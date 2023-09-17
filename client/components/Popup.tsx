@@ -26,19 +26,21 @@ const Popup: React.FC<PopupProps> = ({ popupImagePaths }) => {
   }
 
   return (
-    <div className="headerPopup_container">
-      <img
-        className="headerPopup_img"
-        src={popupImagePaths[currentIndex]}
-        alt="Popup"
-      />
-      <div className="headerPopup_buttonContainer">
-        <button onClick={prevImage} className="headerPopup_button">
-          <IoMdArrowDropleftCircle />
-        </button>
-        <button onClick={nextImage} className="headerPopup_button">
-          <IoMdArrowDroprightCircle />
-        </button>
+    <div className="popup_container">
+      <div className="headerPopup_container">
+        <img
+          className="headerPopup_img"
+          src={popupImagePaths[currentIndex]}
+          alt="Popup"
+        />
+        <div className="headerPopup_buttonContainer">
+          <button onClick={prevImage} className="headerPopup_button">
+            <IoMdArrowDropleftCircle />
+          </button>
+          <button onClick={nextImage} className="headerPopup_button">
+            <IoMdArrowDroprightCircle />
+          </button>
+        </div>
       </div>
     </div>
   )

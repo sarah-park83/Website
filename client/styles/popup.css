@@ -57,20 +57,46 @@
 @media (max-width: 1030px){
   .headerPopup_container {
     right: 25px;
-    width: 400px;
+    width: 440px;
     height: 550px;
     top: 500px;
   }
 }
 
-@media (max-width: 870px){
+@media (max-width: 920px){
+  .popup_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+  }
   .headerPopup_container {
-    display: none;
+    position:static;
+    width: 95vw;
+    height: 400px;
+    right: 10px;
+  }
+
+  .headerPopup_buttonContainer {
+    margin-top: -30px;
+    margin-right: 20px;
+  }
+  
+  .headerPopup_button {
+    font-size: 20px;
+    width: 10px;
   }
 }
 
-@media (max-width: 659px){
+@media (max-width: 540px){
   .headerPopup_container {
-    display: none;
+    width: 100vw;
+    height: 350px;
+  }
+}
+
+@media (max-width: 450px){
+  .headerPopup_container {
+    height: 380px;
   }
 }

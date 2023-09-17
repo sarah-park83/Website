@@ -18,7 +18,7 @@
 }
 
 .headerPopup_button {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
   border:0;
   font-size: 38px;
   max-width: 100%;

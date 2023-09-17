@@ -1,6 +1,7 @@
 .video-container {
+  padding-top: 300px;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   cursor: pointer;
   transition: 3s;
 }

@@ -1,5 +1,5 @@
 export { 공지소식사항 } from './공지소식사항'
 export { 공지소식사항Link1 } from './공지소식사항Link1'
-export { 갤러리 } from './갤러리'
-export { 갤러리Img1 } from './갤러리Img1'
-export { 갤러리Vid1 } from './갤러리Vid1'
+export { 갤러리 } from './갤러리 components/갤러리'
+export { BadmintonImg1 } from './갤러리 components/photos/badminton/Badminton-Img1'
+export { 갤러리Vid1 } from './갤러리 components/videos/갤러리Vid1'

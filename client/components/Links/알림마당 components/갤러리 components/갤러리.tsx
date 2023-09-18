@@ -1,11 +1,11 @@
-import '../../../styles/Sub-pages/subpage.css'
-import '../../../styles/Sub-pages/알림마당 css/갤러리-content.css'
-import Dropdownmenu from '../../Dropdown/Dropdownmenu'
-import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
-import MobileCheck from '../../Dropdown/Mobile-check'
-import ImageLoader from '../Image-loader'
-import Footer from '../../Footer'
-import Header from '../Link-header'
+import '../../../../styles/Sub-pages/subpage.css'
+import '../../../../styles/Sub-pages/알림마당 css/갤러리-content.css'
+import Dropdownmenu from '../../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../../Dropdown/Mobile-check'
+import ImageLoader from '../../Image-loader'
+import Footer from '../../../Footer'
+import Header from '../../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link, useNavigate } from 'react-router-dom'
@@ -112,7 +112,7 @@ export function 갤러리() {
                     alt="image1"
                   />
                 </div>
-                <Link to="/article/photo/1/PRD1XR57m9dKNGUQdCub">
+                <Link to="/article/photo/badminton">
                   <div className="gallery-list-text-container">
                     <div className="gallery-list-title">
                       태백시 이상호시장님 방문

@@ -54,6 +54,10 @@ export const router = createBrowserRouter(
         path="/article/photo/groupPhotos"
         element={<알림마당components.GroupPhotos />}
       />
+      <Route
+        path="/article/photo/hockey"
+        element={<알림마당components.HockeyPhotos />}
+      />
 
       <Route
         path="/article/video/1/I7AOsNSrNuBCk8RBz9II"

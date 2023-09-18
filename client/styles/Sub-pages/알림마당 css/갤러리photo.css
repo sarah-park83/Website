@@ -86,6 +86,11 @@
     width: auto;
 }
 
+.long {
+    max-width: 450px;
+    height: auto;
+}
+
 .article-button-container {
     font-family: Pretendard-Regular,sans-serif;
     width: 100%;

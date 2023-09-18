@@ -34,11 +34,6 @@ export const router = createBrowserRouter(
         element={<단체소개components.국제체육회현황 />}
       />
       <Route
-        path="/group/sports"
-        element={<단체소개components.종목별운영현황 />}
-      />
-      <Route path="/group/sanha" element={<단체소개components.산하단체 />} />
-      <Route
         path="/notice/announcement/1"
         element={<공지소식사항components.공지소식사항 />}
       />

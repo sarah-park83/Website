@@ -178,12 +178,6 @@ export default function Dropdownmenu_mobile() {
               <Link to="/group/internation">
                 <div className="mobile-nav-item">국제체육회현황</div>
               </Link>
-              <Link to="/group/sports">
-                <div className="mobile-nav-item">종목별운영현황</div>
-              </Link>
-              <Link to="/group/sanha">
-                <div className="mobile-nav-item">산하단체</div>
-              </Link>
             </>
           )}
 

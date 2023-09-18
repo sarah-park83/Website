@@ -13,6 +13,7 @@ import { useState } from 'react'
 
 const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
 const basketball1 = '/images/Gallery/Basketball/basketball1.JPG?url'
+const groupPhoto5 = '/images/Gallery/Group-Photo/groupPhoto5.JPG?url'
 
 export function 갤러리() {
   const isMobile = MobileCheck()
@@ -134,6 +135,22 @@ export function 갤러리() {
                 <Link to="/article/photo/basketball">
                   <div className="gallery-list-text-container">
                     <div className="gallery-list-title">Basketball</div>
+                    <div className="gallery-list-createdAt">Date?</div>
+                  </div>
+                </Link>
+              </li>
+
+              <li className="gallery-list-table">
+                <div className="gallery-list-container">
+                  <ImageLoader
+                    className="gallery-list-item"
+                    src={groupPhoto5}
+                    alt="groupPhoto5"
+                  />
+                </div>
+                <Link to="/article/photo/groupPhotos">
+                  <div className="gallery-list-text-container">
+                    <div className="gallery-list-title">Group Photo</div>
                     <div className="gallery-list-createdAt">Date?</div>
                   </div>
                 </Link>

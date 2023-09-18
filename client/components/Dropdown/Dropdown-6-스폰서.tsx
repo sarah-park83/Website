@@ -58,8 +58,6 @@ export default function Dropdown6() {
                 <div className="links">
                   <Link to="/group/nation">전국체육회현황</Link>
                   <Link to="/group/internation">국제체육회현황</Link>
-                  <Link to="/group/sports">종목별운영현황</Link>
-                  <Link to="/group/sanha">산하단체</Link>
                 </div>
               </div>
 

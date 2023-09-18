@@ -5,29 +5,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(89, 1, 0);
   height: 80px;
   padding: 0 20px;
   border-bottom: 1px solid black;
 }
 
-.navbar a:not(:first-child) {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  padding: 20px 16px 20px 16px;
-  float: right;
-  margin-left: 15px;
-  position: relative;
-  text-decoration: none;
-  height: 100%;
-}
-
 #logo {
-  width: 220px; 
-  height: auto; 
-  margin-left: 80px;
+  width: auto; 
+  height: 80px; 
+  margin-left: 200px;
 }
 
 .navbar a:first-child {
@@ -35,15 +22,28 @@
   margin-right: auto;
 }
 
+.navbar a:not(:first-child) {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 25px 16px 20px 16px;
+  float: right;
+  margin-left: 15px;
+  position: relative;
+  text-decoration: none;
+  height: 80px;
+}
+
 .navbar a:nth-child(n + 3)::before {
   content: "";
   display: block;
   position: absolute;
   left: -8px; 
-  top: 24px; 
+  top: 30px; 
   height: 18px; 
   width: 3px;
-  background-color: rgb(233, 228, 228);
+  background-color: rgb(87, 87, 87);
   border: none;
 }
 
@@ -221,10 +221,10 @@
   display: block;
   position: absolute;
   left: -16px;
-  top: 24px;
+  top: 30px;
   height: 18px;
   width: 3px;
-  background-color: rgb(233, 228, 228);
+  background-color: rgb(233, 228, 228)!important;
   border: none;
 }
 
@@ -236,10 +236,11 @@
 .links a {
   text-decoration: none;
   font-size: 18px;
+  color: black!important;
 }
 
 .links a:hover {
-  color: orange;
+  color: orange!important;
 }
 
 /***************** Media Query Phone *************/
@@ -255,6 +256,7 @@
   height: 80%;
   font-size: 13px;
   margin-left: 5px;
+  padding: 30px 11px 30px 11px;
 }
 
 .navbar a:nth-child(n + 3)::before {
@@ -269,7 +271,7 @@
 }
 
 .dropdown-content {
-  top: 72px;
+  top: 80px;
   height: 220px;
 }
 
@@ -349,11 +351,10 @@
 
   .navbar a:not(:first-child) {
     top: 3px;
-    padding: 23px 11px 25px 11px;
   }
 
   .navbar a:nth-child(n + 3)::before {
-    top: 24px; 
+    top: 30px; 
   }
 
   .links a:before {
@@ -369,12 +370,9 @@
 
   .navbar a:not(:first-child) {
     top: 5px;
-    padding: 26px 11px 30px 11px;
   }
 
-  .navbar a:nth-child(n + 3)::before {
-    top: 26px; 
-  }
+ 
 
   .right-line {
     height: 55px;
@@ -393,7 +391,7 @@
 }
 
 .navbar a:not(:first-child) {
-  padding: 20px 11px 28px 11px;
+  padding: 25px 11px 33px 11px;
   height: 90%;
   font-size: 17px;
   margin-left: 5px;
@@ -401,7 +399,6 @@
 
 .navbar a:nth-child(n + 3)::before {
   left: -5px; 
-  top: 25px; 
   height: 18px; 
   width: 3px;
   background-color: rgb(233, 228, 228);
@@ -412,7 +409,7 @@
 }
 
 .dropdown-content {
-  top: 72px;
+  top: 81.5px;
   height: 250px;
 }
 

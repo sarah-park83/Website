@@ -5,16 +5,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(89, 1, 0);
   height: 80px;
   padding: 0 20px;
   border-bottom: 1px solid black;
 }
 
+#logo {
+  width: auto; 
+  height: 80px; 
+  margin-left: 200px;
+}
+
+.navbar a:first-child {
+  float: left;
+  margin-right: auto;
+}
+
 .navbar a:not(:first-child) {
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  color: white;
   text-align: center;
   padding: 25px 16px 20px 16px;
   float: right;
@@ -22,18 +33,6 @@
   position: relative;
   text-decoration: none;
   height: 80px;
-}
-
-#logo {
-  width: auto; 
-  height: 80px; 
-  margin-left: 200px;
-  
-}
-
-.navbar a:first-child {
-  float: left;
-  margin-right: auto;
 }
 
 .navbar a:nth-child(n + 3)::before {
@@ -44,7 +43,7 @@
   top: 30px; 
   height: 18px; 
   width: 3px;
-  background-color: rgb(233, 228, 228);
+  background-color: rgb(87, 87, 87);
   border: none;
 }
 
@@ -225,7 +224,7 @@
   top: 30px;
   height: 18px;
   width: 3px;
-  background-color: rgb(233, 228, 228);
+  background-color: rgb(233, 228, 228)!important;
   border: none;
 }
 
@@ -237,10 +236,11 @@
 .links a {
   text-decoration: none;
   font-size: 18px;
+  color: black!important;
 }
 
 .links a:hover {
-  color: orange;
+  color: orange!important;
 }
 
 /***************** Media Query Phone *************/

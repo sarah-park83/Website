@@ -12,6 +12,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 
 const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
+const basketball1 = '/images/Gallery/Basketball/basketball1.JPG?url'
 
 export function 갤러리() {
   const isMobile = MobileCheck()
@@ -117,6 +118,22 @@ export function 갤러리() {
                 <Link to="/article/photo/badminton">
                   <div className="gallery-list-text-container">
                     <div className="gallery-list-title">Badminton</div>
+                    <div className="gallery-list-createdAt">Date?</div>
+                  </div>
+                </Link>
+              </li>
+
+              <li className="gallery-list-table">
+                <div className="gallery-list-container">
+                  <ImageLoader
+                    className="gallery-list-item"
+                    src={basketball1}
+                    alt="basketball1"
+                  />
+                </div>
+                <Link to="/article/photo/basketball">
+                  <div className="gallery-list-text-container">
+                    <div className="gallery-list-title">Basketball</div>
                     <div className="gallery-list-createdAt">Date?</div>
                   </div>
                 </Link>

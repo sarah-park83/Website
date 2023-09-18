@@ -1,22 +1,28 @@
-import '../../../../../../styles/Sub-pages/subpage.css'
-import '../../../../../../styles/Sub-pages/알림마당 css/갤러리Item.css'
-import Dropdownmenu from '../../../../../Dropdown/Dropdownmenu'
-import Dropdownmenu_mobile from '../../../../../Dropdown/Dropdownmenu-mobile'
-import MobileCheck from '../../../../../Dropdown/Mobile-check'
-import ImageLoader from '../../../../Image-loader'
-import Footer from '../../../../../Footer'
-import Header from '../../../../Link-header'
+import '../../../../../styles/Sub-pages/subpage.css'
+import '../../../../../styles/Sub-pages/알림마당 css/갤러리photo.css'
+import Dropdownmenu from '../../../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../../../Dropdown/Mobile-check'
+import ImageLoader from '../../../Image-loader'
+import Footer from '../../../../Footer'
+import Header from '../../../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
-const badminton2 = '/images/Gallery/Badminton/badminton2.JPG?url'
-const badminton3 = '/images/Gallery/Badminton/badminton3.JPG?url'
-const badminton4 = '/images/Gallery/Badminton/badminton4.JPG?url'
-const badminton5 = '/images/Gallery/Badminton/badminton5.JPG?url'
+const basketball1 = '/images/Gallery/Basketball/basketball1.JPG?url'
+const basketball2 = '/images/Gallery/Basketball/basketball2.JPG?url'
+const basketball3 = '/images/Gallery/Basketball/basketball3.JPG?url'
+const basketball4 = '/images/Gallery/Basketball/basketball4.JPG?url'
+const basketball5 = '/images/Gallery/Basketball/basketball5.JPG?url'
+const basketball6 = '/images/Gallery/Basketball/basketball6.JPG?url'
+const basketball7 = '/images/Gallery/Basketball/basketball7.JPG?url'
+const basketball8 = '/images/Gallery/Basketball/basketball8.JPG?url'
+const basketball9 = '/images/Gallery/Basketball/basketball9.JPG?url'
+const basketball10 = '/images/Gallery/Basketball/basketball10.JPG?url'
+const basketball11 = '/images/Gallery/Basketball/basketball11.JPG?url'
 
-export function BadmintonImg1() {
+export function BasketballPhotos() {
   const isMobile = MobileCheck()
 
   return (
@@ -94,7 +100,7 @@ export function BadmintonImg1() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>Badminton</h4>
+                <h4>Basketball</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -112,15 +118,15 @@ export function BadmintonImg1() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>Badminton</p>
+                <p>Basketball</p>
                 <p>
                   <br />
                 </p>
                 <p>
                   <ImageLoader
-                    src={badminton1}
-                    alt="badminton1"
-                    className="badminton-img"
+                    src={basketball1}
+                    alt="basketball1"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -128,9 +134,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src={badminton2}
-                    alt="badminton2"
-                    className="badminton-img"
+                    src={basketball2}
+                    alt="basketball2"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -138,9 +144,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src={badminton3}
-                    alt="badminton3"
-                    className="badminton-img"
+                    src={basketball3}
+                    alt="basketball3"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -148,9 +154,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src={badminton4}
-                    alt="badminton4"
-                    className="badminton-img"
+                    src={basketball4}
+                    alt="basketball4"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -158,9 +164,69 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src={badminton5}
-                    alt="badminton5"
-                    className="badminton-img"
+                    src={basketball5}
+                    alt="basketball5"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball6}
+                    alt="basketball6"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball7}
+                    alt="basketball7"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball8}
+                    alt="basketball8"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball9}
+                    alt="basketball9"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball10}
+                    alt="basketball10"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={basketball11}
+                    alt="basketball11"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>

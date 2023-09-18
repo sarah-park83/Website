@@ -1,15 +1,22 @@
 import '../../../../../styles/Sub-pages/subpage.css'
-import '../../../../../styles/Sub-pages/알림마당 css/갤러리vid.css'
+import '../../../../../styles/Sub-pages/알림마당 css/갤러리photo.css'
 import Dropdownmenu from '../../../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../../../Dropdown/Mobile-check'
+import ImageLoader from '../../../Image-loader'
 import Footer from '../../../../Footer'
 import Header from '../../../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function 갤러리Vid1() {
+const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
+const badminton2 = '/images/Gallery/Badminton/badminton2.JPG?url'
+const badminton3 = '/images/Gallery/Badminton/badminton3.JPG?url'
+const badminton4 = '/images/Gallery/Badminton/badminton4.JPG?url'
+const badminton5 = '/images/Gallery/Badminton/badminton5.JPG?url'
+
+export function BadmintonPhotos() {
   const isMobile = MobileCheck()
 
   return (
@@ -80,14 +87,14 @@ export function 갤러리Vid1() {
         <div className="content-container">
           <div className="subMenu-title-container">
             <h2>갤러리</h2>
-            <h3>대한생활체육회의 동영상갤러리 전해드립니다.</h3>
+            <h3>대한생활체육회의 포토갤러리 전해드립니다.</h3>
           </div>
 
           <div>
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>Video</h4>
+                <h4>Badminton</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -105,17 +112,57 @@ export function 갤러리Vid1() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>Video</p>
+                <p>Badminton</p>
                 <p>
                   <br />
                 </p>
-                <iframe
-                  title="YouTube Video"
-                  src="https://www.youtube.com/embed/Z3zlHNo9ylQ"
-                  className="ql-editor-vid"
-                  frameBorder={0}
-                  allowFullScreen={true}
-                ></iframe>
+                <p>
+                  <ImageLoader
+                    src={badminton1}
+                    alt="badminton1"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={badminton2}
+                    alt="badminton2"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={badminton3}
+                    alt="badminton3"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={badminton4}
+                    alt="badminton4"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={badminton5}
+                    alt="badminton5"
+                    className="ql-editor-img"
+                  />
+                </p>
                 <p>
                   <br />
                 </p>

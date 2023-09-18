@@ -64,23 +64,14 @@ export default function Dropdownmenu_mobile() {
   return (
     <>
       <div className="navbar-mobile">
-        <div className="navbar-mobile-logo">
-          <a href="/">
-            <span className="logo-container">
-              <span>
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27150%27%20height=%2750%27/%3e"
-                />
-              </span>
-              <img
-                src={logo}
-                alt="대한생활체육회 로고"
-                className="navbar-logo-img"
-              />
-            </span>
-          </a>
+        <div className="navbar-mobile-logo-container">
+          <Link to="/">
+            <img
+              src={logo}
+              alt="대한생활체육회 로고"
+              className="navbar-logo-img"
+            />
+          </Link>
         </div>
         <div className="mobile-menu-icon">
           <a

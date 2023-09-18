@@ -256,6 +256,7 @@
   height: 80%;
   font-size: 13px;
   margin-left: 5px;
+  padding: 30px 11px 30px 11px;
 }
 
 .navbar a:nth-child(n + 3)::before {
@@ -270,7 +271,7 @@
 }
 
 .dropdown-content {
-  top: 72px;
+  top: 80px;
   height: 220px;
 }
 
@@ -350,11 +351,10 @@
 
   .navbar a:not(:first-child) {
     top: 3px;
-    padding: 23px 11px 25px 11px;
   }
 
   .navbar a:nth-child(n + 3)::before {
-    top: 24px; 
+    top: 30px; 
   }
 
   .links a:before {
@@ -370,12 +370,9 @@
 
   .navbar a:not(:first-child) {
     top: 5px;
-    padding: 26px 11px 30px 11px;
   }
 
-  .navbar a:nth-child(n + 3)::before {
-    top: 26px; 
-  }
+ 
 
   .right-line {
     height: 55px;
@@ -394,7 +391,7 @@
 }
 
 .navbar a:not(:first-child) {
-  padding: 20px 11px 28px 11px;
+  padding: 25px 11px 33px 11px;
   height: 90%;
   font-size: 17px;
   margin-left: 5px;
@@ -402,7 +399,6 @@
 
 .navbar a:nth-child(n + 3)::before {
   left: -5px; 
-  top: 25px; 
   height: 18px; 
   width: 3px;
   background-color: rgb(233, 228, 228);
@@ -413,7 +409,7 @@
 }
 
 .dropdown-content {
-  top: 72px;
+  top: 81.5px;
   height: 250px;
 }
 

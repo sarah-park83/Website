@@ -11,6 +11,8 @@ import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 
+const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
+
 export function 갤러리() {
   const isMobile = MobileCheck()
   const [inputValue, setInputValue] = useState('1')
@@ -108,16 +110,14 @@ export function 갤러리() {
                 <div className="gallery-list-container">
                   <ImageLoader
                     className="gallery-list-item"
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752.jpg?alt=media&amp;token=3a014ca8-cdc1-4d0b-b8b9-33a019c8876d"
-                    alt="image1"
+                    src={badminton1}
+                    alt="badminton1"
                   />
                 </div>
                 <Link to="/article/photo/badminton">
                   <div className="gallery-list-text-container">
-                    <div className="gallery-list-title">
-                      태백시 이상호시장님 방문
-                    </div>
-                    <div className="gallery-list-createdAt">2023.09.11</div>
+                    <div className="gallery-list-title">Badminton</div>
+                    <div className="gallery-list-createdAt">Date?</div>
                   </div>
                 </Link>
               </li>

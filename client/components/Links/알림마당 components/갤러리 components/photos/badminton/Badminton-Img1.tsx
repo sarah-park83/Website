@@ -10,6 +10,12 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
+const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
+const badminton2 = '/images/Gallery/Badminton/badminton2.JPG?url'
+const badminton3 = '/images/Gallery/Badminton/badminton3.JPG?url'
+const badminton4 = '/images/Gallery/Badminton/badminton4.JPG?url'
+const badminton5 = '/images/Gallery/Badminton/badminton5.JPG?url'
+
 export function BadmintonImg1() {
   const isMobile = MobileCheck()
 
@@ -88,7 +94,7 @@ export function BadmintonImg1() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>태백시 이상호시장님 방문</h4>
+                <h4>Badminton</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -96,7 +102,7 @@ export function BadmintonImg1() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2023/9/11</h4>
+                <h4>Date?</h4>
               </div>
             </div>
 
@@ -106,15 +112,15 @@ export function BadmintonImg1() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>태백시 이상호시장님 방문</p>
+                <p>Badminton</p>
                 <p>
                   <br />
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752.jpg?alt=media&amp;token=3a014ca8-cdc1-4d0b-b8b9-33a019c8876d alt="
-                    alt="KakaoTalk_20230911_105838752.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={badminton1}
+                    alt="badminton1"
+                    className="badminton-img"
                   />
                 </p>
                 <p>
@@ -122,9 +128,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_01.jpg?alt=media&amp;token=87617a4a-3395-4aa9-81ca-7e9c7a3dbee4 alt="
-                    alt="KakaoTalk_20230911_105838752_01.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={badminton2}
+                    alt="badminton2"
+                    className="badminton-img"
                   />
                 </p>
                 <p>
@@ -132,9 +138,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_02.jpg?alt=media&amp;token=62199167-8723-47fd-b3f1-3e4e3872f406 alt="
-                    alt="KakaoTalk_20230911_105838752_02.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={badminton3}
+                    alt="badminton3"
+                    className="badminton-img"
                   />
                 </p>
                 <p>
@@ -142,9 +148,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_03.jpg?alt=media&amp;token=1d1773df-d7bb-44bf-9b76-26a68e6ac616 alt="
-                    alt="KakaoTalk_20230911_105838752_03.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={badminton4}
+                    alt="badminton4"
+                    className="badminton-img"
                   />
                 </p>
                 <p>
@@ -152,19 +158,9 @@ export function BadmintonImg1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_04.jpg?alt=media&amp;token=1dd3190e-1452-4e9b-81c0-0e548d8999da alt="
-                    alt="KakaoTalk_20230911_105838752_04.jpg"
-                    className="ql-editor-갤러리-img1"
-                  />
-                </p>
-                <p>
-                  <br />
-                </p>
-                <p>
-                  <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_05.jpg?alt=media&amp;token=aeaa61fb-c8c9-4bef-a614-21ab97928e3b alt="
-                    alt="KakaoTalk_20230911_105838752_05.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={badminton5}
+                    alt="badminton5"
+                    className="badminton-img"
                   />
                 </p>
                 <p>

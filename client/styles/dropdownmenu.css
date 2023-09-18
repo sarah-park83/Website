@@ -16,18 +16,19 @@
   font-weight: bold;
   color: black;
   text-align: center;
-  padding: 20px 16px 20px 16px;
+  padding: 25px 16px 20px 16px;
   float: right;
   margin-left: 15px;
   position: relative;
   text-decoration: none;
-  height: 100%;
+  height: 80px;
 }
 
 #logo {
-  width: 220px; 
-  height: auto; 
-  margin-left: 80px;
+  width: auto; 
+  height: 80px; 
+  margin-left: 200px;
+  
 }
 
 .navbar a:first-child {
@@ -40,7 +41,7 @@
   display: block;
   position: absolute;
   left: -8px; 
-  top: 24px; 
+  top: 30px; 
   height: 18px; 
   width: 3px;
   background-color: rgb(233, 228, 228);
@@ -221,7 +222,7 @@
   display: block;
   position: absolute;
   left: -16px;
-  top: 24px;
+  top: 30px;
   height: 18px;
   width: 3px;
   background-color: rgb(233, 228, 228);

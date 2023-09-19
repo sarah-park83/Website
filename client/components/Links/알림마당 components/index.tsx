@@ -6,4 +6,5 @@ export { BasketballPhotos } from './갤러리 components/photos/BasketballPhotos
 export { GroupPhotos } from './갤러리 components/photos/GroupPhotos'
 export { HockeyPhotos } from './갤러리 components/photos/HockeyPhotos'
 export { ElectionPhotos } from './갤러리 components/photos/ElectionPhotos'
+export { PoolPhotos } from './갤러리 components/photos/PoolPhotos'
 export { 갤러리Vid1 } from './갤러리 components/videos/갤러리Vid1'

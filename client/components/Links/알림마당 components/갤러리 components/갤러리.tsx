@@ -19,6 +19,7 @@ const election1 = '/images/Gallery/Leader-Election/election1.JPG?url'
 const pool1 = '/images/Gallery/Pool/pool1.JPG?url'
 const soccer1 = '/images/Gallery/Soccer/soccer1.JPG?url'
 const swimming1 = '/images/Gallery/Swimming/swimming1.JPG?url'
+const tennis1 = '/images/Gallery/Tennis/tennis1.JPG?url'
 
 export function 갤러리() {
   const isMobile = MobileCheck()
@@ -236,6 +237,22 @@ export function 갤러리() {
                 <Link to="/article/photo/swimming">
                   <div className="gallery-list-text-container">
                     <div className="gallery-list-title">Swimming</div>
+                    <div className="gallery-list-createdAt">Date?</div>
+                  </div>
+                </Link>
+              </li>
+
+              <li className="gallery-list-table">
+                <div className="gallery-list-container">
+                  <ImageLoader
+                    className="gallery-list-item"
+                    src={tennis1}
+                    alt="tennis1"
+                  />
+                </div>
+                <Link to="/article/photo/tennis">
+                  <div className="gallery-list-text-container">
+                    <div className="gallery-list-title">Tennis</div>
                     <div className="gallery-list-createdAt">Date?</div>
                   </div>
                 </Link>

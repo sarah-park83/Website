@@ -1,15 +1,21 @@
-import '../../../styles/Sub-pages/subpage.css'
-import '../../../styles/Sub-pages/알림마당 css/갤러리Item.css'
-import Dropdownmenu from '../../Dropdown/Dropdownmenu'
-import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
-import MobileCheck from '../../Dropdown/Mobile-check'
-import Footer from '../../Footer'
-import Header from '../Link-header'
+import '../../../../../styles/Sub-pages/subpage.css'
+import '../../../../../styles/Sub-pages/알림마당 css/갤러리photo.css'
+import Dropdownmenu from '../../../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../../../Dropdown/Mobile-check'
+import ImageLoader from '../../../Image-loader'
+import Footer from '../../../../Footer'
+import Header from '../../../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function 갤러리Vid1() {
+const election1 = '/images/Gallery/Leader-Election/election1.JPG?url'
+const election2 = '/images/Gallery/Leader-Election/election2.JPG?url'
+const election3 = '/images/Gallery/Leader-Election/election3.JPG?url'
+const election4 = '/images/Gallery/Leader-Election/election4.JPG?url'
+
+export function ElectionPhotos() {
   const isMobile = MobileCheck()
 
   return (
@@ -50,7 +56,7 @@ export function 갤러리Vid1() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/notice/apply/1">
+          <Link to="/notice/gallery/1">
             <h2>갤러리</h2>
           </Link>
         </div>
@@ -80,17 +86,14 @@ export function 갤러리Vid1() {
         <div className="content-container">
           <div className="subMenu-title-container">
             <h2>갤러리</h2>
-            <h3>대한생활체육회의 동영상갤러리 전해드립니다.</h3>
+            <h3>대한생활체육회의 포토갤러리 전해드립니다.</h3>
           </div>
 
           <div>
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>
-                  대한생활체육낚시협회 [직격 인터뷰] 낚시인 천만 시대,
-                  과제는?(2023.8.21/뉴스투데이/MBC경남)
-                </h4>
+                <h4>Election</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -98,7 +101,7 @@ export function 갤러리Vid1() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2023/9/2</h4>
+                <h4>Date?</h4>
               </div>
             </div>
 
@@ -108,20 +111,47 @@ export function 갤러리Vid1() {
                 data-gramm="false"
                 contentEditable="false"
               >
+                <p>Election</p>
                 <p>
-                  대한생활체육낚시협회 [직격 인터뷰] 낚시인 천만 시대,
-                  과제는?(2023.8.21/뉴스투데이/MBC경남)
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={election1}
+                    alt="election1"
+                    className="ql-editor-img long"
+                  />
                 </p>
                 <p>
                   <br />
                 </p>
-                <iframe
-                  title="YouTube Video"
-                  src="https://www.youtube.com/embed/Z3zlHNo9ylQ"
-                  className="ql-editor-갤러리-vid1"
-                  frameBorder={0}
-                  allowFullScreen={true}
-                ></iframe>
+                <p>
+                  <ImageLoader
+                    src={election2}
+                    alt="election2"
+                    className="ql-editor-img"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={election3}
+                    alt="election3"
+                    className="ql-editor-img long"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={election4}
+                    alt="election4"
+                    className="ql-editor-img"
+                  />
+                </p>
                 <p>
                   <br />
                 </p>

@@ -1,16 +1,24 @@
-import '../../../styles/Sub-pages/subpage.css'
-import '../../../styles/Sub-pages/알림마당 css/갤러리Item.css'
-import Dropdownmenu from '../../Dropdown/Dropdownmenu'
-import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
-import MobileCheck from '../../Dropdown/Mobile-check'
-import ImageLoader from '../Image-loader'
-import Footer from '../../Footer'
-import Header from '../Link-header'
+import '../../../../../styles/Sub-pages/subpage.css'
+import '../../../../../styles/Sub-pages/알림마당 css/갤러리photo.css'
+import Dropdownmenu from '../../../../Dropdown/Dropdownmenu'
+import Dropdownmenu_mobile from '../../../../Dropdown/Dropdownmenu-mobile'
+import MobileCheck from '../../../../Dropdown/Mobile-check'
+import ImageLoader from '../../../Image-loader'
+import Footer from '../../../../Footer'
+import Header from '../../../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-export function 갤러리Img1() {
+const soccer1 = '/images/Gallery/Soccer/soccer1.JPG?url'
+const soccer2 = '/images/Gallery/Soccer/soccer2.JPG?url'
+const soccer3 = '/images/Gallery/Soccer/soccer3.JPG?url'
+const soccer4 = '/images/Gallery/Soccer/soccer4.JPG?url'
+const soccer5 = '/images/Gallery/Soccer/soccer5.JPG?url'
+const soccer6 = '/images/Gallery/Soccer/soccer6.JPG?url'
+const soccer7 = '/images/Gallery/Soccer/soccer7.JPG?url'
+
+export function SoccerPhotos() {
   const isMobile = MobileCheck()
 
   return (
@@ -88,7 +96,7 @@ export function 갤러리Img1() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>태백시 이상호시장님 방문</h4>
+                <h4>Soccer</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -96,7 +104,7 @@ export function 갤러리Img1() {
               </div>
               <div className="article-createdAt">
                 <p>등록일</p>
-                <h4>2023/9/11</h4>
+                <h4>Date?</h4>
               </div>
             </div>
 
@@ -106,15 +114,15 @@ export function 갤러리Img1() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>태백시 이상호시장님 방문</p>
+                <p>Soccer</p>
                 <p>
                   <br />
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752.jpg?alt=media&amp;token=3a014ca8-cdc1-4d0b-b8b9-33a019c8876d alt="
-                    alt="KakaoTalk_20230911_105838752.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer1}
+                    alt="soccer1"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -122,9 +130,9 @@ export function 갤러리Img1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_01.jpg?alt=media&amp;token=87617a4a-3395-4aa9-81ca-7e9c7a3dbee4 alt="
-                    alt="KakaoTalk_20230911_105838752_01.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer2}
+                    alt="soccer2"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -132,9 +140,9 @@ export function 갤러리Img1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_02.jpg?alt=media&amp;token=62199167-8723-47fd-b3f1-3e4e3872f406 alt="
-                    alt="KakaoTalk_20230911_105838752_02.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer3}
+                    alt="soccer3"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -142,9 +150,9 @@ export function 갤러리Img1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_03.jpg?alt=media&amp;token=1d1773df-d7bb-44bf-9b76-26a68e6ac616 alt="
-                    alt="KakaoTalk_20230911_105838752_03.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer4}
+                    alt="soccer4"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -152,9 +160,9 @@ export function 갤러리Img1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_04.jpg?alt=media&amp;token=1dd3190e-1452-4e9b-81c0-0e548d8999da alt="
-                    alt="KakaoTalk_20230911_105838752_04.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer5}
+                    alt="soccer5"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>
@@ -162,9 +170,19 @@ export function 갤러리Img1() {
                 </p>
                 <p>
                   <ImageLoader
-                    src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/images%2FWIGPa62FhWRGCImTu4HV0FeJ1A83%2FKakaoTalk_20230911_105838752_05.jpg?alt=media&amp;token=aeaa61fb-c8c9-4bef-a614-21ab97928e3b alt="
-                    alt="KakaoTalk_20230911_105838752_05.jpg"
-                    className="ql-editor-갤러리-img1"
+                    src={soccer6}
+                    alt="soccer6"
+                    className="ql-editor-img long"
+                  />
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <ImageLoader
+                    src={soccer7}
+                    alt="soccer7"
+                    className="ql-editor-img"
                   />
                 </p>
                 <p>

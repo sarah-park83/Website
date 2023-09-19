@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     min-height: 60px;
-    background-color: rgb(89, 1, 0);
+    background-color: white;
     width: 100%;
     font-family: Pretendard-Regular,sans-serif;
     z-index: 10000000;
@@ -33,7 +33,7 @@
     align-items: center;
     margin-right: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .mobile-login {
@@ -140,7 +140,7 @@
 
 @media screen and (min-width: 551px) and (max-width: 650px) {
 
-    .navbar-mobile-logo-container {
-        margin-left: 60px;
-    }
-    }
+.navbar-mobile-logo-container {
+    margin-left: 60px;
+}
+}

@@ -51,7 +51,7 @@
     align-items: center; 
     position: relative;
     width: 100%!important;
-    height: 100%!important;
+    height: 185px!important;
     background-color: black;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .gallery-list-title {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
 }
 
@@ -139,7 +139,7 @@
 }
     
 .gallery-list-title {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
 }
     
@@ -166,7 +166,7 @@
 }
     
 .gallery-list-title {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
 }
     

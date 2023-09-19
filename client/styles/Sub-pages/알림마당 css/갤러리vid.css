@@ -67,47 +67,6 @@
     font-weight: 500;
 }
 
-.article-file-container {
-    font-family: Pretendard-Regular,sans-serif;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 2px solid rgba(255,153,0,.118);
-    align-items: center;
-    text-align: center;
-    min-height: 50px;
-}
-
-.article-file-container h4 {
-    width: 20%;
-    font-size: 15px;
-}
-
-.article-file-list {
-    width: 80%;
-    text-align: left;
-    padding: 5px 0;
-    font-size: 25px;
-}
-
-.article-file-name {
-    padding: 10px 0 0 5px;
-}
-
-.article-file-name h6 {
-    border-bottom: 1.5px solid #bdbdbd;
-    padding-bottom: 3px;
-    width: fit-content;
-    cursor: pointer;
-    transition: .2s;
-    color: black;
-}
-
-.article-file-name h6:hover {
-    color: orange;
-}
-  
-
 .quill-article-container {
     padding: 20px 10px;
     font-family: Pretendard-Regular,sans-serif!important;
@@ -121,13 +80,7 @@
     font-size: 18px;
 }
 
-.ql-editor-갤러리-img1 {
-    margin-left: 0;
-    height: 300px;
-    width: auto;
-}
-
-.ql-editor-갤러리-vid1 {
+.ql-editor-vid {
     width: 400px;
     height: 250px!important;
     margin: 10px;
@@ -182,25 +135,13 @@
     font-size: 14px;
 }
 
-.article-file-container h4 {
-    font-size: 12px;
-}
-
-.article-file-list {
-    font-size: 18px;
-}
-
-.article-file-name h6 {
-    border: none;
-}
-
 .ql-editor {
     line-height: 16px;
     font-size: 13px;
     width: 100%;
 }
 
-.ql-editor-갤러리-img1 {
+.ql-editor-vid {
     width: 100%;
     height: 100%;
 }

@@ -45,12 +45,96 @@
   overflow: clip;
 }
 
+/* Media Query */
+
 @media (max-width: 1280px){
   .headerPopup_container {
     right: 30px;
     width: 550px;
     height: 600px;
     top: 450px;
+  }
+}
+
+
+@media (max-width: 2000px){
+  .headerPopup_container {
+    right: 25px;
+    width: 760px;
+    height: 800px;
+    top: 280px;
+  }
+}
+
+@media (max-width: 1900px){
+  .headerPopup_container {
+    right: 25px;
+    width: 730px;
+    height: 780px;
+    top: 300px;
+  }
+}
+
+@media (max-width: 1800px){
+  .headerPopup_container {
+    right: 25px;
+    width: 700px;
+    height: 750px;
+    top: 330px;
+  }
+}
+
+@media (max-width: 1700px){
+  .headerPopup_container {
+    right: 25px;
+    width: 680px;
+    height: 730px;
+    top: 350px;
+  }
+}
+
+@media (max-width: 1600px){
+  .headerPopup_container {
+    right: 25px;
+    width: 650px;
+    height: 700px;
+    top: 380px;
+  }
+}
+
+@media (max-width: 1500px){
+  .headerPopup_container {
+    right: 25px;
+    width: 600px;
+    height: 680px;
+    top: 400px;
+  }
+}
+
+@media (max-width: 1400px){
+  .headerPopup_container {
+    right: 25px;
+    width: 580px;
+    height: 630px;
+    top: 450px;
+  }
+}
+
+@media (max-width: 1300px){
+  .headerPopup_container {
+    right: 25px;
+    width: 550px;
+    height: 600px;
+    top: 480px;
+  }
+}
+
+@media (max-width: 1200px){
+  .headerPopup_container {
+    right: 25px;
+    width: 500px;
+    height: 600px;
+    top: 480px;
   }
 }
 

@@ -26,8 +26,8 @@
 
 .status-card {
     position: relative;
-    width: 45%;
-    height: 165px;
+    width: 90%;
+    height: 180px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,.05), inset -5px -5px 5px hsla(0,0%,100%,.5), 5px 5px 5px rgba(0,0,0,.05), -5px -5px 5px hsla(0,0%,100%,.5);
     border-radius: 15px;
     margin-top: 10px;
@@ -91,7 +91,7 @@
 }
 
 .status-id-text-container h6 {
-    font-size: 15px;
+    font-size: 20px;
     color: #222;
     font-family: SUIT-Medium,sans-serif;
     letter-spacing: .2px;

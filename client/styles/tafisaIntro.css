@@ -32,3 +32,10 @@
   height: 140px;
   padding: 0px 10px;
 }
+
+@media (max-width: 280px){
+  /* .headerPopup_container {
+    width: 100vw;
+    height: 350px;
+  } */
+}

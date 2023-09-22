@@ -47,16 +47,6 @@
 
 /* Media Query */
 
-@media (max-width: 1280px){
-  .headerPopup_container {
-    right: 30px;
-    width: 550px;
-    height: 600px;
-    top: 450px;
-  }
-}
-
-
 @media (max-width: 2000px){
   .headerPopup_container {
     right: 25px;

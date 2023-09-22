@@ -42,12 +42,19 @@
     display:inline-block;
     width: 90%;
     padding: 5px;
+    margin: 5%;
   }
 
   .tafisaimg_container {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .tafisaimg {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
   }
   
   .tafisa_intro_title {

@@ -27,7 +27,7 @@ const Gallery: React.FC<GalleryProps> = ({ imagePaths }) => {
   }
 
   return (
-    <div className="gallery_container_container">
+    <div>
       <p className="gallery_title">뉴질랜드 대한생활체육회 활동</p>
       <div className="gallery_container">
         <div className="galleryimg_container">

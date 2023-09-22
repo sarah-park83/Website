@@ -18,7 +18,7 @@
     height: 118vh;
   }
   iframe {
-    height: 500px !important;
+    height: 800px !important;
   }
 }
 
@@ -60,10 +60,10 @@
 
 @media (max-width: 540px) {
   .video-container {
-    height: 80vh;
+    height: 70vh;
   }
   iframe {
-    height: 550px !important;
+    height: 500px !important;
   }
 }
 

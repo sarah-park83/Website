@@ -11,9 +11,9 @@ export default function TafisaIntro() {
         <div className="tafisa_intro">
           TAFISA(THE ASSOCIATION FOR INTERNATIONAL SPORT FOR ALL)E 1969 노르웨이
           오슬로에서 시작되어 1991년 정식으로 창설된 국제 스포츠단체로 세계 모든
-          사람이 생활체육을 함께 즐기면서 건강 한 사회를 이끈다는 사명으로 모든
-          사람이 자 발적으로 참여하는 건강한 스포츠 로서의 생 활체육의 가치와
-          중요성을 알리고자 앞장서 오고 있는 단체이다.
+          사람이 생활체육을 함께 즐기면서 건강한 사회를 이끈다는 사명으로 모든
+          사람이 자발적으로 참여하는 건강한 스포츠로서의 생활체육의 가치와
+          중요성을 알리고자 앞장서 오고있는 단체이다.
         </div>
       </div>
     </div>

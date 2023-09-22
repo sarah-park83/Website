@@ -1,28 +1,31 @@
 import { useState } from 'react'
-
 import {
   IoMdArrowDropleftCircle,
   IoMdArrowDroprightCircle,
 } from 'react-icons/io'
-
 import '../styles/gallery.css'
 
-interface GalleryProps {
-  imagePaths: string[] // Array of image paths in your public directory
+interface GalleryImage {
+  path: string
+  link: string
 }
 
-const Gallery: React.FC<GalleryProps> = ({ imagePaths }) => {
+interface GalleryProps {
+  images: GalleryImage[]
+}
+
+const Gallery: React.FC<GalleryProps> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const prevImage = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : imagePaths.length - 1
+      prevIndex > 0 ? prevIndex - 1 : images.length - 1
     )
   }
 
   const nextImage = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex < imagePaths.length - 1 ? prevIndex + 1 : 0
+      prevIndex < images.length - 1 ? prevIndex + 1 : 0
     )
   }
 
@@ -31,11 +34,13 @@ const Gallery: React.FC<GalleryProps> = ({ imagePaths }) => {
       <p className="gallery_title">뉴질랜드 대한생활체육회 활동</p>
       <div className="gallery_container">
         <div className="galleryimg_container">
-          <img
-            className="galleryimg"
-            src={imagePaths[currentIndex]}
-            alt={`${currentIndex + 1}`}
-          />
+          <a href={images[currentIndex].link}>
+            <img
+              className="galleryimg"
+              src={images[currentIndex].path}
+              alt={`${currentIndex + 1}`}
+            />
+          </a>
           <div className="gallery_buttonContainer">
             <button className="gallery_button" onClick={prevImage}>
               <IoMdArrowDropleftCircle />

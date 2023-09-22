@@ -14,11 +14,49 @@ import '../styles/homepage.css'
 export function Homepage() {
   const isMobile = MobileCheck()
   const popupImagePaths = ['/images/Popup/ad.jpeg']
-  const imagePaths = [
-    '/images/Gallery/image1.jpeg',
-    '/images/Gallery/image2.jpeg',
-    '/images/Gallery/image3.jpeg',
+  const imageLinks = [
+    {
+      path: '/images/Gallery/Badminton/badminton1.JPG?url',
+      link: 'http://localhost:5173/article/photo/badminton',
+    },
+    {
+      path: '/images/Gallery/Basketball/basketball1.JPG?url',
+      link: 'http://localhost:5173/article/photo/basketball',
+    },
+    {
+      path: '/images/Gallery/Group-Photo/groupPhoto5.JPG?url',
+      link: 'http://localhost:5173/article/photo/groupPhotos',
+    },
+    {
+      path: '/images/Gallery/Hockey/hockey4.JPG?url',
+      link: 'http://http://localhost:5173/article/photo/hockey',
+    },
+    {
+      path: '/images/Gallery/Leader-Election/election1.JPG?url',
+      link: 'http://localhost:5173/article/photo/election',
+    },
+    {
+      path: '/images/Gallery/Pool/pool1.JPG?url',
+      link: 'http://localhost:5173/article/photo/pool',
+    },
+    {
+      path: '/images/Gallery/Soccer/soccer1.JPG?url',
+      link: 'http://localhost:5173/article/photo/soccer',
+    },
+    {
+      path: '/images/Gallery/Swimming/swimming1.JPG?url',
+      link: 'http://localhost:5173/article/photo/swimming',
+    },
+    {
+      path: '/images/Gallery/Tennis/tennis1.JPG?url',
+      link: 'http://localhost:5173/article/photo/tennis',
+    },
+    {
+      path: '/images/Gallery/Trophy/trophy1.JPG?url',
+      link: 'http://localhost:5173/article/photo/trophy',
+    },
   ]
+
   return (
     <div className="page-container">
       <div>{isMobile ? <Dropdownmenu_mobile /> : <Dropdownmenu />}</div>
@@ -30,9 +68,11 @@ export function Homepage() {
       </div>
       <div>
         <TafisaIntro />
-        <Gallery imagePaths={imagePaths} />
+        <Gallery images={imageLinks} />
         <Footer />
       </div>
     </div>
   )
 }
+
+export default Homepage

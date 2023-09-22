@@ -28,25 +28,20 @@
   text-align: center;
 }
 
-.tafisa_container {
+.tafisa_intro_container_container {
   height: 140px;
   padding: 0px 10px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
   .tafisa_intro_container {
-    padding: 30px;
-    margin-bottom: 0px;
     display:inline-block;
-    border-radius: 40px;
-    box-shadow: 1px 1px 5px #333;
-    margin-bottom: 0px;
     width: 90%;
+    margin-left: 10px;
   }
   
   .tafisaimg {
     height: 100px;
-    padding-bottom: 0px;
   }
   
   .tafisa_intro_title {
@@ -59,9 +54,8 @@
     line-height: 1.5;
   }
   
-  .tafisa_container {
-    height: 140px;
-    padding: 0px 10px;
+  .tafisa_intro_container_container {
+    height: 500px;
   }
   
 }

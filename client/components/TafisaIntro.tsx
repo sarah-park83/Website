@@ -4,7 +4,7 @@ export default function TafisaIntro() {
   return (
     <div className="tafisa_intro_container">
       <img src="/images/tafisa.jpeg" alt="tafisa" className="tafisaimg" />
-      <div className="tafisa_container">
+      <div className="tafisa_intro_container_container">
         <div className="tafisa_intro_title">
           뉴질랜드 대한생활체육회는 세계 생활체육연맹(TAFISA)과 함께합니다.
         </div>

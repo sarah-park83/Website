@@ -1,6 +1,6 @@
 .tafisa_container {
   padding: 40px 15px;
-  height: 600px;
+  height: 500px;
 }
 
 .container {
@@ -38,7 +38,7 @@
 @media (max-width: 1400px) {
   .tafisa_container {
     padding: 20px 10px;
-    height: 430px;
+    height: 400px;
   }
 
   .container {
@@ -203,7 +203,7 @@
   }
 
   .container {
-    height: 320px;
+    height: 330px;
   }
 
   .tafisa_title {

@@ -108,22 +108,31 @@
 @media (max-width: 395px) {
   .video-container {
     padding-top: 20px;
-    height: 37vh;
+    height: 40vh;
   }
 }
 
 @media (max-width: 360px) {
   .video-container {
-    height: 65vh;
+    height: 40vh;
   }
   iframe {
     height: 450px !important;
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 300px) {
   .video-container {
-    height: 70vh;
+    height: 35vh;
+  }
+  iframe {
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 220px) {
+  .video-container {
+    height: 35vh;
   }
   iframe {
     height: 400px !important;

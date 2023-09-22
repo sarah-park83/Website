@@ -30,7 +30,6 @@ export function Homepage() {
       </div>
       <div>
         <TafisaIntro />
-        <p className="gallery_title">뉴질랜드 대한생활체육회 활동</p>
         <Gallery imagePaths={imagePaths} />
         <Footer />
       </div>

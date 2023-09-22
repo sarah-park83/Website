@@ -47,12 +47,12 @@
 
 /* Media Query */
 
-@media (max-width: 2000px){
+@media (max-width: 2300px){
   .headerPopup_container {
     right: 25px;
     width: 760px;
     height: 800px;
-    top: 280px;
+    top: 380px;
   }
 }
 
@@ -61,7 +61,7 @@
     right: 25px;
     width: 730px;
     height: 780px;
-    top: 300px;
+    top: 410px;
   }
 }
 
@@ -70,7 +70,7 @@
     right: 25px;
     width: 700px;
     height: 750px;
-    top: 330px;
+    top: 430px;
   }
 }
 
@@ -79,7 +79,7 @@
     right: 25px;
     width: 680px;
     height: 730px;
-    top: 350px;
+    top: 450px;
   }
 }
 
@@ -88,7 +88,7 @@
     right: 25px;
     width: 650px;
     height: 700px;
-    top: 380px;
+    top: 480px;
   }
 }
 
@@ -113,9 +113,9 @@
 @media (max-width: 1300px){
   .headerPopup_container {
     right: 25px;
-    width: 550px;
+    width: 520px;
     height: 600px;
-    top: 480px;
+    top: 440px;
   }
 }
 
@@ -124,7 +124,7 @@
     right: 25px;
     width: 500px;
     height: 600px;
-    top: 480px;
+    top: 430px;
   }
 }
 
@@ -133,7 +133,7 @@
     right: 25px;
     width: 460px;
     height: 560px;
-    top: 520px;
+    top: 490px;
   }
 }
 
@@ -141,7 +141,7 @@
   .headerPopup_container {
     width: 440px;
     height: 530px;
-    top: 540px;
+    top: 510px;
   }
 }
 

@@ -141,7 +141,7 @@
     line-height: 50px;
   }
   .homeHeader_banner_text {
-    height: 200px;
+    height: 220px;
   }
   .banner_text.show h3 {
     font-size: 25px;
@@ -178,7 +178,18 @@
     line-height: 30px;
   }
   .homeHeader_banner_text {
-    height: 185px;
+    height: 200px;
+  }
+  .banner_text.show h3 {
+    font-size: 18px;
+  }
+  .banner_text.show h1 {
+    font-size: 28px;
+    line-height: 0px;
+
+  }
+  .banner_text.show h4 {
+    font-size: 15px;
   }
 }
 

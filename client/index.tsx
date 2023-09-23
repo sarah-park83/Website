@@ -7,22 +7,13 @@ import { Auth0Provider } from '@auth0/auth0-react'
 
 const queryClient = new QueryClient()
 
-declare module '@auth0/auth0-react' {
-  interface Auth0ProviderProps {
-    domain: string
-    clientId: string
-    redirectUri: string
-    audience: string
-  }
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   createRoot(document.getElementById('app') as HTMLElement).render(
     <Auth0Provider
       domain="dev-ulco4wbyjptvmo24.au.auth0.com"
       clientId="XNBSyJNL8Uhjg6dfwMOmHfD6lqErtPFl"
       redirectUri={window.location.origin}
-      audience="https://www.nzksfaa.co.nz"
+      audience="https://www.nzksfaa.co.nz/"
     >
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />

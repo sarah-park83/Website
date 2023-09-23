@@ -29,11 +29,11 @@
     ]
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.1",
     "@devacademy/eslint-config": "^1.8.0",
     "express": "^4.17.2",
     "knex": "^2.3.0",
     "react-icons": "^4.10.1",
-    "react-youtube": "^10.1.0",
     "sqlite3": "^5.1.2",
     "superagent": "7.1.1"
   },

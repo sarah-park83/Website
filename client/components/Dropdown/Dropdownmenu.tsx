@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import '../../styles/dropdownmenu.css'
 import logo from '/images/logo.png'
 import Dropdown1 from './Dropdown-1-체육회 소개'
@@ -6,8 +8,7 @@ import Dropdown4 from './Dropdown-4-알림마당'
 import Dropdown6 from './Dropdown-6-스폰서'
 
 import { useAuth0 } from '@auth0/auth0-react'
-import { IfNotAuthenticated, IfAuthenticated } from '../Authentication'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 export default function Dropdownmenu() {
   const { loginWithRedirect, logout, isAuthenticated } = useAuth0()
@@ -18,7 +19,7 @@ export default function Dropdownmenu() {
 
   const handleSignOut = () => {
     logout()
-    localStorage.removeItem('isAuthenticated') // Remove the flag on logout
+    localStorage.removeItem('isAuthenticated')
   }
 
   useEffect(() => {
@@ -42,16 +43,14 @@ export default function Dropdownmenu() {
       <Dropdown6 />
 
       {isAuthenticated ? (
-        <button onClick={handleSignOut}>로그아웃</button>
+        <a href="#" onClick={handleSignOut}>
+          로그아웃
+        </a>
       ) : (
-        <button onClick={handleSignIn} className="loginButton">
+        <a href="#" onClick={handleSignIn} className="loginLink">
           회원가입/회원증 확인
-        </button>
+        </a>
       )}
-      {/* 
-      <IfAuthenticated>
-        <button onClick={handleSignOut}>로그아웃</button>
-      </IfAuthenticated> */}
     </div>
   )
 }

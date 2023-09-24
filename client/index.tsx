@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <Auth0Provider
       domain="dev-ulco4wbyjptvmo24.au.auth0.com"
       clientId="XNBSyJNL8Uhjg6dfwMOmHfD6lqErtPFl"
-      redirectUri={window.location.origin}
+      authorizationParams={{ redirect_uri: window.location.origin + '/' }}
       audience="https://www.nzksfaa.co.nz"
     >
       <QueryClientProvider client={queryClient}>

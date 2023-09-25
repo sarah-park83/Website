@@ -14,6 +14,7 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "vite --host",
     "dev:server": "nodemon server/index.ts",
+    "deploy": "gh-pages -d build",
     "knex": "knex --knexfile ./server/db/knexfile.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"

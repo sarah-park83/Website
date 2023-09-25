@@ -8,6 +8,7 @@ server.use(express.static(join(__dirname, 'public')))
 
 // Middleware to set correct MIME type for .js and .mjs files
 server.use((req, res, next) => {
+  console.log('Middleware executed for', req.path)
   if (req.path.endsWith('.js') || req.path.endsWith('.mjs')) {
     res.type('application/javascript')
   }

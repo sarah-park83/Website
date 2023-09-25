@@ -3,6 +3,11 @@ import { join, resolve } from 'node:path'
 
 const server = express()
 
+server.get('*.ts', (req, res, next) => {
+  res.type('application/javascript')
+  next()
+})
+
 server.use(express.json())
 server.use(express.static(join(__dirname, 'public')))
 

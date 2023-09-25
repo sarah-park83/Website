@@ -10,13 +10,13 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const soccer1 = '/images/Gallery/Soccer/soccer1.JPG?url'
-const soccer2 = '/images/Gallery/Soccer/soccer2.JPG?url'
-const soccer3 = '/images/Gallery/Soccer/soccer3.JPG?url'
-const soccer4 = '/images/Gallery/Soccer/soccer4.JPG?url'
-const soccer5 = '/images/Gallery/Soccer/soccer5.JPG?url'
-const soccer6 = '/images/Gallery/Soccer/soccer6.JPG?url'
-const soccer7 = '/images/Gallery/Soccer/soccer7.JPG?url'
+import soccer1 from '../../../../../images/Gallery/Soccer/soccer1.JPG?url'
+import soccer2 from '../../../../../images/Gallery/Soccer/soccer2.JPG?url'
+import soccer3 from '../../../../../images/Gallery/Soccer/soccer3.JPG?url'
+import soccer4 from '../../../../../images/Gallery/Soccer/soccer4.JPG?url'
+import soccer5 from '../../../../../images/Gallery/Soccer/soccer5.JPG?url'
+import soccer6 from '../../../../../images/Gallery/Soccer/soccer6.JPG?url'
+import soccer7 from '../../../../../images/Gallery/Soccer/soccer7.JPG?url'
 
 export function SoccerPhotos() {
   const isMobile = MobileCheck()

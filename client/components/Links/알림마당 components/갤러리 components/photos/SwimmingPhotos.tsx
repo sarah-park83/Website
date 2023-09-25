@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const swimming1 = '/images/Gallery/Swimming/swimming1.JPG?url'
+import swimming1 from '../../../../../images/Gallery/Swimming/swimming1.JPG?url'
 
 export function SwimmingPhotos() {
   const isMobile = MobileCheck()

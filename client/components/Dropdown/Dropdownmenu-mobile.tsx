@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../../styles/dropdownmenu-mobile.css'
-import logo from '/images/logo.png'
+import logo from '../../images/logo.png'
 import { FaBars } from 'react-icons/fa'
 import { BiSolidDownArrow, BiSolidUpArrow } from 'react-icons/bi'
 import { RxCross2 } from 'react-icons/rx'

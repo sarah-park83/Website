@@ -6,7 +6,7 @@
   "repository": "https://github.com/dev-academy-challenges/my-fullstack-collection-query",
   "main": "server/index.ts",
   "scripts": {
-    "build": "run-s build:client build:server",
+    "build": "run-s build:client",
     "build:client": "vite build",
     "build:server": "tsc -p server/tsconfig.json",
     "start": "node dist/server/index.js",

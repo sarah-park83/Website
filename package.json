@@ -1,7 +1,8 @@
 {
-  "name": "my-fullstack-collection-query",
+  "name": "Korea Sports For All Athletic Association",
   "version": "0.1.0",
   "description": "Build a fullstack collection app",
+  "homepage": "https://sarah-park83.github.io/Website",
   "repository": "https://https://github.com/dev-academy-challenges/my-fullstack-collection-query",
   "main": "server/index.ts",
   "scripts": {

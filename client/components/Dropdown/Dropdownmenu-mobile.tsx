@@ -22,7 +22,7 @@ export default function Dropdownmenu_mobile() {
 
   const handleSignOut = () => {
     logout()
-    localStorage.removeItem('isAuthenticated') // Remove the flag on logout
+    localStorage.removeItem('isAuthenticated')
   }
 
   useEffect(() => {

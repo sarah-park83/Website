@@ -1,5 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 import '../../styles/dropdownmenu.css'
 import logo from '/images/logo.png'
 import Dropdown1 from './Dropdown-1-체육회 소개'

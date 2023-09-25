@@ -16,43 +16,43 @@ export function Homepage() {
   const popupImagePaths = ['/images/Popup/ad.jpeg']
   const imageLinks = [
     {
-      path: '/images/Gallery/Badminton/badminton1.JPG?url',
+      path: '../images/Gallery/Badminton/badminton1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/badminton',
     },
     {
-      path: '/images/Gallery/Basketball/basketball1.JPG?url',
+      path: '../images/Gallery/Basketball/basketball1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/basketball',
     },
     {
-      path: '/images/Gallery/Group-Photo/groupPhoto5.JPG?url',
+      path: '../images/Gallery/Group-Photo/groupPhoto5.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/groupPhotos',
     },
     {
-      path: '/images/Gallery/Hockey/hockey4.JPG?url',
+      path: '../images/Gallery/Hockey/hockey4.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/hockey',
     },
     {
-      path: '/images/Gallery/Leader-Election/election1.JPG?url',
+      path: '../images/Gallery/Leader-Election/election1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/election',
     },
     {
-      path: '/images/Gallery/Pool/pool1.JPG?url',
+      path: '../images/Gallery/Pool/pool1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/pool',
     },
     {
-      path: '/images/Gallery/Soccer/soccer1.JPG?url',
+      path: '../images/Gallery/Soccer/soccer1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/soccer',
     },
     {
-      path: '/images/Gallery/Swimming/swimming1.JPG?url',
+      path: '../images/Gallery/Swimming/swimming1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/swimming',
     },
     {
-      path: '/images/Gallery/Tennis/tennis1.JPG?url',
+      path: '../images/Gallery/Tennis/tennis1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/tennis',
     },
     {
-      path: '/images/Gallery/Trophy/trophy1.JPG?url',
+      path: '../images/Gallery/Trophy/trophy1.JPG?url',
       link: 'https://www.nzksfaa.co.nz//article/photo/trophy',
     },
   ]

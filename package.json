@@ -11,7 +11,7 @@
     "build:server": "tsc -p server/tsconfig.json",
     "start": "node dist/server/index.js",
     "test": "vitest",
-    "dev": "run-p dev:client dev:server",
+    "dev": "run-p dev:client",
     "dev:client": "vite --host",
     "dev:server": "nodemon server/index.ts",
     "deploy": "gh-pages -d build",

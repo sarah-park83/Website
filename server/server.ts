@@ -10,6 +10,10 @@ server.get('*.ts', (req, res, next) => {
 
 server.use(express.json())
 server.use(express.static(join(__dirname, 'public')))
+server.use('*.js', (req, res, next) => {
+  res.type('application/javascript')
+  next()
+})
 
 if (process.env.NODE_ENV === 'production') {
   server.use('/assets', express.static(resolve(__dirname, '../assets')))

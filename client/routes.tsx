@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
 } from 'react-router-dom'
@@ -12,7 +12,7 @@ import * as 단체소개components from './components/Links/단체소개 compone
 import * as 알림마당components from './components/Links/알림마당 components'
 import { 스폰서 } from './components/Links/스폰서 components/스폰서'
 
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Homepage />} />

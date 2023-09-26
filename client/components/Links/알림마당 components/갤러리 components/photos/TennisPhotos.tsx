@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const tennis1 = '/images/Gallery/Tennis/tennis1.JPG?url'
+import tennis1 from '../../../../../images/Gallery/Tennis/tennis1.JPG?url'
 
 export function TennisPhotos() {
   const isMobile = MobileCheck()

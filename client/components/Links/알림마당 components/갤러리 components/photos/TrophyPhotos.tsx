@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const trophy1 = '/images/Gallery/Trophy/trophy1.JPG?url'
+import trophy1 from '../../../../../images/Gallery/Trophy/trophy1.JPG?url'
 
 export function TrophyPhotos() {
   const isMobile = MobileCheck()

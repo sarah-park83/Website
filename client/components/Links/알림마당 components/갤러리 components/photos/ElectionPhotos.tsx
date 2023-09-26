@@ -10,10 +10,10 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const election1 = '/images/Gallery/Leader-Election/election1.JPG?url'
-const election2 = '/images/Gallery/Leader-Election/election2.JPG?url'
-const election3 = '/images/Gallery/Leader-Election/election3.JPG?url'
-const election4 = '/images/Gallery/Leader-Election/election4.JPG?url'
+import election1 from '../../../../../images/Gallery/Leader-Election/election1.JPG?url'
+import election2 from '../../../../../images/Gallery/Leader-Election/election2.JPG?url'
+import election3 from '../../../../../images/Gallery/Leader-Election/election3.JPG?url'
+import election4 from '../../../../../images/Gallery/Leader-Election/election4.JPG?url'
 
 export function ElectionPhotos() {
   const isMobile = MobileCheck()

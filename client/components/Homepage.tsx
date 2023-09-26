@@ -8,51 +8,62 @@ import MobileCheck from './Dropdown/Mobile-check'
 import Tafisa from './Tafisa'
 import Gallery from './Gallery'
 import TafisaIntro from './TafisaIntro'
+import popupImage from '../images/Popup/ad.jpeg'
+import badmintonImage from '../images/Gallery/Badminton/badminton1.JPG?url'
+import basketballImage from '../images/Gallery/Basketball/basketball1.JPG?url'
+import groupPhotoImage from '../images/Gallery/Group-Photo/groupPhoto5.JPG?url'
+import hockeyImage from '../images/Gallery/Hockey/hockey4.JPG?url'
+import leaderImage from '../images/Gallery/Leader-Election/election1.JPG?url'
+import poolImage from '../images/Gallery/Pool/pool1.JPG?url'
+import soccerImage from '../images/Gallery/Soccer/soccer1.JPG?url'
+import swimmingImage from '../images/Gallery/Swimming/swimming1.JPG?url'
+import tennisImage from '../images/Gallery/Tennis/tennis1.JPG?url'
+import trophyImage from '../images/Gallery/Trophy/trophy1.JPG?url'
 
 import '../styles/homepage.css'
 
 export function Homepage() {
   const isMobile = MobileCheck()
-  const popupImagePaths = ['/images/Popup/ad.jpeg']
+  const popupImagePaths = [popupImage]
   const imageLinks = [
     {
-      path: '/images/Gallery/Badminton/badminton1.JPG?url',
+      path: badmintonImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/badminton',
     },
     {
-      path: '/images/Gallery/Basketball/basketball1.JPG?url',
+      path: basketballImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/basketball',
     },
     {
-      path: '/images/Gallery/Group-Photo/groupPhoto5.JPG?url',
+      path: groupPhotoImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/groupPhotos',
     },
     {
-      path: '/images/Gallery/Hockey/hockey4.JPG?url',
+      path: hockeyImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/hockey',
     },
     {
-      path: '/images/Gallery/Leader-Election/election1.JPG?url',
+      path: leaderImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/election',
     },
     {
-      path: '/images/Gallery/Pool/pool1.JPG?url',
+      path: poolImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/pool',
     },
     {
-      path: '/images/Gallery/Soccer/soccer1.JPG?url',
+      path: soccerImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/soccer',
     },
     {
-      path: '/images/Gallery/Swimming/swimming1.JPG?url',
+      path: swimmingImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/swimming',
     },
     {
-      path: '/images/Gallery/Tennis/tennis1.JPG?url',
+      path: tennisImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/tennis',
     },
     {
-      path: '/images/Gallery/Trophy/trophy1.JPG?url',
+      path: trophyImage,
       link: 'https://www.nzksfaa.co.nz//article/photo/trophy',
     },
   ]

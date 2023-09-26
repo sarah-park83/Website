@@ -10,11 +10,11 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const groupPhoto5 = '/images/Gallery/Group-Photo/groupPhoto5.JPG?url'
-const groupPhoto1 = '/images/Gallery/Group-Photo/groupPhoto1.JPG?url'
-const groupPhoto2 = '/images/Gallery/Group-Photo/groupPhoto2.JPG?url'
-const groupPhoto3 = '/images/Gallery/Group-Photo/groupPhoto3.JPG?url'
-const groupPhoto4 = '/images/Gallery/Group-Photo/groupPhoto4.JPG?url'
+import groupPhoto5 from '../../../../../images/Gallery/Group-Photo/groupPhoto5.JPG?url'
+import groupPhoto1 from '../../../../../images/Gallery/Group-Photo/groupPhoto1.JPG?url'
+import groupPhoto2 from '../../../../../images/Gallery/Group-Photo/groupPhoto2.JPG?url'
+import groupPhoto3 from '../../../../../images/Gallery/Group-Photo/groupPhoto3.JPG?url'
+import groupPhoto4 from '../../../../../images/Gallery/Group-Photo/groupPhoto4.JPG?url'
 
 export function GroupPhotos() {
   const isMobile = MobileCheck()

@@ -1,12 +1,16 @@
 import '../../styles/link-header.css'
+import test1 from '../../images/Link-Header/test1.png'
+import test2 from '../../images/Link-Header/test2.png'
+import test3 from '../../images/Link-Header/test3.png'
+import test4 from '../../images/Link-Header/test4.jpg'
 
 export default function Header() {
   const getRandomImage = () => {
-    const images = ['test1.png', 'test2.png', 'test3.png', 'test4.jpg']
+    const images = [test1, test2, test3, test4]
 
     const randomIndex = Math.floor(Math.random() * images.length)
 
-    const imagePath = `/images/Link-Header/${images[randomIndex]}`
+    const imagePath = images[randomIndex]
 
     return imagePath
   }

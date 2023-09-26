@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../../styles/dropdownmenu.css'
-import logo from '/images/logo.png'
+import logo from '../../images/logo.png'
 import Dropdown1 from './Dropdown-1-체육회 소개'
 import Dropdown2 from './Dropdown-2-단체소개'
 import Dropdown4 from './Dropdown-4-알림마당'

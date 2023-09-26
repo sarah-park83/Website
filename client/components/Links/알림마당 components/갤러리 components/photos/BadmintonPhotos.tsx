@@ -10,11 +10,11 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-const badminton1 = '/images/Gallery/Badminton/badminton1.JPG?url'
-const badminton2 = '/images/Gallery/Badminton/badminton2.JPG?url'
-const badminton3 = '/images/Gallery/Badminton/badminton3.JPG?url'
-const badminton4 = '/images/Gallery/Badminton/badminton4.JPG?url'
-const badminton5 = '/images/Gallery/Badminton/badminton5.JPG?url'
+import badminton1 from '../../../../../images/Gallery/Badminton/badminton1.JPG?url'
+import badminton2 from '../../../../../images/Gallery/Badminton/badminton2.JPG?url'
+import badminton3 from '../../../../../images/Gallery/Badminton/badminton3.JPG?url'
+import badminton4 from '../../../../../images/Gallery/Badminton/badminton4.JPG?url'
+import badminton5 from '../../../../../images/Gallery/Badminton/badminton5.JPG?url'
 
 export function BadmintonPhotos() {
   const isMobile = MobileCheck()

@@ -1,10 +1,11 @@
 import '../styles/tafisaIntro.css'
+import tafisaImage from '../images/tafisa.jpeg'
 
 export default function TafisaIntro() {
   return (
     <div className="tafisa_intro_container">
       <div className="tafisaimg_container">
-        <img src="/images/tafisa.jpeg" alt="tafisa" className="tafisaimg" />
+        <img src={tafisaImage} alt="tafisa" className="tafisaimg" />
       </div>
       <div className="tafisa_intro_container_container">
         <div className="tafisa_intro_title">

@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import moving from '../../../images/sponsors/ks운송.jpeg'
+// import moving from '../../../images/sponsors/ks운송.jpeg'
 import travel from '../../../images/sponsors/세계항송여행사.jpeg'
 
 export function 스폰서() {
@@ -92,11 +92,11 @@ export function 스폰서() {
                   )
                 }}
               >
-                <ImageLoader
+                {/* <ImageLoader
                   className="mouList-image"
-                  src={moving}
+                  // src={moving}
                   alt="moving"
-                />
+                /> */}
               </button>
             </div>
             <div className="mouList-contextContainer">

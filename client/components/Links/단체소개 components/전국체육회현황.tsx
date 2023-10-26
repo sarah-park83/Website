@@ -1,5 +1,6 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/단체소개 css/전국체육회현황-content.css'
+import nzpresident from '../../../images/회장.jpeg'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
@@ -95,6 +96,36 @@ export function 전국체육회현황() {
               <h3>대한생활체육회의 전국체육회현황입니다.</h3>
             </div>
             <div>
+              <div className="group-list-container">
+                <div className="group-list-title">뉴질랜드생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <ImageLoader
+                        className="group-image"
+                        src={nzpresident}
+                        alt="서울특별시생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 김웅기
+                    <br />
+                    체육회명 : 뉴질랜드생활체육회
+                  </p>
+                </div>
+              </div>
               <div className="group-list-container">
                 <div className="group-list-title">서울특별시생활체육회</div>
                 <div className="group-list-img-container">

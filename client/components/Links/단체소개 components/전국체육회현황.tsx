@@ -112,7 +112,7 @@ export function 전국체육회현황() {
                     >
                       <ImageLoader
                         className="group-image"
-                        src={nzpresident}
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115"
                         alt="서울특별시생활체육회"
                       />
                     </button>

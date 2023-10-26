@@ -1,6 +1,5 @@
 import '../../../styles/Sub-pages/subpage.css'
 import '../../../styles/Sub-pages/단체소개 css/전국체육회현황-content.css'
-import nzpresident from '../../../images/회장.jpeg'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'

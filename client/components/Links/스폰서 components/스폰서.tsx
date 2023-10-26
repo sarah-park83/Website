@@ -10,6 +10,9 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
+import ks from '../../../images/sponsors/ks운송.jpeg'
+import travel from '../../../images/sponsors/세계항송여행사.jpeg'
+
 export function 스폰서() {
   const isMobile = MobileCheck()
 
@@ -89,28 +92,39 @@ export function 스폰서() {
                   )
                 }}
               >
+                <ImageLoader className="mouList-image" src={ks} alt="ks" />
+              </button>
+            </div>
+            <div className="mouList-contextContainer">
+              <div className="mouList-context-title">KS운송</div>
+              <p>국내 해외 이사 통관 업무.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-container">
+          <div className="mouList-container">
+            <div className="mouList-imgContainer">
+              <button
+                onClick={(e) => {
+                  e.preventDefault()
+                  window.open(
+                    'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2F%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%82%E1%85%A9%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png?alt=media&amp;token=e75c52d4-6363-48ef-98bf-b96307ebaae9',
+                    '_blank',
+                    'width=380,height=500,top=100,left=100'
+                  )
+                }}
+              >
                 <ImageLoader
                   className="mouList-image"
-                  src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2F%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%82%E1%85%A9%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png?alt=media&amp;token=e75c52d4-6363-48ef-98bf-b96307ebaae9"
-                  alt="엔노블"
+                  src={travel}
+                  alt="travel"
                 />
               </button>
             </div>
             <div className="mouList-contextContainer">
-              <div className="mouList-context-title">엔노블</div>
-              <p>
-                엔노블은 명문가, 사회지도층, 전문직, 엘리트, 명문대, 크리스찬,
-                유학생, 재혼 등 노블레스 성혼을 전문으로 하는 상위 1%를 위한
-                상류층 결혼정보회사입니다.
-              </p>
-              <a
-                href="https://www.nnoble.co.kr"
-                className="mouList-button"
-                target="_blank"
-                rel="noreferrer"
-              >
-                홈페이지 방문
-              </a>
+              <div className="mouList-context-title">세계항공여행사</div>
+              <p>국내, 국제 항공권 상담</p>
             </div>
           </div>
         </div>

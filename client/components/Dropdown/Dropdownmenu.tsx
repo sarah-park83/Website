@@ -18,7 +18,7 @@ export default function Dropdownmenu() {
 
   const handleSignOut = () => {
     logout()
-    localStorage.removeItem('isAuthenticated') // Remove the flag on logout
+    localStorage.removeItem('isAuthenticated')
   }
 
   useEffect(() => {

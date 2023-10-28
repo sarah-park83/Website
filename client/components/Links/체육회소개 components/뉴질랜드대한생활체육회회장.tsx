@@ -9,7 +9,7 @@ import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
-import president from '../../../../public/images/회장.jpeg'
+import president from '../../../images/president.jpeg'
 
 export function 뉴질랜드대한생활체육회회장() {
   const isMobile = MobileCheck()

@@ -15,13 +15,9 @@ export default function Dropdown1() {
 
   return (
     <>
-      <a
-        href="#info"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
+      <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         체육회 소개
-      </a>
+      </div>
       {isDropdownOpen && (
         <div
           className="dropdown-content"

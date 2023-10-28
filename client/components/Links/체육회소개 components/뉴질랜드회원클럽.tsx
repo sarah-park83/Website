@@ -284,7 +284,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 유용상</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>
@@ -328,7 +328,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 김영옥</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>
@@ -394,7 +394,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 김명균</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>

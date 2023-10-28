@@ -126,7 +126,7 @@ export function SwimmingPhotos() {
             </div>
 
             <div className="article-button-container">
-              <a href="/notice/gallery/1">
+              <a href="/#/notice/gallery/1">
                 <div className="article-button">돌아가기</div>
               </a>
             </div>

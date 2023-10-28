@@ -58,7 +58,7 @@ export function 스폰서() {
             <h2>스폰서</h2>
           </Link>
         </div>
-
+        {/* <div className="mou_mou_content-container"> */}
         {!isMobile && (
           <div className="navbar-container">
             <div className="navbarVertricle">
@@ -82,22 +82,7 @@ export function 스폰서() {
           </div>
           <div className="mouList-container">
             <div className="mouList-imgContainer">
-              <button
-                onClick={(e) => {
-                  e.preventDefault()
-                  window.open(
-                    'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2F%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%82%E1%85%A9%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png?alt=media&amp;token=e75c52d4-6363-48ef-98bf-b96307ebaae9',
-                    '_blank',
-                    'width=380,height=500,top=100,left=100'
-                  )
-                }}
-              >
-                <ImageLoader
-                  className="mouList-image"
-                  src={moving}
-                  alt="moving"
-                />
-              </button>
+              <img className="mouList-image" src={moving} alt="moving" />
             </div>
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">KS운송</div>
@@ -109,22 +94,7 @@ export function 스폰서() {
         <div className="content-container">
           <div className="mouList-container">
             <div className="mouList-imgContainer">
-              <button
-                onClick={(e) => {
-                  e.preventDefault()
-                  window.open(
-                    'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2F%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%82%E1%85%A9%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png?alt=media&amp;token=e75c52d4-6363-48ef-98bf-b96307ebaae9',
-                    '_blank',
-                    'width=380,height=500,top=100,left=100'
-                  )
-                }}
-              >
-                <ImageLoader
-                  className="mouList-image"
-                  src={travel}
-                  alt="travel"
-                />
-              </button>
+              <img className="mouList-image" src={travel} alt="travel" />
             </div>
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">세계항공여행사</div>
@@ -132,6 +102,7 @@ export function 스폰서() {
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
 
       <Footer />

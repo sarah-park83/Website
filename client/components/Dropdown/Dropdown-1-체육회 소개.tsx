@@ -12,11 +12,15 @@ export default function Dropdown1() {
   const handleMouseLeave = () => {
     setIsDropdownOpen(false)
   }
+  const handleLinkClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+  }
 
   return (
     <>
       <a
         href="#info"
+        onClick={handleLinkClick} // Disable click behavior
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >

@@ -73,16 +73,6 @@ export function 전국체육회현황() {
                     <div className="navLink">국제체육회현황</div>
                   </div>
                 </Link>
-                <Link to="/group/sports">
-                  <div className="navItem">
-                    <div className="navLink">종목별 운영현황</div>
-                  </div>
-                </Link>
-                <Link to="/group/sanha">
-                  <div className="navItem">
-                    <div className="navLink">산하단체</div>
-                  </div>
-                </Link>
               </div>
             </div>
           </div>

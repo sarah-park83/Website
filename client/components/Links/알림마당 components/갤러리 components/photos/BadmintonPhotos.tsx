@@ -10,12 +10,6 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import badminton1 from '../../../../../images/Gallery/Badminton/badminton1.JPG?url'
-import badminton2 from '../../../../../images/Gallery/Badminton/badminton2.JPG?url'
-import badminton3 from '../../../../../images/Gallery/Badminton/badminton3.JPG?url'
-import badminton4 from '../../../../../images/Gallery/Badminton/badminton4.JPG?url'
-import badminton5 from '../../../../../images/Gallery/Badminton/badminton5.JPG?url'
-
 export function BadmintonPhotos() {
   const isMobile = MobileCheck()
 
@@ -94,7 +88,7 @@ export function BadmintonPhotos() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>Badminton</h4>
+                <h4></h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -112,56 +106,56 @@ export function BadmintonPhotos() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>Badminton</p>
+                <p></p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={badminton1}
                     alt="badminton1"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={badminton2}
                     alt="badminton2"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={badminton3}
                     alt="badminton3"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={badminton4}
                     alt="badminton4"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={badminton5}
                     alt="badminton5"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

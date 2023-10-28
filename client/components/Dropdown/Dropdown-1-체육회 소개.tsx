@@ -12,12 +12,20 @@ export default function Dropdown1() {
   const handleMouseLeave = () => {
     setIsDropdownOpen(false)
   }
+  const handleLinkClick = (e) => {
+    e.preventDefault() // Prevent the default click behavior
+  }
 
   return (
     <>
-      <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <a
+        href="#info"
+        onClick={handleLinkClick} // Disable click behavior
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         체육회 소개
-      </div>
+      </a>
       {isDropdownOpen && (
         <div
           className="dropdown-content"

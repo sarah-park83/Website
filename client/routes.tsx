@@ -41,8 +41,8 @@ export const router = createHashRouter(
         path="/article/anouncement/1/wBwT6IpiRh0pkWfXADw5"
         element={<알림마당components.공지소식사항Link1 />}
       />
-      {/* <Route path="/notice/gallery/1" element={<알림마당components.갤러리 />} />
-      <Route
+      <Route path="/notice/gallery/1" element={<알림마당components.갤러리 />} />
+      {/* <Route
         path="/article/photo/badminton"
         element={<알림마당components.BadmintonPhotos />}
       />

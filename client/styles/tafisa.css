@@ -1,13 +1,13 @@
 .tafisa_container {
   padding: 40px 15px;
-  height: 500px;
+  height: 100%;
 }
 
 .container {
   border: 1px solid #333;
   border-radius: 15px;
   width: 50%;
-  height: 420px;
+  height: 100%;
   margin-left: 30px;
   box-shadow: 5px 5px 10px #333;
   font-family: Pretendard-Regular,sans-serif;
@@ -21,6 +21,7 @@
   color:#ff7300;
   border-bottom: 3px solid #ffb13b;
   margin: 0 30px;
+  height: 10%;
 }
 
 .tafisa_info {
@@ -254,11 +255,9 @@
 @media (max-width: 375px) {
   .tafisa_container {
     padding: 10px;
-    height: 310px;
   }
 
   .container {
-    height: 320px;
     margin-left: 0px;
   }
   .tafisa_title {
@@ -281,11 +280,9 @@
 @media (max-width: 280px) {
   .tafisa_container {
     padding: 10px;
-    height: 240px;
   }
 
   .container {
-    height: 250px;
     margin-left: 0px;
   }
 
@@ -308,7 +305,6 @@
 
 @media (max-width: 260px) {
   .container {
-    height: 280px;
     margin-left: 0px;
   }
 

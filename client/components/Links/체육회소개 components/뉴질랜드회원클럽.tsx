@@ -105,7 +105,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 안영준</h6>
                       <h6>클럽안내:</h6>
                       <h6>군위축구단</h6>
                       <h6>시니어 축구단</h6>
@@ -128,7 +128,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 이재훈</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                     </div>
@@ -150,9 +150,30 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 이재구</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="status-position">배드민턴 Badminton</div>
+              <div className="status-card">
+                <div className="status-box">
+                  <div className="status-content">
+                    <div className="status-id-photo-container">
+                      <div className="status-id-photo">
+                        <ImageLoader
+                          className="id-photo"
+                          src="https://static.toiimg.com/thumb/msid-70661134,imgsize-761205,width-400,resizemode-4/70661134.jpg"
+                          alt="Basketball"
+                        />
+                      </div>
+                    </div>
+                    <div className="status-id-text-container">
+                      <h6>회장: 김승현</h6>
+                      <h6>클럽안내:</h6>
                       <h6>...</h6>
                     </div>
                   </div>
@@ -173,7 +194,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 김영옥</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>
@@ -195,7 +216,7 @@ export function 뉴질랜드회원클럽() {
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 이재행</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>
@@ -212,13 +233,13 @@ export function 뉴질랜드회원클럽() {
                       <div className="status-id-photo">
                         <ImageLoader
                           className="id-photo"
-                          src="https://i.namu.wiki/i/UeIOW3741fmb48wEu9NEPXB222TDcg8BM7TuU9fHQNgSA0UqhU-g2JMK47BA8kdZQw6D8IevbHCcZW9y_B4zy4bbD6dyrfnq2OE0_JtX3reS5hCwG-fLmX4k6UYsIADe70nxcJmU2GzHPShV5A7k-g.webp"
+                          src="https://www.mpl.live/blog/wp-content/uploads/2020/11/shutterstock_1652900074-scaled.jpg"
                           alt="Pool"
                         />
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 이진복</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>

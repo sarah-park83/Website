@@ -54,7 +54,7 @@ export function 스폰서() {
             viewBox="0 0 24 24"
             className="icon-style"
           />
-          <Link to="/notice/apply/1">
+          <Link to="/mou/mou">
             <h2>스폰서</h2>
           </Link>
         </div>

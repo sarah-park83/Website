@@ -11,6 +11,7 @@ import * as 체육회소개Components from './components/Links/체육회소개 c
 import * as 단체소개components from './components/Links/단체소개 components'
 import * as 알림마당components from './components/Links/알림마당 components'
 import { 스폰서 } from './components/Links/스폰서 components/스폰서'
+import { 회원가입 } from './components/Links/회원가입 components/회원가입'
 
 export const router = createHashRouter(
   createRoutesFromElements(
@@ -88,6 +89,7 @@ export const router = createHashRouter(
         element={<알림마당components.갤러리Vid1 />}
       /> */}
       <Route path="/mou/mou" element={<스폰서 />} />
+      <Route path="/join" element={<회원가입 />} />
     </Route>
   )
 )

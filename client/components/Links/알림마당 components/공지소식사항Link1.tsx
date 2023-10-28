@@ -160,7 +160,7 @@ export function 공지소식사항Link1() {
             </div>
 
             <div className="article-button-container">
-              <a href="/notice/announcement/1">
+              <a href="/#/notice/announcement/1">
                 <div className="article-button">돌아가기</div>
               </a>
             </div>

@@ -166,7 +166,7 @@ export function 뉴질랜드회원클럽() {
                       <div className="status-id-photo">
                         <ImageLoader
                           className="id-photo"
-                          src="https://static.toiimg.com/thumb/msid-70661134,imgsize-761205,width-400,resizemode-4/70661134.jpg"
+                          src="https://cdn.shopify.com/s/files/1/0020/9407/1890/files/2_480x480.jpg?v=1559302854"
                           alt="Basketball"
                         />
                       </div>

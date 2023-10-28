@@ -12,8 +12,8 @@ export default function Dropdown1() {
   const handleMouseLeave = () => {
     setIsDropdownOpen(false)
   }
-  const handleLinkClick = (e) => {
-    e.preventDefault() // Prevent the default click behavior
+  const handleLinkClick = (e: React.MouseEvent) => {
+    e.preventDefault()
   }
 
   return (

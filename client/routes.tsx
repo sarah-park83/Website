@@ -43,7 +43,7 @@ export const router = createHashRouter(
         element={<알림마당components.공지소식사항Link1 />}
       />
       <Route path="/notice/gallery/1" element={<알림마당components.갤러리 />} />
-      <Route
+      {/* <Route
         path="/article/photo/badminton"
         element={<알림마당components.BadmintonPhotos />}
       />
@@ -87,7 +87,7 @@ export const router = createHashRouter(
       <Route
         path="/article/video/1/I7AOsNSrNuBCk8RBz9II"
         element={<알림마당components.갤러리Vid1 />}
-      />
+      /> */}
       <Route path="/mou/mou" element={<스폰서 />} />
       <Route path="/join" element={<회원가입 />} />
     </Route>

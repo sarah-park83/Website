@@ -39,12 +39,10 @@
 @media (max-width: 1400px) {
   .tafisa_container {
     padding: 20px 10px;
-    height: 400px;
   }
 
   .container {
     width: 50%;
-    height: 380px;
     margin-left: 20px;
   }
 
@@ -68,12 +66,10 @@
 @media (max-width: 1200px) {
   .tafisa_container {
     padding: 20px 10px;
-    height: 430px;
   }
 
   .container {
     width: 50%;
-    height: 380px;
     margin-left: 20px;
   }
 
@@ -97,12 +93,10 @@
 @media (max-width: 1100px) {
   .tafisa_container {
     padding: 20px 10px;
-    height: 430px;
   }
 
   .container {
     width: 50%;
-    height: 390px;
     margin-left: 20px;
   }
 
@@ -126,7 +120,6 @@
 @media (max-width: 1024px) {
   .container {
     width: 45%;
-    height: 380px;
     margin-left: 20px;
   }
 
@@ -150,12 +143,10 @@
 @media (max-width: 930px) {
   .tafisa_container {
     padding: 20px;
-    height: 430px;
   }
 
   .container {
     width: 100%;
-    height: 330px;
     margin-left: 0px;
   }
 
@@ -177,10 +168,6 @@
 }
 
 @media (max-width: 768px) {
-  .container {
-    height: 390px;
-  }
-
   .tafisa_title {
     font-size: 17px;
     padding: 5px;
@@ -199,14 +186,6 @@
 }
 
 @media (max-width: 540px) {
-  .tafisa_container {
-    height: 400px;
-  }
-
-  .container {
-    height: 330px;
-  }
-
   .tafisa_title {
     font-size: 13px;
     padding: 5px;
@@ -227,11 +206,9 @@
 @media (max-width: 470px) {
   .tafisa_container {
     padding: 10px;
-    height: 320px;
   }
 
   .container {
-    height: 320px;
     margin-left: 0px;
   }
 

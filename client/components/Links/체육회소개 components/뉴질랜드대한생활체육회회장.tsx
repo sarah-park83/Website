@@ -79,6 +79,13 @@ export function 뉴질랜드대한생활체육회회장() {
                     <div className="navLink">뉴질랜드 회원 클럽</div>
                   </div>
                 </Link>
+                <Link to="/info/chart">
+                  <div className="navItem">
+                    <div className="navLink">
+                      뉴질랜드 대한생활체육회 조직도
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

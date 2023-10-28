@@ -315,16 +315,20 @@
 }
 
 .right-line p {
-  width: 110px;
+  width: 90px;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
   padding-left: 15px;
 }
 
+#first-orange {
+  width: 115px;
+}
+
 .right-line p::after {
   top: 12px;
-  left: 100px;
+  left: 85px;
   height: 25px;
 }
 
@@ -375,6 +379,14 @@
   margin-left: 40px;
 }
 
+.right-line p {
+  width: 100px;
+}
+
+.right-line p::after {
+  left: 90px;
+}
+
 .right-line {
   height: 55px;
 }
@@ -388,7 +400,13 @@
 }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 879px) and (max-width: 1240px) {
+.right-line p::after {
+  left: 98px;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1808px) {
 
 .navbar {
   padding: 0 10px; 
@@ -467,7 +485,7 @@
 
 .right-line p::after {
   top: 16px;
-  left: 120px;
+  left: 105px;
   height: 25px;
 }
 
@@ -475,9 +493,6 @@
   padding-left: 13px;
 }
 
-.links a:first-child {
-  padding-bottom: 8px;
-}
 
 .links a {
   font-size: 17px;
@@ -489,7 +504,13 @@
 }
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1650px) {
+@media screen and (min-width: 1241px) and (max-width: 1808px) {
+  .right-line p::after {
+    left: 118px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1808px) {
   .dropdown {
     padding-left: 50px;
   }

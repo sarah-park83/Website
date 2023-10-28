@@ -27,6 +27,10 @@ export const router = createHashRouter(
         element={<체육회소개Components.뉴질랜드회원클럽 />}
       />
       <Route
+        path="/info/chart"
+        element={<체육회소개Components.뉴질랜드대한생활체육회조직도 />}
+      />
+      <Route
         path="/group/nation"
         element={<단체소개components.전국체육회현황 />}
       />

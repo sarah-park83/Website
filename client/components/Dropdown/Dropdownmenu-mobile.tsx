@@ -6,7 +6,6 @@ import { BiSolidDownArrow, BiSolidUpArrow } from 'react-icons/bi'
 import { RxCross2 } from 'react-icons/rx'
 import { Link } from 'react-router-dom'
 import { useEffect, useState, useCallback } from 'react'
-import { useAuth0 } from '@auth0/auth0-react'
 
 export default function Dropdownmenu_mobile() {
   const [isMenuActive, setIsMenuActive] = useState(false)
@@ -14,25 +13,6 @@ export default function Dropdownmenu_mobile() {
   const [isExpanded2, setIsExpanded2] = useState(false)
   const [isExpanded4, setIsExpanded4] = useState(false)
   const [isExpanded6, setIsExpanded6] = useState(false)
-  const { loginWithRedirect, logout, isAuthenticated } = useAuth0()
-
-  const handleSignIn = () => {
-    loginWithRedirect()
-  }
-
-  const handleSignOut = () => {
-    logout()
-    localStorage.removeItem('isAuthenticated')
-  }
-
-  useEffect(() => {
-    const savedAuthStatus = localStorage.getItem('isAuthenticated')
-    if (savedAuthStatus === 'true') {
-      isAuthenticated || localStorage.setItem('isAuthenticated', 'true')
-    } else {
-      isAuthenticated && localStorage.setItem('isAuthenticated', 'false')
-    }
-  }, [isAuthenticated])
 
   const toggleMobileNavMenu = useCallback(() => {
     const mobileNavMenu = document.querySelector('.mobile-nav-menu')
@@ -95,15 +75,10 @@ export default function Dropdownmenu_mobile() {
           </Link>
         </div>
         <div className="mobile-menu-icon">
-          {isAuthenticated ? (
-            <a href="#" onClick={handleSignOut}>
-              로그아웃
-            </a>
-          ) : (
-            <a href="#" onClick={handleSignIn} className="loginLink">
-              회원가입/회원증 확인
-            </a>
-          )}
+          <Link to="/join" className="loginLink">
+            회원가입
+          </Link>
+
           {isMenuActive ? (
             <RxCross2
               focusable="false"

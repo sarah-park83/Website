@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import swimming1 from '../../../../../images/Gallery/Swimming/swimming1.JPG?url'
+// import swimming1 from '../../../../../images/Gallery/Swimming/swimming1.JPG?url'
 
 export function SwimmingPhotos() {
   const isMobile = MobileCheck()
@@ -113,11 +113,11 @@ export function SwimmingPhotos() {
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={swimming1}
                     alt="swimming1"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

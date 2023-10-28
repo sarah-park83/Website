@@ -10,7 +10,7 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import trophy1 from '../../../../../images/Gallery/Trophy/trophy1.JPG?url'
+// import trophy1 from '../../../../../images/Gallery/Trophy/trophy1.JPG?url'
 
 export function TrophyPhotos() {
   const isMobile = MobileCheck()
@@ -113,11 +113,11 @@ export function TrophyPhotos() {
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={trophy1}
                     alt="trophy1"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

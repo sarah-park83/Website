@@ -10,11 +10,11 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import groupPhoto5 from '../../../../../images/Gallery/Group-Photo/groupPhoto5.JPG?url'
-import groupPhoto1 from '../../../../../images/Gallery/Group-Photo/groupPhoto1.JPG?url'
-import groupPhoto2 from '../../../../../images/Gallery/Group-Photo/groupPhoto2.JPG?url'
-import groupPhoto3 from '../../../../../images/Gallery/Group-Photo/groupPhoto3.JPG?url'
-import groupPhoto4 from '../../../../../images/Gallery/Group-Photo/groupPhoto4.JPG?url'
+// import groupPhoto5 from '../../../../../images/Gallery/Group-Photo/groupPhoto5.JPG?url'
+// import groupPhoto1 from '../../../../../images/Gallery/Group-Photo/groupPhoto1.JPG?url'
+// import groupPhoto2 from '../../../../../images/Gallery/Group-Photo/groupPhoto2.JPG?url'
+// import groupPhoto3 from '../../../../../images/Gallery/Group-Photo/groupPhoto3.JPG?url'
+// import groupPhoto4 from '../../../../../images/Gallery/Group-Photo/groupPhoto4.JPG?url'
 
 export function GroupPhotos() {
   const isMobile = MobileCheck()
@@ -117,51 +117,51 @@ export function GroupPhotos() {
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={groupPhoto5}
                     alt="groupPhoto5"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={groupPhoto1}
                     alt="groupPhoto1"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={groupPhoto2}
                     alt="groupPhoto2"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={groupPhoto3}
                     alt="groupPhoto3"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={groupPhoto4}
                     alt="groupPhoto4"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

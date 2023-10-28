@@ -10,13 +10,13 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import hockey4 from '../../../../../images/Gallery/Hockey/hockey4.JPG?url'
-import hockey1 from '../../../../../images/Gallery/Hockey/hockey1.jpg?url'
-import hockey2 from '../../../../../images/Gallery/Hockey/hockey2.JPG?url'
-import hockey3 from '../../../../../images/Gallery/Hockey/hockey3.JPG?url'
-import hockey5 from '../../../../../images/Gallery/Hockey/hockey5.JPG?url'
-import hockey6 from '../../../../../images/Gallery/Hockey/hockey6.PNG?url'
-import hockey7 from '../../../../../images/Gallery/Hockey/hockey7.PNG?url'
+// import hockey4 from '../../../../../images/Gallery/Hockey/hockey4.JPG?url'
+// import hockey1 from '../../../../../images/Gallery/Hockey/hockey1.jpg?url'
+// import hockey2 from '../../../../../images/Gallery/Hockey/hockey2.JPG?url'
+// import hockey3 from '../../../../../images/Gallery/Hockey/hockey3.JPG?url'
+// import hockey5 from '../../../../../images/Gallery/Hockey/hockey5.JPG?url'
+// import hockey6 from '../../../../../images/Gallery/Hockey/hockey6.PNG?url'
+// import hockey7 from '../../../../../images/Gallery/Hockey/hockey7.PNG?url'
 
 export function HockeyPhotos() {
   const isMobile = MobileCheck()
@@ -119,71 +119,71 @@ export function HockeyPhotos() {
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey4}
                     alt="hockey4"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey1}
                     alt="hockey1"
                     className="ql-editor-img long"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey2}
                     alt="hockey2"
                     className="ql-editor-img long"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey3}
                     alt="hockey3"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey5}
                     alt="hockey5"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey6}
                     alt="hockey6"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={hockey7}
                     alt="hockey7"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

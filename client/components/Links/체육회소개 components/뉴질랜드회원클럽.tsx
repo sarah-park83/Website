@@ -167,12 +167,34 @@ export function 뉴질랜드회원클럽() {
                         <ImageLoader
                           className="id-photo"
                           src="https://cdn.shopify.com/s/files/1/0020/9407/1890/files/2_480x480.jpg?v=1559302854"
-                          alt="Basketball"
+                          alt="Badminton"
                         />
                       </div>
                     </div>
                     <div className="status-id-text-container">
                       <h6>회장: 김승현</h6>
+                      <h6>클럽안내:</h6>
+                      <h6>...</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="status-position">골프 Golf</div>
+              <div className="status-card">
+                <div className="status-box">
+                  <div className="status-content">
+                    <div className="status-id-photo-container">
+                      <div className="status-id-photo">
+                        <ImageLoader
+                          className="id-photo"
+                          src="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MjAwNDc3OTQzNTA2NDEyOTIw/1-lead-photo.webp"
+                          alt="Golf"
+                        />
+                      </div>
+                    </div>
+                    <div className="status-id-text-container">
+                      <h6>회장: 이재구</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                     </div>

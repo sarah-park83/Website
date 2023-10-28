@@ -7,7 +7,7 @@ import '../styles/gallery.css'
 
 interface GalleryImage {
   path: string
-  link: string
+  // link: string
 }
 
 interface GalleryProps {
@@ -34,13 +34,13 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
       <p className="gallery_title">뉴질랜드 대한생활체육회 활동</p>
       <div className="gallery_container">
         <div className="galleryimg_container">
-          <a href={images[currentIndex].link}>
+          {/* <a href={images[currentIndex].link}>
             <img
               className="galleryimg"
               src={images[currentIndex].path}
               alt={`${currentIndex + 1}`}
             />
-          </a>
+          </a> */}
           <div className="gallery_buttonContainer">
             <button className="gallery_button" onClick={prevImage}>
               <IoMdArrowDropleftCircle />

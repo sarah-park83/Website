@@ -88,7 +88,7 @@ export function BasketballPhotos() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4></h4>
+                <h4>Basketball</h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>

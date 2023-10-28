@@ -110,7 +110,7 @@ export function 공지소식사항() {
 
             <div>
               <ul>
-                <a href="/article/anouncement/1/wBwT6IpiRh0pkWfXADw5">
+                <a href="/#/article/anouncement/1/wBwT6IpiRh0pkWfXADw5">
                   <li className="notice-list-table">
                     <p className="notice-list-table-count">1</p>
                     <h4 className="notice-list-table-title">

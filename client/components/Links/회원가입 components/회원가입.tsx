@@ -77,9 +77,13 @@ export function 회원가입() {
           <div>
             <div className="subMenu-title-container">
               <h2>대한체육회 가입</h2>
-              <h3>가입방법 안내.</h3>
+              <h3>회원가입 안내</h3>
             </div>
-            <div>INSTRUCTIONS HERE</div>
+            <div>
+              개인 회원 가입을 원하시면 종목 단체를 선택하셔서 가입하시도록
+              안내해 드립니다.
+            </div>
+            <p>e-mail: nzklsct@gmail.com</p>
           </div>
         </div>
       </div>

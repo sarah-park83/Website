@@ -132,6 +132,11 @@ export default function Dropdownmenu_mobile() {
               <Link to="/info/status">
                 <div className="mobile-nav-item">뉴질랜드 회원 클럽</div>
               </Link>
+              <Link to="/info/chart">
+                <div className="mobile-nav-item">
+                  뉴질랜드 대한생활체육회 조직도
+                </div>
+              </Link>
             </>
           )}
 

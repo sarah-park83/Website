@@ -48,6 +48,7 @@ export default function Dropdown1() {
                   <Link to="/info/greet">뉴질랜드 대한생활체육회 회장</Link>
                   <Link to="/info/purpose">설립목적</Link>
                   <Link to="/info/status">뉴질랜드 회원 클럽</Link>
+                  <Link to="/info/chart">뉴질랜드 대한생활체육회 조직도</Link>
                 </div>
               </div>
 

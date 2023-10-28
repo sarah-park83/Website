@@ -10,11 +10,6 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import election1 from '../../../../../images/Gallery/Leader-Election/election1.JPG?url'
-import election2 from '../../../../../images/Gallery/Leader-Election/election2.JPG?url'
-import election3 from '../../../../../images/Gallery/Leader-Election/election3.JPG?url'
-import election4 from '../../../../../images/Gallery/Leader-Election/election4.JPG?url'
-
 export function ElectionPhotos() {
   const isMobile = MobileCheck()
 
@@ -116,41 +111,41 @@ export function ElectionPhotos() {
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={election1}
                     alt="election1"
                     className="ql-editor-img long"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={election2}
                     alt="election2"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={election3}
                     alt="election3"
                     className="ql-editor-img long"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={election4}
                     alt="election4"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

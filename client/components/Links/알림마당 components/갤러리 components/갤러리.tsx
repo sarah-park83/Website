@@ -115,7 +115,7 @@ export function 갤러리() {
           <div>
             <ul className="gallery-list">
               {/**** Photo ****/}
-              <li className="gallery-list-table">
+              {/* <li className="gallery-list-table">
                 <div className="gallery-list-container">
                   <ImageLoader
                     className="gallery-list-item"
@@ -276,7 +276,7 @@ export function 갤러리() {
               </li>
 
               {/**** Video ****/}
-              <li className="gallery-list-table">
+              {/* <li className="gallery-list-table">
                 <div className="gallery-list-container">
                   <div className="gallery-list-item">
                     <div className="vid-preview">
@@ -297,7 +297,7 @@ export function 갤러리() {
                     <div className="gallery-list-createdAt">2023.09.02</div>
                   </div>
                 </Link>
-              </li>
+              </li>  */}
             </ul>
 
             <ul className="pagination-pagination">

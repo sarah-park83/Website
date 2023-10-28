@@ -10,18 +10,6 @@ import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-import basketball1 from '../../../../../images/Gallery/Basketball/basketball1.JPG?url'
-import basketball2 from '../../../../../images/Gallery/Basketball/basketball2.JPG?url'
-import basketball3 from '../../../../../images/Gallery/Basketball/basketball3.JPG?url'
-import basketball4 from '../../../../../images/Gallery/Basketball/basketball4.JPG?url'
-import basketball5 from '../../../../../images/Gallery/Basketball/basketball5.JPG?url'
-import basketball6 from '../../../../../images/Gallery/Basketball/basketball6.JPG?url'
-import basketball7 from '../../../../../images/Gallery/Basketball/basketball7.JPG?url'
-import basketball8 from '../../../../../images/Gallery/Basketball/basketball8.JPG?url'
-import basketball9 from '../../../../../images/Gallery/Basketball/basketball9.JPG?url'
-import basketball10 from '../../../../../images/Gallery/Basketball/basketball10.JPG?url'
-import basketball11 from '../../../../../images/Gallery/Basketball/basketball11.JPG?url'
-
 export function BasketballPhotos() {
   const isMobile = MobileCheck()
 
@@ -100,7 +88,7 @@ export function BasketballPhotos() {
             <div className="article-info-container">
               <div className="article-title">
                 <p>제목</p>
-                <h4>Basketball</h4>
+                <h4></h4>
               </div>
               <div className="article-author">
                 <p>작성자</p>
@@ -118,116 +106,116 @@ export function BasketballPhotos() {
                 data-gramm="false"
                 contentEditable="false"
               >
-                <p>Basketball</p>
+                <p></p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball1}
                     alt="basketball1"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball2}
                     alt="basketball2"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball3}
                     alt="basketball3"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball4}
                     alt="basketball4"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball5}
                     alt="basketball5"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball6}
                     alt="basketball6"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball7}
                     alt="basketball7"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball8}
                     alt="basketball8"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball9}
                     alt="basketball9"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball10}
                     alt="basketball10"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />
                 </p>
                 <p>
-                  <ImageLoader
+                  {/* <ImageLoader
                     src={basketball11}
                     alt="basketball11"
                     className="ql-editor-img"
-                  />
+                  /> */}
                 </p>
                 <p>
                   <br />

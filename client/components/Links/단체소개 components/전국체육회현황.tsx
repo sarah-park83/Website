@@ -96,6 +96,36 @@ export function 전국체육회현황() {
             </div>
             <div>
               <div className="group-list-container">
+                <div className="group-list-title">뉴질랜드생활체육회</div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Flyh.png?alt=media&amp;token=041fbbf2-27cc-41a9-9606-5d11f933d6fb',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <ImageLoader
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115"
+                        alt="서울특별시생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 김웅기
+                    <br />
+                    체육회명 : 뉴질랜드생활체육회
+                  </p>
+                </div>
+              </div>
+              <div className="group-list-container">
                 <div className="group-list-title">서울특별시생활체육회</div>
                 <div className="group-list-img-container">
                   <div className="group-list-img-container2">

@@ -9,6 +9,7 @@ import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
+import president from '../../../../public/images/회장.jpeg'
 
 export function 뉴질랜드대한생활체육회회장() {
   const isMobile = MobileCheck()
@@ -91,10 +92,7 @@ export function 뉴질랜드대한생활체육회회장() {
             </div>
 
             <div className="greet-content-container">
-              <ImageLoader
-                src="../../../../public/images/회장.jpeg"
-                alt="회장"
-              />
+              <ImageLoader src={president} alt="회장" />
               <h6>뉴질랜드 대한생활체육회 회장 김웅기</h6>
               <div className="greet-text-container">
                 <div>

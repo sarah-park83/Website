@@ -164,7 +164,7 @@
   font-weight: 600;
 }
 
-#first-orange {
+#line-1 p {
   color: orange;
 }
 
@@ -314,16 +314,16 @@
   margin-bottom: 130px;
 }
 
+#line-long {
+  width: 115px;
+}                
+
 .right-line p {
   width: 90px;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
   padding-left: 15px;
-}
-
-#first-orange {
-  width: 115px;
 }
 
 .right-line p::after {

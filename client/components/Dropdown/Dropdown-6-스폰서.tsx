@@ -50,7 +50,7 @@ export default function Dropdown6() {
               </div>
 
               <div className="right-line" id="line-2">
-                <p>체육회 소개</p>
+                <p id="line-long">체육회 소개</p>
                 <div className="links">
                   <Link to="/info/greet">뉴질랜드 대한생활체육회 회장</Link>
                   <Link to="/info/purpose">설립목적</Link>

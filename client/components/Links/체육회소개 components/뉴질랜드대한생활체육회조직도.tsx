@@ -1,5 +1,5 @@
 import '../../../styles/Sub-pages/subpage.css'
-// import '../../../styles/Sub-pages/체육회 소개 css/임원현황-content.css'
+import '../../../styles/Sub-pages/체육회 소개 css/뉴질랜드대한생활체육회조직도-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
@@ -9,6 +9,7 @@ import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
 import { BiSolidRightArrow } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
+import logo2 from '../../../images/logo2.png'
 
 export function 뉴질랜드대한생활체육회조직도() {
   const isMobile = MobileCheck()
@@ -103,6 +104,12 @@ export function 뉴질랜드대한생활체육회조직도() {
               <h5>▶ 뉴질랜드 대한생활체육회 조직도</h5>
             </div>
             <div className="status-container">
+              <div className="logo2-container">
+                <ImageLoader className="logo2" src={logo2} alt="logo" />
+              </div>
+              <div className="text-container">
+                <h2>뉴질랜드 대한생활체육회 조직도</h2>
+              </div>
               <div className="status-position">1</div>
               <div className="status-card">
                 <div className="status-box">

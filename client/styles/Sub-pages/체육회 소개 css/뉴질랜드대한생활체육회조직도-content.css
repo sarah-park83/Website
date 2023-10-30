@@ -1,0 +1,97 @@
+.status-result-container {
+    margin-bottom: 20px;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.logo2-container {
+    max-width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.logo2-container::after {
+    content: '';
+    position: absolute;
+    top: 99%;
+    height: 30px;
+    left: 50%;
+    width: 4px;
+    background-color: gray;
+}
+
+.text-container {
+    background-color: grey; 
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.text-container h2 {
+    color: white;
+}
+
+.status-card {
+    max-width: 30%;
+    height: 160px;
+}
+
+.status-id-photo-container {
+    margin-right: 7px;
+}
+
+.status-id-text-container {
+    padding: 0;
+    width: 100%;
+}
+  
+.status-id-text-container h6:first-child {
+    height: 30%;
+    margin-top: 0px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.status-id-text-container h6:last-child {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/************* Media Query *************/
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.text-container h2 {
+    font-size: 14px;
+}
+
+.status-card {
+    max-width: 80%;
+    height: 140px
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.status-card {
+    max-width: 50%;
+}
+
+.id-photo {
+    height: 115px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+.status-card {
+    max-width: 50%;
+}
+}

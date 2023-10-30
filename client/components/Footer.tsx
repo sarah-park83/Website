@@ -32,8 +32,8 @@ export default function Footer() {
       <div className="footer-right">
         <p className="footer-company-about">
           <span>About us</span>
-          뉴질랜드대한생활체육회는 순수 민간 비영리 법인단체로서 정치, 종교, 등
-          모든 분야와 무관한 국민생활체육의 권장, 발전을 목표로 하고 있습니다.
+          뉴질랜드 대한생활체육회는 한국의 사단법인 대한생활체육회의
+          산하단체입니다. 대한생활체육회.com 으로 확인 하실 수 있습니다.
         </p>
       </div>
     </footer>

@@ -10,6 +10,8 @@ import Gallery from './Gallery'
 import TafisaIntro from './TafisaIntro'
 import popupImage from '../images/Popup/ad.jpeg'
 
+import logo from '../images/logo.png'
+
 import badminton1 from '../images/Gallery/Badminton/badminton.jpeg'
 import badminton2 from '../images/Gallery/Badminton/badminton2.jpeg'
 import badminton3 from '../images/Gallery/Badminton/competition.jpeg'
@@ -39,7 +41,14 @@ import leaderImage from '../images/Gallery/President/president.jpeg'
 
 import swimmingImage from '../images/Gallery/Swimming/swimming.jpeg'
 
-import trophyImage from '../images/Gallery/Trophy/trophy.jpeg'
+import soccer1 from '../images/Gallery/Soccer/soccer.jpeg'
+import soccer2 from '../images/Gallery/Soccer/soccer2.jpeg'
+import soccer3 from '../images/Gallery/Soccer/soccer3.jpeg'
+
+import jeonju1 from '../images/Gallery/Jeonju/jeonju.jpeg'
+import jeonju2 from '../images/Gallery/Jeonju/jeonju2.jpeg'
+import jeonju3 from '../images/Gallery/Jeonju/jeonju3.jpeg'
+import jeonju4 from '../images/Gallery/Jeonju/jeonju4.jpeg'
 
 import '../styles/homepage.css'
 
@@ -47,6 +56,9 @@ export function Homepage() {
   const isMobile = MobileCheck()
   const popupImagePaths = [popupImage]
   const images = [
+    {
+      path: logo,
+    },
     {
       path: badminton1,
     },
@@ -117,7 +129,25 @@ export function Homepage() {
       path: swimmingImage,
     },
     {
-      path: trophyImage,
+      path: soccer1,
+    },
+    {
+      path: soccer2,
+    },
+    {
+      path: soccer3,
+    },
+    {
+      path: jeonju1,
+    },
+    {
+      path: jeonju2,
+    },
+    {
+      path: jeonju3,
+    },
+    {
+      path: jeonju4,
     },
   ]
 

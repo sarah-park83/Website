@@ -79,12 +79,13 @@ export function 회원가입() {
               <h2>대한체육회 가입</h2>
               <h3>회원가입 안내</h3>
             </div>
-            <div>
+            <div className="login-paragraph">
               <br />
-              개인 회원 가입을 원하시면 종목 단체를 선택하셔서 가입하시도록
-              안내해 드립니다.
+              클럽별, 개인별 회원 가입 가능합니다. 간단히 이메일 주시면 안내 해
+              드리겠습니다. <br />
+              감사합니다.
             </div>
-            <p>e-mail: nzklsct@gmail.com</p>
+            <p className="login-paragraph">e-mail: nzklsct@gmail.com</p>
           </div>
         </div>
       </div>

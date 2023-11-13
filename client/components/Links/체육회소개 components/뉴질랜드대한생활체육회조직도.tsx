@@ -110,210 +110,231 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="text-container">
                 <h2>뉴질랜드 대한생활체육회 조직도</h2>
               </div>
-              <div className="status-position">1</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
+              <div className="status-position-jojik"></div>
+              <div className="status-card-jojik">
+                <div className="status-box-jojik">
+                  <div className="status-content-jojik">
+                    <div className="status-id-photo-container-jojik">
+                      <div className="status-id-photo-jojik">
                         <ImageLoader
-                          className="id-photo"
+                          className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
                           alt="1"
                         />
                       </div>
                     </div>
-                    <div className="status-id-text-container">
+                    <div className="status-id-text-container-jojik">
                       <h6>회장</h6>
-                      <h6>성명 : 김웅기</h6>
+                      <h6>김웅기</h6>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="status-position">2</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
+              <div className="status-position-jojik"></div>
+              <div className="status-card-jojik">
+                <div className="status-box-jojik">
+                  <div className="status-content-jojik">
+                    <div className="status-id-photo-container-jojik">
+                      <div className="status-id-photo-jojik">
                         <ImageLoader
-                          className="id-photo"
+                          className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
                           alt="1"
                         />
                       </div>
                     </div>
-                    <div className="status-id-text-container">
-                      <h6>고문</h6>
-                      <h6>성명 : . . .</h6>
+                    <div className="status-id-text-container-jojik">
+                      <h6>부회장</h6>
+                      <h6>유용상</h6>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="status-position">3</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
+              <div className="status-position-jojik"></div>
+              <div className="status-card-jojik">
+                <div className="status-box-jojik">
+                  <div className="status-content-jojik">
+                    <div className="status-id-photo-container-jojik">
+                      <div className="status-id-photo-jojik">
                         <ImageLoader
-                          className="id-photo"
+                          className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="2"
+                          alt="1"
                         />
                       </div>
                     </div>
-                    <div className="status-id-text-container">
-                      <h6>부회장</h6>
-                      <h6>성명 : 유용상</h6>
+                    <div className="status-id-text-container-jojik">
+                      <h6>총괄본부장</h6>
+                      <h6>김영옥</h6>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="status-position">4</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
+              <div className="status-position-jojik"></div>
+              <div className="status-card-jojik">
+                <div className="status-box-jojik">
+                  <div className="status-content-jojik">
+                    <div className="status-id-photo-container-jojik">
+                      <div className="status-id-photo-jojik">
                         <ImageLoader
-                          className="id-photo"
+                          className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
                           alt="3"
                         />
                       </div>
                     </div>
-                    <div className="status-id-text-container">
-                      <h6>사무장</h6>
-                      <h6>성명 : 김승현</h6>
+                    <div className="status-id-text-container-jojik">
+                      <h6>사무총장</h6>
+                      <h6>김승현</h6>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="status-position">5</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
+              <div className="status-position-jojik">
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik1">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo1-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="5"
+                          />
+                        </div>
+                      </div>
+                      <div className="status-id-text-container1-jojik">
+                        <h6>총무이사</h6>
+                        <h6>김도균</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik1">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo1-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="6"
+                          />
+                        </div>
+                      </div>
+                      <div className="status-id-text-container1-jojik">
+                        <h6>체육수석이사</h6>
+                        <h6>이재구</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik1">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo1-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="7"
+                          />
+                        </div>
+                      </div>
+                      <div className="status-id-text-container1-jojik">
+                        <h6>섭외이사</h6>
+                        <h6>이재행</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik1">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo1-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="8"
+                          />
+                        </div>
+                      </div>
+                      <div className="status-id-text-container1-jojik">
+                        <h6>홍보이사</h6>
+                        <h6>이재훈</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="status-position-jojik"></div>
+              <div className="status-card-jojik">
+                <div className="status-box-jojik">
+                  <div className="status-content-jojik">
+                    <div className="status-id-photo-container-jojik">
+                      <div className="status-id-photo-jojik">
                         <ImageLoader
-                          className="id-photo"
+                          className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
                           alt="4"
                         />
                       </div>
                     </div>
-                    <div className="status-id-text-container">
+                    <div className="status-id-text-container-jojik">
                       <h6>감사</h6>
-                      <h6>성명 : 안영준</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="status-position">6</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
-                        <ImageLoader
-                          className="id-photo"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="5"
-                        />
-                      </div>
-                    </div>
-                    <div className="status-id-text-container">
-                      <h6>총무이사</h6>
-                      <h6>성명 : 김도균</h6>
+                      <h6>안영준</h6>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="status-position">7</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
-                        <ImageLoader
-                          className="id-photo"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="6"
-                        />
+              <div className="status-position-jojik">
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="9"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="status-id-text-container">
-                      <h6>체육수석이사</h6>
-                      <h6>성명 : 이재구</h6>
+                      <div className="status-id-text-container-jojik">
+                        <h6>법률고문</h6>
+                        <h6>. . .</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="status-position">8</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
-                        <ImageLoader
-                          className="id-photo"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="7"
-                        />
+                <div className="status-card-jojik">
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="9"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="status-id-text-container">
-                      <h6>섭외이사</h6>
-                      <h6>성명 : 김영옥</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="status-position">9</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
-                        <ImageLoader
-                          className="id-photo"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="8"
-                        />
+                      <div className="status-id-text-container-jojik">
+                        <h6>의료고문</h6>
+                        <h6>임경우</h6>
+                        <h6>Physiotherapist</h6>
                       </div>
-                    </div>
-                    <div className="status-id-text-container">
-                      <h6>홍보이사</h6>
-                      <h6>성명 : 이재훈</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="status-position">10</div>
-              <div className="status-card">
-                <div className="status-box">
-                  <div className="status-content">
-                    <div className="status-id-photo-container">
-                      <div className="status-id-photo">
-                        <ImageLoader
-                          className="id-photo"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="9"
-                        />
-                      </div>
-                    </div>
-                    <div className="status-id-text-container">
-                      <h6>자문의원</h6>
-                      <h6>성명 : . . .</h6>
                     </div>
                   </div>
                 </div>

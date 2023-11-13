@@ -1,97 +1,212 @@
-.status-result-container {
-    margin-bottom: 20px;
+.status-result-container-jojik {
+  font-family: SUIT-Medium,sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
 }
 
-.status-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center;
+.status-position-jojik {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: NanumBarunGothic,sans-serif;
+  width: 100%;
+  font-weight: 700;
+}
+
+.status-container-jojik {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
 }
 
 .logo2-container {
-    max-width: 30%;
-    margin-bottom: 20px;
-    position: relative;
+  max-width: 30%;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .logo2-container::after {
-    content: '';
-    position: absolute;
-    top: 99%;
-    height: 30px;
-    left: 50%;
-    width: 4px;
-    background-color: gray;
+  content: '';
+  position: absolute;
+  top: 99%;
+  height: 30px;
+  left: 50%;
+  width: 4px;
+  background-color: gray;
 }
 
 .text-container {
-    background-color: grey; 
-    border-radius: 5px;
-    padding: 10px; 
+  background-color: grey;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .text-container h2 {
-    color: white;
+  color: white;
 }
 
-.status-card {
-    max-width: 30%;
-    height: 160px;
+.status-card-jojik {
+  position: relative;
+  width: 90%;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,.05), inset -5px -5px 5px hsla(0,0%,100%,.5), 5px 5px 5px rgba(0,0,0,.05), -5px -5px 5px hsla(0,0%,100%,.5);
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 25px;
+  max-width: 35%;
+  height: 160px;
 }
 
-.status-id-photo-container {
-    margin-right: 7px;
+.id-photo-jojik {
+  width: 92px;
+  height: 115px;
+  background-color: #fff;
+  border: 0.5px solid #777;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
-.status-id-text-container {
-    padding: 0;
-    width: 100%;
-}
-  
-.status-id-text-container h6:first-child {
-    height: 30%;
-    margin-top: 0px;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-  
-.status-id-text-container h6:last-child {
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.id-photo1-jojik {
+  width: 92px;
+  height: 115px;
+  background-color: #fff;
+  border: 0.5px solid #777;
+  border-radius: 5px;
+  object-fit: cover;
+  padding-top:10px;
 }
 
-/************* Media Query *************/
+.status-id-photo-container-jojik {
+  margin-right: 0px;
+  padding-right: 12px
+}
 
+.status-id-photo-container1-jojik {
+  padding-top: 5%;
+  width: 80px;
+  height: 140px;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-id-text-container-jojik {
+  padding: 0;
+  width: 100%;
+  height: inherit;
+  padding-left: 10px;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.status-id-text-container1-jojik {
+  padding: 0;
+  width: 100%;
+  height: inherit;
+  padding-left: 10px;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.status-id-text-container-jojik h6:first-child {
+  height: 25%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  font-size: 20px;
+  color: #222;
+  font-family: SUIT-Medium,sans-serif;
+  letter-spacing: .2px;
+  line-height: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 2px 0;
+}
+
+.status-id-text-container-jojik h6:last-child {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #222;
+  font-family: SUIT-Medium,sans-serif;
+  letter-spacing: .2px;
+  transition: .5s;
+  line-height: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 2px 0;
+}
+
+.status-id-text-container1-jojik h6:first-child {
+  height: 25%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  font-size: 20px;
+  color: #222;
+  font-family: SUIT-Medium,sans-serif;
+  letter-spacing: .2px;
+  line-height: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 2px 0;
+}
+
+.status-id-text-container1-jojik h6:last-child {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #222;
+  font-family: SUIT-Medium,sans-serif;
+  letter-spacing: .2px;
+  transition: .5s;
+  line-height: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 2px 0;
+}
+
+/* Media Queries */
 @media screen and (min-width: 320px) and (max-width: 768px) {
-.text-container h2 {
+  .text-container h2 {
     font-size: 14px;
-}
+  }
 
-.status-card {
+  .status-card-jojik {
     max-width: 80%;
-    height: 140px
-}
+    height: 140px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-.status-card {
+  .status-card-jojik {
     max-width: 50%;
-}
+  }
 
-.id-photo {
+  .id-photo-jojik {
     height: 115px;
-}
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-.status-card {
+  .status-card-jojik {
     max-width: 50%;
-}
+  }
 }

@@ -76,7 +76,7 @@ export function 회원가입() {
         <div className="content-container">
           <div>
             <div className="subMenu-title-container">
-              <h2>대한체육회 가입</h2>
+              <h2>뉴질랜드 대한생활체육회</h2>
               <h3>회원가입 안내</h3>
             </div>
             <div className="login-paragraph">

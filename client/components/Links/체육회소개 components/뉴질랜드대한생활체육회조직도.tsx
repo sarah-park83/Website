@@ -428,7 +428,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           />
                         </div>
                       </div>
-                      <div className="name">
+                      <div className="name" style={{ marginLeft: '-5%' }}>
                         <h6>임경우 Physio</h6>
                       </div>
                     </div>

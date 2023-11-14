@@ -431,7 +431,7 @@ export function 뉴질랜드회원클럽() {
                   </div>
                 </div>
               </div>
-              <div className="status-position">피지오 Physio</div>
+              <div className="status-position">수영 Swimming</div>
               <div className="status-card">
                 <div className="status-box">
                   <div className="status-content">
@@ -439,13 +439,13 @@ export function 뉴질랜드회원클럽() {
                       <div className="status-id-photo">
                         <ImageLoader
                           className="id-photo"
-                          src="https://www.careers.govt.nz/assets/jobs/physiotherapist/_resampled/ScaleWidthWyI3MDAiXQ/Physiotherapist-1200-x-800.jpg"
+                          src="https://cdn.mos.cms.futurecdn.net/UTQAoueKJG8ZyYSSTTQKxJ-1200-80.jpg.webp"
                           alt="Physio"
                         />
                       </div>
                     </div>
                     <div className="status-id-text-container">
-                      <h6>회장:</h6>
+                      <h6>회장: 김용준</h6>
                       <h6>클럽안내:</h6>
                       <h6>...</h6>
                       <h6>...</h6>

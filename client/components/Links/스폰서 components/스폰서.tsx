@@ -3,7 +3,6 @@ import '../../../styles/Sub-pages/스폰서 css/스폰서-content.css'
 import Dropdownmenu from '../../Dropdown/Dropdownmenu'
 import Dropdownmenu_mobile from '../../Dropdown/Dropdownmenu-mobile'
 import MobileCheck from '../../Dropdown/Mobile-check'
-import ImageLoader from '../Image-loader'
 import Footer from '../../Footer'
 import Header from '../Link-header'
 import { MdHome } from 'react-icons/md'
@@ -12,6 +11,8 @@ import { Link } from 'react-router-dom'
 
 import moving from '../../../images/sponsors/ksmoving.jpeg'
 import travel from '../../../images/sponsors/travelagency.jpeg'
+import hanks from '../../../images/sponsors/hank.jpeg'
+import honey from '../../../images/sponsors/honey.jpeg'
 
 export function 스폰서() {
   const isMobile = MobileCheck()
@@ -58,7 +59,6 @@ export function 스폰서() {
             <h2>스폰서</h2>
           </Link>
         </div>
-        {/* <div className="mou_mou_content-container"> */}
         {!isMobile && (
           <div className="navbar-container">
             <div className="navbarVertricle">
@@ -102,7 +102,19 @@ export function 스폰서() {
             </div>
           </div>
         </div>
-        {/* </div> */}
+
+        <div className="content-container">
+          <div className="mouList-container">
+            <div className="mouList-imgContainer">
+              <img className="mouList-image" src={honey} alt="honey" />
+            </div>
+            <div className="mouList-contextContainer">
+              <div className="mouList-context-title">Hackett</div>
+              <p>뉴질랜드 마누카 허니</p>
+              <a href="www.hacketts.co.nz">홈페이지 방문</a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <Footer />

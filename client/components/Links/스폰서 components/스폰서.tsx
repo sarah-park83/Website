@@ -111,7 +111,7 @@ export function 스폰서() {
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">Hackett</div>
               <p>뉴질랜드 마누카 허니</p>
-              <a href="www.hacketts.co.nz">홈페이지 방문</a>
+              <a href="https://www.hacketts.co.nz">홈페이지 방문</a>
             </div>
           </div>
         </div>

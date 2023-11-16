@@ -12,6 +12,10 @@
   font-size: 30px;
 }
 
+.login-paragraph-email {
+  font-size: 40px;
+}
+
 a {
     text-decoration: none;
 }

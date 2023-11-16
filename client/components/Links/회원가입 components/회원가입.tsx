@@ -85,7 +85,7 @@ export function 회원가입() {
               드리겠습니다. <br />
               감사합니다.
             </div>
-            <p className="login-paragraph">e-mail: nzklsct@gmail.com</p>
+            <p className="login-paragraph-email">e-mail: nzklsct@gmail.com</p>
           </div>
         </div>
       </div>

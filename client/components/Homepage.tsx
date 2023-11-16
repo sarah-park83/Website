@@ -57,9 +57,6 @@ export function Homepage() {
   const popupImagePaths = [popupImage]
   const images = [
     {
-      path: logo,
-    },
-    {
       path: badminton1,
     },
     {
@@ -148,6 +145,9 @@ export function Homepage() {
     },
     {
       path: jeonju4,
+    },
+    {
+      path: logo,
     },
   ]
 

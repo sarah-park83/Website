@@ -114,7 +114,7 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 안영준</h6>
                       <h6>클럽안내:</h6>
-                      <h6>군위축구단</h6>
+
                       <h6> </h6>
                     </div>
                   </div>

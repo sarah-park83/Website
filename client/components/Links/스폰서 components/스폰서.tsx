@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 
 import moving from '../../../images/sponsors/ksmoving.jpeg'
 import travel from '../../../images/sponsors/travelagency.jpeg'
-import hanks from '../../../images/sponsors/hank.jpeg'
 import honey from '../../../images/sponsors/honey.jpeg'
+import marbour from '../../../images/sponsors/marbour.jpeg'
 
 export function 스폰서() {
   const isMobile = MobileCheck()
@@ -82,11 +82,25 @@ export function 스폰서() {
           </div>
           <div className="mouList-container">
             <div className="mouList-imgContainer">
+              <img className="mouList-image" src={marbour} alt="marbour" />
+            </div>
+            <div className="mouList-contextContainer">
+              <div className="mouList-context-title">Harbour Sport</div>
+              <p>스포츠 커뮤니티 그룹</p>
+              <a href="https://www.harboursport.co.nz/">홈페이지 방문</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-container">
+          <div className="mouList-container">
+            <div className="mouList-imgContainer">
               <img className="mouList-image" src={moving} alt="moving" />
             </div>
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">KS운송</div>
-              <p>국내 해외 이사 통관 업무.</p>
+              <p>국내 해외 이사 통관 업무</p>
+              <p>09-835-9956</p>
             </div>
           </div>
         </div>
@@ -98,7 +112,8 @@ export function 스폰서() {
             </div>
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">세계항공여행사</div>
-              <p>국내, 국제 항공권 상담</p>
+              <p>국제 항공권 및 패키지 투어 상담</p>
+              <p>09-443-1000</p>
             </div>
           </div>
         </div>
@@ -112,6 +127,25 @@ export function 스폰서() {
               <div className="mouList-context-title">Hackett</div>
               <p>뉴질랜드 마누카 허니</p>
               <a href="https://www.hacketts.co.nz">홈페이지 방문</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-container">
+          <div className="mouList-container">
+            <div className="mouList-imgContainer">
+              <img
+                className="mouList-image"
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Billiards_balls.jpg"
+                alt="pool"
+              />
+            </div>
+            <div className="mouList-contextContainer">
+              <div className="mouList-context-title">
+                쓰리쿠션 백프로. 백석윤
+              </div>
+              <p>당구레슨</p>
+              <p>Mobile: 027-314-2317</p>
             </div>
           </div>
         </div>

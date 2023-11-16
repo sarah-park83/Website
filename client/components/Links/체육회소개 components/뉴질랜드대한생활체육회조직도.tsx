@@ -108,9 +108,7 @@ export function 뉴질랜드대한생활체육회조직도() {
           <div>
             <div className="subMenu-title-container">
               <h2>뉴질랜드 대한생활체육회 조직도</h2>
-              <h3>
-                뉴질랜드한인라이프스타일스포츠협회 운영진 현황을 소개합니다.
-              </h3>
+              <h3>뉴질랜드 대한생활체육회 운영진 현황을 소개합니다.</h3>
             </div>
 
             <div className="status-result-container-jojik">
@@ -127,7 +125,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik-arrow">
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#526D82' }}>
+                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
                     <div className="titles-jojik">회장</div>
                   </h6>
                 </div>
@@ -152,7 +150,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik-arrow">
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#526D82' }}>
+                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
                     <div className="titles-jojik">부회장</div>
                   </h6>
                 </div>
@@ -177,7 +175,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik-arrow">
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#526D82' }}>
+                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
                     <div className="titles-jojik">총괄본부장</div>
                   </h6>
                 </div>
@@ -202,7 +200,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik-arrow">
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#526D82' }}>
+                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
                     <div className="titles-jojik">사무총장</div>
                   </h6>
                 </div>
@@ -230,7 +228,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                   style={statusCardStyles}
                 >
                   <div className="status-id-text-container-jojik">
-                    <h6 style={{ backgroundColor: '#526D82' }}>
+                    <h6 style={{ backgroundColor: '#C8DBBE' }}>
                       <div className="titles-jojik">총무이사</div>
                     </h6>
                   </div>
@@ -257,7 +255,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                   style={statusCardStyles}
                 >
                   <div className="status-id-text-container-jojik">
-                    <h6 style={{ backgroundColor: '#526D82' }}>
+                    <h6 style={{ backgroundColor: '#C8DBBE' }}>
                       <div className="titles-jojik">체육수석이사</div>
                     </h6>
                   </div>
@@ -284,7 +282,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                   style={statusCardStyles}
                 >
                   <div className="status-id-text-container-jojik">
-                    <h6 style={{ backgroundColor: '#526D82' }}>
+                    <h6 style={{ backgroundColor: '#C8DBBE' }}>
                       <div className="titles-jojik">섭외이사</div>
                     </h6>
                   </div>
@@ -311,7 +309,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                   style={statusCardStyles}
                 >
                   <div className="status-id-text-container-jojik">
-                    <h6 style={{ backgroundColor: '#526D82' }}>
+                    <h6 style={{ backgroundColor: '#C8DBBE' }}>
                       <div className="titles-jojik">홍보이사</div>
                     </h6>
                   </div>
@@ -337,7 +335,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik" style={multipleRows}>
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#526D82' }}>
+                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
                     <div className="titles-jojik">홍보이사</div>
                   </h6>
                 </div>
@@ -362,7 +360,7 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik"></div>
               <div className="status-card-jojik">
                 <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#DDE6ED' }}>
+                  <h6 style={{ backgroundColor: '#C7BCA1' }}>
                     <div className="titles-jojik">감사</div>
                   </h6>
                 </div>
@@ -386,7 +384,7 @@ export function 뉴질랜드대한생활체육회조직도() {
 
               <div className="status-position-jojik">
                 <div className="sub-heading-container-jojik">
-                  <h2 className="sub-heading-jojik">의료고문</h2>
+                  <h2 className="sub-heading-jojik">고문</h2>
                 </div>
               </div>
 

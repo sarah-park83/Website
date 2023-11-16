@@ -33,7 +33,11 @@ export default function Footer() {
         <p className="footer-company-about">
           <span>About us</span>
           뉴질랜드 대한생활체육회는 한국의 사단법인 대한생활체육회의
-          산하단체입니다. 대한생활체육회.com 으로 확인 하실 수 있습니다.
+          산하단체입니다.
+          <a className="email" href="https://www.대한생활체육회.com">
+            대한생활체육회.com
+          </a>
+          으로 확인 하실 수 있습니다.
         </p>
       </div>
     </footer>

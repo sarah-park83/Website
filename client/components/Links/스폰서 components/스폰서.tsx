@@ -100,7 +100,7 @@ export function 스폰서() {
             <div className="mouList-contextContainer">
               <div className="mouList-context-title">KS운송</div>
               <p>국내 해외 이사 통관 업무</p>
-              <p>09-835-9956</p>
+              <p>0800-479-248</p>
             </div>
           </div>
         </div>

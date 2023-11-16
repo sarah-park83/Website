@@ -16,18 +16,16 @@
 .status-position-jojik {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
   margin-top: 30px;
   font-family: NanumBarunGothic,sans-serif;
   width: 100%;
-  font-weight: 700;
 }
 
 .status-container-jojik {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 
@@ -49,8 +47,8 @@
 
 .name {
   display: flex;
-  flex-direction: column; /* or row depending on your preference */
-  align-items: center; /* adjust as needed */
+  flex-direction: column;
+  align-items: center;
   font-family: NanumBarunGothic,sans-serif;
   font-size: 40px;
   padding-left: 10%
@@ -71,19 +69,18 @@
   text-align: center;
 }
 
-.top-border {
+/* .top-border {
   height: 0;
-  width: 100%; /* Adjust the width of the border */
-  border-top: 4px solid gray; /* Adjust the border width and color */
-  margin: 0 auto; /* Center the border horizontally */
-}
+  width: 100%;
+  border-top: 4px solid gray;
+  margin: 0 auto;
+} */
 
 .status-card-jojik {
   position: relative;
   width: 25%;
   box-shadow:5px 5px 5px rgba(0,0,0,.05);
   border-radius: 15px;
-  max-width: 35%;
 }
 
 .status-card-jojik-arrow {
@@ -191,30 +188,63 @@
   font-size: 24px;
 }
 
-/* Media Queries */
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .text-container h2 {
-    font-size: 14px;
+/* Responsive styles for tablets */
+@media screen and (max-width: 1024px) {
+  .status-card-jojik,
+  .status-card-jojik-arrow,
+  .status-card-jojik-arrow-upper,
+  .logo2-container {
+    width: 50%;
+    max-width: 50%;
   }
 
-  .status-card-jojik {
-    max-width: 80%;
-    height: 140px;
+  .name {
+    font-size: 20px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .status-card-jojik {
-    max-width: 50%;
+/* Responsive styles for iphone SE */
+@media screen and (max-width: 375px) {
+  .status-card-jojik-arrow {
+    width: 30%;
+  }
+  .status-card-jojik{
+    width: 30%;
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 137.5%;
+    transform: translateY(-300%);
+  }
+  
+  .status-card-jojik-arrow-upper::after {
+    height: 10px;
+    transform: translateY(-10px);
+  }
+
+  .logo2-container {
+    width: 30%;
+    height: 50%;
+  }
+
+  .text-container {
+    font-size: 10px;
+  }
+
+  .titles-jojik {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+
+  .status-id-text-container-jojik h6:first-child {
+    height: 20px;  
+    letter-spacing: 1px;
   }
 
   .id-photo-jojik {
-    height: 115px;
+    width: 18px;
+    height: 30px;
   }
-}
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  .status-card-jojik {
-    max-width: 50%;
-  }
+  
 }

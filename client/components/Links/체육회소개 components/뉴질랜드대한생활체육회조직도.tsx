@@ -186,7 +186,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                         <ImageLoader
                           className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="1"
+                          alt="2"
                         />
                       </div>
                     </div>
@@ -239,7 +239,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="5"
+                            alt="4"
                           />
                         </div>
                       </div>
@@ -266,7 +266,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="6"
+                            alt="5"
                           />
                         </div>
                       </div>
@@ -293,7 +293,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="7"
+                            alt="6"
                           />
                         </div>
                       </div>
@@ -320,7 +320,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="8"
+                            alt="7"
                           />
                         </div>
                       </div>
@@ -346,7 +346,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                         <ImageLoader
                           className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="4"
+                          alt="8"
                         />
                       </div>
                     </div>
@@ -371,7 +371,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                         <ImageLoader
                           className="id-photo-jojik"
                           src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="4"
+                          alt="9"
                         />
                       </div>
                     </div>
@@ -400,7 +400,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="9"
+                            alt="10"
                           />
                         </div>
                       </div>
@@ -422,7 +422,7 @@ export function 뉴질랜드대한생활체육회조직도() {
                           <ImageLoader
                             className="id-photo-jojik"
                             src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                            alt="9"
+                            alt="11"
                           />
                         </div>
                       </div>

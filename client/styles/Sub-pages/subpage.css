@@ -159,7 +159,7 @@ a {
 
 /******************* Media Query **************/
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 480px) {
 .subpage-container { 
     margin: 0 20px;
 }
@@ -167,7 +167,7 @@ a {
 .location-container {
     margin: 12px 0;
     height: 10px;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .location-container > *:not(:last-child) {
@@ -175,7 +175,7 @@ a {
 }
 
 .location-container a {
-    font-size: 9px;
+    font-size: 7px;
 }
 
 .content-container {
@@ -188,7 +188,7 @@ a {
 }
 
 .subMenu-title-container h3 {
-    font-size: 12px;
+    font-size: 10px;
 }
 }
 

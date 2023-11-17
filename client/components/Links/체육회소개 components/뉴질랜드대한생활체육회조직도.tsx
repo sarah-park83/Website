@@ -333,25 +333,27 @@ export function 뉴질랜드대한생활체육회조직도() {
               </div>
 
               <div className="status-position-jojik"></div>
-              <div className="status-card-jojik" style={multipleRows}>
-                <div className="status-id-text-container-jojik">
-                  <h6 style={{ backgroundColor: '#C8DBBE' }}>
-                    <div className="titles-jojik">홍보이사</div>
-                  </h6>
-                </div>
-                <div className="status-box-jojik">
-                  <div className="status-content-jojik">
-                    <div className="status-id-photo-container-jojik">
-                      <div className="status-id-photo-jojik">
-                        <ImageLoader
-                          className="id-photo-jojik"
-                          src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
-                          alt="8"
-                        />
+              <div className="seomira">
+                <div className="status-card-jojik" style={multipleRows}>
+                  <div className="status-id-text-container-jojik">
+                    <h6 style={{ backgroundColor: '#C8DBBE' }}>
+                      <div className="titles-jojik">홍보이사</div>
+                    </h6>
+                  </div>
+                  <div className="status-box-jojik">
+                    <div className="status-content-jojik">
+                      <div className="status-id-photo-container-jojik">
+                        <div className="status-id-photo-jojik">
+                          <ImageLoader
+                            className="id-photo-jojik"
+                            src="https://louisville.edu/enrollmentmanagement/images/person-icon/image"
+                            alt="8"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="name">
-                      <h6>서미라</h6>
+                      <div className="name">
+                        <h6>서미라</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -391,7 +393,9 @@ export function 뉴질랜드대한생활체육회조직도() {
               <div className="status-position-jojik">
                 <div className="status-card-jojik">
                   <div className="status-id-text-container-jojik">
-                    <h6>법률고문</h6>
+                    <h6>
+                      <div className="titles-jojik">법률고문</div>
+                    </h6>
                   </div>
                   <div className="status-box-jojik">
                     <div className="status-content-jojik">
@@ -413,7 +417,9 @@ export function 뉴질랜드대한생활체육회조직도() {
 
                 <div className="status-card-jojik">
                   <div className="status-id-text-container-jojik">
-                    <h6>의료고문</h6>
+                    <h6>
+                      <div className="titles-jojik">의료고문</div>
+                    </h6>
                   </div>
                   <div className="status-box-jojik">
                     <div className="status-content-jojik">

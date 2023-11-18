@@ -327,6 +327,212 @@
   }
 }
 
+@media screen and (max-width: 539px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123%;
+    transform: translateY(-400%);
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 12px;
+    transform: translateY(-12px);
+  }
+
+  .name {
+    font-size: 15px
+  }
+
+  .titles-jojik {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123.5%;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123.5%;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123.8%;
+  }
+}
+
+@media screen and (max-width: 523px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 123.5%;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 124%;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 124.5%;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 124%;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 124.5%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 125%;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 124.5%;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 125%;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 125.5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 125%;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 125.5%;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 126%;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 126.5%;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 127%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 126.5%;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 127%;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 127.5%;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 127%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 127.5%;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 128.5%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 128%;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 128.5%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 129%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 129.5%;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 130%;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 130.5%;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 131%;
+  }
+}
+
 /* Responsive styles for iphone SE */
 @media screen and (max-width: 430px) {
   .status-card-jojik-arrow {
@@ -338,7 +544,7 @@
   }
 
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 130%;
+    width: 131%;
     transform: translateY(-300%);
   }
   
@@ -362,6 +568,24 @@
   }
 }
 
+@media screen and (max-width: 426px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 131.5%;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 132%;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 132.5%;
+  }
+}
+
 /* Responsive styles for iphone SE */
 @media screen and (max-width: 414px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
@@ -374,6 +598,54 @@
   
 }
 
+@media screen and (max-width: 410px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 133.5%;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 134%;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 133.5%;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 134.5%;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 134%;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 135%;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 135.5%;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 135%;
+  }
+}
+
 /* Responsive styles for iphone 12 PRO */
 @media screen and (max-width: 390px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
@@ -381,15 +653,38 @@
   }
 }
 
+@media screen and (max-width: 389px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 136%;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 135.5%;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 136.5%;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 136%;
+  }
+}
+
 /* Responsive styles for iphone SE */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 378px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
     width: 137.5%;
   }
 }
 
-/* Responsive styles for Galaxy Fold */
-@media screen and (max-width: 282px) {
+@media screen and (max-width: 374px) {
   .status-card-jojik-arrow {
     width: 20%;
     border-radius: 8px;
@@ -413,7 +708,7 @@
   }
 
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 152.5%;
+    width: 133.5%;
     height: 2px;
     transform: translateY(-400%);
   }
@@ -448,5 +743,42 @@
 
   .sub-heading-jojik {
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 135.5%;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 138.5%;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 140.5%;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 145.5%;
+  }
+}
+
+@media screen and (max-width: 294px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 148.5%;
+  }
+}
+
+/* Responsive styles for Galaxy Fold */
+@media screen and (max-width: 290px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 152.5%;
   }
 }

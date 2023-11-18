@@ -190,6 +190,10 @@ a {
 .subMenu-title-container h3 {
     font-size: 10px;
 }
+
+.loginLink {
+  font-size: 9px;
+}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {

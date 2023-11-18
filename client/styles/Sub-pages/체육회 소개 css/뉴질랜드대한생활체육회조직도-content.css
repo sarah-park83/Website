@@ -50,7 +50,7 @@
   flex-direction: column;
   align-items: center;
   font-family: NanumBarunGothic,sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 10%
 }
 
@@ -186,6 +186,10 @@
 .sub-heading-jojik {
   text-align: center;
   font-size: 24px;
+}
+
+.seomira {
+  width: 100%
 }
 
 /* Responsive styles for tablets */
@@ -363,6 +367,10 @@
   .status-card-jojik-arrow-upper:not(:last-child)::before {
     width: 133%;
   }
+
+  .name {
+    font-size: 15px;
+  }
   
 }
 
@@ -381,7 +389,7 @@
 }
 
 /* Responsive styles for Galaxy Fold */
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 282px) {
   .status-card-jojik-arrow {
     width: 20%;
     border-radius: 8px;

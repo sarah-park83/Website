@@ -188,7 +188,7 @@
 /* Media Queries */
 @media (min-width: 2001px) and (max-width: 3000px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 110%;
+    width: 111%;
   }
 
   .status-container-jojik {
@@ -212,7 +212,7 @@
 
 @media screen and (max-width: 2900px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 108%;
+    width: 109%;
   }
   .status-card-jojik-arrow-upper::after {
     height: 39px;
@@ -228,7 +228,7 @@
 
 @media screen and (max-width: 2800px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 109%;
+    width: 110%;
   }
   .status-card-jojik-arrow-upper::after {
     height: 35px;
@@ -243,19 +243,19 @@
 
 @media screen and (max-width: 2600px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 109%;
+    width: 110%;
   }
 }
 
 @media screen and (max-width: 2500px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 110%;
+    width: 111%;
   }
 }
 
 @media screen and (max-width: 2400px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
-    width: 110.5%;
+    width: 111.5%;
   }
 }
 

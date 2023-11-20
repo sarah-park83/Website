@@ -13,7 +13,7 @@
 
 @media (min-width: 2000px) {
   .page-container {
-    padding-left: 130px; /* Adjust the padding value as needed */
-    padding-right: 130px; /* Adjust the padding value as needed */
+    padding-left: 10%; /* Adjust the padding value as needed */
+    padding-right: 10%; /* Adjust the padding value as needed */
   }
 }

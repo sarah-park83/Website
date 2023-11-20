@@ -93,7 +93,7 @@ footer h3 {
 .footer-company-about span {
   display: block;
   color: #b2b7be;
-  font-size: 14px;
+  font-size: 23px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -129,6 +129,7 @@ footer h3 {
   .footer-company-about{
     margin-right: 20px;
     line-height: 2;
+    text-align: center;
   }
 }
 

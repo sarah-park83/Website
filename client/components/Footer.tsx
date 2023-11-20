@@ -34,6 +34,7 @@ export default function Footer() {
           <span>About us</span>
           뉴질랜드 대한생활체육회는 한국의 사단법인 대한생활체육회의
           산하단체입니다.
+          <br />
           <a className="email" href="https://www.대한생활체육회.com">
             대한생활체육회.com
           </a>

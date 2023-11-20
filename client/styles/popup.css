@@ -47,12 +47,12 @@
 
 /* Media Query */
 
-@media (max-width: 2300px){
+@media (min-width: 2000px) {
   .headerPopup_container {
-    right: 25px;
-    width: 760px;
-    height: 1000px;
-    top: 380px;
+    right: 10%;
+    width: 32vw;
+    height: 800px;
+    top: 460px;
   }
 }
 

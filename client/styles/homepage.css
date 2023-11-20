@@ -7,6 +7,13 @@
 
 .video-section {
   max-width: 100vw;
-  margin: auto;
   text-align: center;
+
+}
+
+@media (min-width: 2000px) {
+  .page-container {
+    padding-left: 130px; /* Adjust the padding value as needed */
+    padding-right: 130px; /* Adjust the padding value as needed */
+  }
 }

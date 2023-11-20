@@ -185,6 +185,309 @@
   width: 100%
 }
 
+/* Media Queries */
+@media (min-width: 2001px) and (max-width: 3000px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 110%;
+  }
+
+  .status-container-jojik {
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 35px;
+    transform: translateY(-33px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-860%);
+  }
+
+  .name {
+    font-size: 40px
+  }
+}
+
+@media screen and (max-width: 2900px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 108%;
+  }
+  .status-card-jojik-arrow-upper::after {
+    height: 39px;
+    transform: translateY(-38px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-960%);
+  }
+  
+}
+
+
+@media screen and (max-width: 2800px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109%;
+  }
+  .status-card-jojik-arrow-upper::after {
+    height: 35px;
+    transform: translateY(-33px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-900%);
+  }
+  
+}
+
+@media screen and (max-width: 2600px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109%;
+  }
+}
+
+@media screen and (max-width: 2500px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 2400px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 110.5%;
+  }
+}
+
+@media screen and (max-width: 2300px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 111%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 30px;
+    transform: translateY(-30px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-750%);
+  }
+}
+
+@media screen and (max-width: 2217px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 111.5%;
+  }
+}
+
+@media screen and (max-width: 2160px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 112%;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2055px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 112.5%;
+  }
+
+  .status-container-jojik {
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 30px;
+    transform: translateY(-28px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-750%);
+  }
+
+  .name {
+    font-size: 40px
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109.5%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 35px;
+    transform: translateY(-34px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-920%);
+  }
+
+  .name {
+    font-size: 40px
+  }
+}
+
+@media screen and (max-width: 1980px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 108.8%;
+  }
+}
+
+@media screen and (max-width: 1956px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 108.9%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 32px;
+    transform: translateY(-32px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-900%);
+  }
+}
+
+@media screen and (max-width: 1927px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109%;
+  }
+}
+
+@media screen and (max-width: 1905px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109.4%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 32px;
+    transform: translateY(-32px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-880%);
+  }
+}
+
+@media screen and (max-width: 1904px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109.2%;
+  }
+}
+
+@media screen and (max-width: 1830px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109.8%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 32px;
+    transform: translateY(-32px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-830%);
+  }
+}
+
+@media screen and (max-width: 1830px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 109.4%;
+  }
+}
+
+@media screen and (max-width: 1738px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 110.3%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    height: 28px;
+    transform: translateY(-28px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-800%);
+  }
+}
+
+@media screen and (max-width: 1695px) {
+  .status-card-jojik-arrow-upper::after {
+    height: 28px;
+    transform: translateY(-28px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-780%);
+  }
+}
+
+@media screen and (max-width: 1576px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 111.4%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 112%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    width: 4px;
+    height: 28px;
+    transform: translateY(-28px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-700%);
+  }
+
+  .name {
+    font-size: 25px
+  }
+
+  .titles-jojik {
+    font-size: 15px
+  }
+}
+
+@media screen and (max-width: 1336px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 113%;
+  }
+
+  .status-card-jojik-arrow-upper::after {
+    width: 4px;
+    height: 23px;
+    transform: translateY(-23px);
+  }
+
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    transform: translateY(-610%);
+  }
+}
+
+@media screen and (max-width: 1381px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 113.4%;
+  }
+}
+
+@media screen and (max-width: 1327px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 113.9%;
+  }
+}
+
+@media screen and (max-width: 1304px) {
+  .status-card-jojik-arrow-upper:not(:last-child)::before {
+    width: 114%;
+  }
+}
+
 @media screen and (max-width: 1236px) {
   .status-card-jojik-arrow-upper:not(:last-child)::before {
     width: 115%;
@@ -200,10 +503,6 @@
   .status-card-jojik-arrow-upper:not(:last-child)::before {
     width: 115.3%;
     transform: translateY(-600%);
-  }
-
-  .name {
-    font-size: 25px
   }
 
   .titles-jojik {

@@ -157,9 +157,9 @@ export function Homepage() {
       <Banner />
       <Popup popupImagePaths={popupImagePaths} />
       <Tafisa />
-      <div className="video-section">
-        <HomepageVideo />
-      </div>
+      {/* <div className="video-section"> */}
+      <HomepageVideo />
+      {/* </div> */}
       <div>
         <TafisaIntro />
         <Gallery images={images} />

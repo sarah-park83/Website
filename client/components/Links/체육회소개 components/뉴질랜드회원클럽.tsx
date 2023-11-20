@@ -137,7 +137,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 이재훈</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -159,7 +158,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 이재구</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -181,7 +179,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 김승현</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -203,7 +200,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 이재구</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -225,8 +221,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 김영옥</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -247,8 +241,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 이재행</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -270,8 +262,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 이진복</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -293,7 +283,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장:</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -315,8 +304,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 유용상</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -337,8 +324,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장:</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -359,8 +344,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 김영옥</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -381,8 +364,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장:</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -403,8 +384,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장:</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -425,8 +404,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 김명균</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -447,8 +424,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장: 김용준</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>
@@ -469,8 +444,6 @@ export function 뉴질랜드회원클럽() {
                     <div className="status-id-text-container">
                       <h6>회장:</h6>
                       <h6>클럽안내:</h6>
-                      <h6>...</h6>
-                      <h6>...</h6>
                     </div>
                   </div>
                 </div>

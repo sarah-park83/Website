@@ -86,6 +86,38 @@ export function 국제체육회현황() {
             </div>
             <div>
               <div className="group-list-container">
+                <div className="group-list-title">
+                  한인뉴질랜드대한생활체육회
+                </div>
+                <div className="group-list-img-container">
+                  <div className="group-list-img-container2">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&amp;token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115',
+                          '_blank',
+                          'width=380,height=500,top=100,left=100'
+                        )
+                      }}
+                    >
+                      <ImageLoader
+                        className="group-image"
+                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&amp;token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115"
+                        alt="한인뉴질랜드대한생활체육회"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div className="group-list-text-container">
+                  <p>
+                    회장 : 김웅기
+                    <br />
+                    체육회명 : 한인뉴질랜드대한생활체육회
+                  </p>
+                </div>
+              </div>
+              <div className="group-list-container">
                 <div className="group-list-title">한인미주대한생활체육회</div>
                 <div className="group-list-img-container">
                   <div className="group-list-img-container2">
@@ -333,39 +365,6 @@ export function 국제체육회현황() {
                     회장 : 이희석
                     <br />
                     체육회명 : 한인캄보디아대한생활체육회
-                  </p>
-                </div>
-              </div>
-
-              <div className="group-list-container">
-                <div className="group-list-title">
-                  한인뉴질랜드대한생활체육회
-                </div>
-                <div className="group-list-img-container">
-                  <div className="group-list-img-container2">
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault()
-                        window.open(
-                          'https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&amp;token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115',
-                          '_blank',
-                          'width=380,height=500,top=100,left=100'
-                        )
-                      }}
-                    >
-                      <ImageLoader
-                        className="group-image"
-                        src="https://firebasestorage.googleapis.com/v0/b/sportsassorenual.appspot.com/o/group%2Fkwk.png?alt=media&amp;token=38cba1ea-7e20-4dba-8ec1-98d7ed8e1115"
-                        alt="한인뉴질랜드대한생활체육회"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <div className="group-list-text-container">
-                  <p>
-                    회장 : 김웅기
-                    <br />
-                    체육회명 : 한인뉴질랜드대한생활체육회
                   </p>
                 </div>
               </div>

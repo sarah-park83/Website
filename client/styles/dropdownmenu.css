@@ -496,6 +496,7 @@
 
 .links a {
   font-size: 17px;
+  top: 5px;
 }
 
 .links a:before {
